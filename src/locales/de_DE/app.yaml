@@ -57,10 +57,10 @@ label:
   orc: Ork
   vampire: Vampir
   halfling: Halbling
-  efreet: Efreet
+  efreet: Ifrit
   succubus: Succubus
-  valkyrie: Valkyrie
-  azurean: Azurean
+  valkyrie: Walküre
+  azurean: Azurier
   mage: Magier
   sorcerer: Hexenmeister
   shadow-knight: Schattenritter
@@ -73,9 +73,9 @@ label:
   barbarian: Barbar
   druid: Druide
   monk: Mönch
-  swordmage: Swordmage
-  warlord: Warlord
-  necromancer: Necromancer
+  swordmage: Schwertmagier
+  warlord: Kriegsherr
+  necromancer: Nekromant
   shaman: Schamane
   mystics: des Mystischen
   strength: der Stärke
@@ -100,8 +100,8 @@ text:
   trauma-cubes: Traumawürfel
   path-of: "Pfad "
   add-or-remove-status: Status hinzufügen oder entfernen
-  add-or-remove-unfolding: Add or remove unfolding
-  add-or-remove-outcome: Auswirkung entfernen oder hinzufügen
+  add-or-remove-unfolding: Enthüllung hinzufügen oder entfernen
+  add-or-remove-outcome: Auswirkung hinzufügen oder entfernen
   add-or-remove-follower: Gefährten hinzufügen oder entfernen
   add-or-remove-stashed-items: Gelagerte Gegenstände hinzufügen oder entfernen
   select-aura: Aura auswählen
