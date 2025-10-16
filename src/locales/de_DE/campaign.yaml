@@ -1274,25 +1274,25 @@ followers:
     campaign: []
     storyrecord:
       - id: amster-dehanse
-        name: Amsterd deHanse
+        name: Amsterd DeHanse
       - id: carmilla-reinard
         name: Carmilla Reinard
       - id: condottieri-daviggo
         name: Condottieri DaViggo
       - id: dunedancer-khadija
-        name: Dunedancer Khadija
+        name: Khadija Dünentanz
       - id: robin-rising
         name: Robin Rising
   awakenings:
     campaign: []
     storyrecord:
       - id: elros
-        name: Elros, the Assassin
+        name: Elros, der Assassine
       - id: lorelai
-        name: Lorelai, the Mage
+        name: Lorelai, die Magierin
       - id: maya
-        name: Maya, the Ranger
+        name: Maya, die Jägerin
       - id: minerva
         name: Minerva
       - id: vorn
-        name: Vorn, the Warrior
+        name: Vorn, der Krieger
