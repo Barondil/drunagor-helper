@@ -157,52 +157,52 @@ outcome:
   awakenings:
     campaign:
       - id: ancient-book
-        name: Ancient Book
+        name: Uralte Schrift
         effect: ""
       - id: counting-kittens
-        name: Counting Kittens
+        name: Kätzchen zählen
         effect: ""
       - id: defenders-fate
-        name: Defender's Fate
+        name: Schicksal des Verteidigers
         effect: ""
       - id: drinking-pal
-        name: Drinking Pal
+        name: Zechkumpan
         effect: ""
       - id: entangled
-        name: Entangled
+        name: Entknotet
         effect: ""
       - id: farewell
-        name: Farewell
+        name: Wiedersehen
         effect: ""
       - id: full-house
-        name: Full House
+        name: Haus der Katzen
         effect: ""
       - id: minervas-diary
-        name: Minerva's Diary
+        name: Minervas Tagebuch
         effect: ""
       - id: pirates-gift
-        name: Pirate's Gift
+        name: Piratenbeute
         effect: ""
       - id: promised-reward
-        name: Promised Reward
+        name: Söldner
         effect: ""
       - id: reunited
-        name: Reunited
+        name: Wieder vereint
         effect: ""
       - id: selfish
-        name: Selfish
+        name: Eigennützig
         effect: ""
       - id: selfless
-        name: Selfless
+        name: Selbstlos
         effect: ""
       - id: threats-or-treats
-        name: Threats or Treats
+        name: Zucker und Peitsche
         effect: ""
       - id: untangled
-        name: Untangled
+        name: Entknotet
         effect: ""
       - id: watcher
-        name: Watcher
+        name: Beobachter
         effect: ""
     storyrecord: []
 auras:
