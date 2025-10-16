@@ -297,200 +297,143 @@ auras:
   apocalypse:
     campaign:
       - id: brute-force
-        name: Brute Force
-        effect: "As a Minor Action, you may Expend 1 AC to: SELF, EMPOWER."
+        name: Rohe Gewalt
+        effect: Du hast eine weitere kleine Aktion zur Wahl, bei der du 1 AW VERBRAUCHEN darfst für: SELBST, VERSTÄRKEN. 
       - id: burden-of-guilt
-        name: Burden of Guilt
-        effect: "Whenever you take a Recall Action: You suffer INTIMIDATE 4. This INTIMIDATE
-          overcomes any kind of immunity your Hero might have."
+        name: Bürde der Schuld
+        effect: Immer wenn du eine Rastaktion ausführst, egal ob freiwillig oder unfreiwillig, erleidest du danach EINSCHÜCHTERN 4. Dieser Effekt durchbricht jede Form von Immunität. 
       - id: dried-tears
-        name: Dried Tears
-        effect: "Whenever you take a Recall Action: You receive CLEANSE 1."
+        name: Getrocknete Tränen
+        effect:  Immer wenn du eine Rastaktion ausführst, egal ob freiwillig oder unfreiwillig, erhältst du danach REINIGEN 1.
       - id: grievous-wound
-        name: Grievous Wound
-        effect: "Whenever you take a Recall Action: You suffer BLEED 4. This BLEED overcomes
-          any kind of immunity your Hero might have."
+        name: Schmerzliche Wunde
+        effect:  Immer wenn du eine Rastaktion ausführst, egal ob freiwillig oder unfreiwillig, erleidest du danach BLUTEN 4. Dieser Effekt durchbricht jede Form von Immunität.
       - id: helpful
-        name: Helpful
-        effect: "Whenever you defeat a Monster (you must be the one delivering the final
-          blow): SELF, INSPIRE."
+        name: Hilfsbereit
+        effect: Immer wenn du ein Monster besiegst, also den TODESSCHLAG ausführst: INSPIRATION.
       - id: inobtrusive
-        name: Inobtrusive
-        effect: A Monster can't attack you unless you or an NPC from your party (your
-          Pets included) have already attacked them or affected them with an effect
-          of any sort.
+        name: Unaufdringlich
+        effect: Monster dürfen dich nur dann angreifen, wenn sie bereits das Ziel von dir oder einem von dir kontrollierten Charakter (z. B. ein Begleittier) wurden; dazu zählen Angriffe und jede Art von Effekt, der sie auf irgendeine Weise betrifft.
       - id: justiciar
-        name: Justiciar
-        effect: Whenever a Hero takes a Recall Action, after resolving it, that Hero
-          receives CLEANSE 1 or FOCUS 1.
+        name: Justiziar
+        effect: Immer wenn ein Held eine Rastaktion durchführt, egal ob freiwillig oder unfreiwillig, darf dieser Held danach wählen, ob er zusätzlich entweder FOKUS 1 ODER REINIGEN 1 erhält.
       - id: last-stand
-        name: Last Stand
-        effect: Whenever you would drop to 0 Health, make a Strength (yellow) Skill
-          Challenge of Difficulty 11. Each Melee cube you have grants a +2 bonus to
-          your roll. Also, each “Effort” Status you have noted on your Campaign Log
-          carries a -5 penalty to your roll. If you succeed, you drop to 1 Health and
-          write down one “Effort” Status on your Campaign Log instead. If you fail,
-          you are Knocked Out as usual (which will cause this Aura to be removed from
-          your Campaign Log.)
+        name: Es endet hier
+        effect: Immer wenn du ohnmächtig werden würdest, machst du eine Stärkeprobe mit Schwierigkeitsgrad 11+. Jeder gelbe Nahkampfwürfel, den dein Held besitzt, gibt einen Bonus von +2 auf den Wurf. ACHTUNG: Für jeden Status Bemühung (s. u.), den du in deinem Kampagnen-Logbuch notiert hat, musst einen Malus von -5 auf diesen Wurf anrechnen. ERFOLG: Setze deine LP stattdessen auf 1 und notiere den Status Bemühung in deinem Kampagnen-Logbuch. Erhältst du ihn erneut, kannst du z. B. „x 2“ dazuschreiben. MISSERFOLG: Du wirst ohnmächtig und verlierst damit diese Aura sofort.
       - id: like-water
-        name: Like Water
-        effect: "As a Minor Action, you may Expend 1 AC to: SELF, SHIELD 4."
+        name: Flexibel wie Wasser
+        effect: Du hast eine weitere kleine Aktion zur Wahl, bei der du 1 AW VERBRAUCHEN darfst für: SELBST, SCHILD 4. 
       - id: overwhelming-power
-        name: Overwhelming Power
-        effect: "As a Minor Action you may Expend 1 AC to: Range 1, 4 Spell Attack DMG."
+        name: Überwältigende Macht
+        effect: Du hast eine weitere kleine Aktion zur Wahl, bei der du 1 AW VERBRAUCHEN darfst für: Zauberangriff mit 1 Ziel in Reichweite 1, 4 SCHADEN.
       - id: peace-broker
-        name: Peace Broker
-        effect: Whenever a Hero takes a Recall Action, after resolving it, that Hero
-          gains SHIELD 4.
+        name: Friedensvermittler
+        effect:  Immer wenn ein Held eine Rastaktion durchführt, erhält dieser Held danach zusätzlich SCHILD 4.
       - id: steadfast
-        name: Steadfast
-        effect: Whenever a Hero takes a Recall Action, that Hero gains FOCUS 2.
+        name: Standhaft
+        effect: Immer wenn ein Held eine Rastaktion durchführt, erhält dieser Held danach FOKUS 2.
       - id: stern
-        name: Stern
-        effect: "Whenever a Monster attacks you: before taking any damage, you gain
-          SHIELD 1."
+        name: Streng
+        effect: Immer wenn dich ein Monster angreift, erhältst du sofort SCHILD 1.
     storyrecord: []
   awakenings:
     campaign:
       - id: ancient-spell
-        name: Ancient Spell
-        effect: At the beginning of your turn, you gain SHIELD 1.
+        name: Uralter Schutz
+        effect: ZuBeginn deines Spielzugs erhältst du SCHILD 1.
       - id: bastion
-        name: Bastion
-        effect: You can't be TRAMPLED by Vicious Maulers.
+        name: Festung
+        effect:  Du erleidest keinen Schaden durch das „STAMPFEN“ des Szenariomonsters Kriegsramme.
       - id: blessing-of-prosperity
-        name: Blessing of Prosperity
-        effect: Whenever you draw a Chest card, draw an additional Chest card and choose
-          one among them to keep.
+        name: Gesegneter Reichtum
+        effect:  Immer wenn du eine Truhe „durchsuchst“ oder ein BEUTE-Plättchen „aufsammelst“, ziehst du 1 zusätzliche Karte, wählst 1 davon und wirfst die andere ab. 
       - id: calm-mind
-        name: Calm Mind
-        effect: Whenever any Hero receives a CLEANSE effect, they REGAIN 2 HEALTH.
+        name: Ausgeglichen
+        effect:  Immer wenn ein Held einen REINIGEN-Effekt erhält, ERHÄLT dieser zusätzlich 2 LP ZURÜCK. 
       - id: city-hero
-        name: City Hero
-        effect: Whenever you take a Recall Action, make a Wisdom (blue) Skill Challenge
-          of Difficulty 13. Each Wisdom cube you have gives you a +2 bonus to your roll.
-          If you Succeed, avoid the Curse Cube Penalty you would take. Otherwise, you
-          suffer the Curse Cube Penalty as normal.
+        name: Held der Stadt
+        effect: Immer wenn du eine Rastaktion durchführst, machst du zusätzlich eine Weisheitsprobe mit Schwierigkeitsgrad 13+. Jeder blaue Weisheitswürfel, den dein Held besitzt, gibt einen Bonus von +2 auf den Wurf.
       - id: critical-movements
-        name: Critical Movements
-        effect: Weapon Attack you make gain KEEN.
+        name: Kritisches Können
+        effect: Alle Waffenangriffe, die du machst, erhalten immer BEGABT.
       - id: dour
-        name: Dour
-        effect: If no ally is adjacent to you, your Weapon Attack gain a bonus of +2
-          to HIT and your Spell Attack gain a bonus of +1 DMG.
+        name: Mürrisch
+        effect: Solange du diese Aura hast: Solange sich kein Verbündeter angrenzend zu dir befindet, erhalten deine Waffenagriffe +2 ZU TRF und deine Zauberangriffe erhalten +1 SCHADEN.
       - id: dragon-s-breath
-        name: Dragon's Breath
-        effect: Whenever you take a Recall Action, you belch fire breath, taking an
-          additional Curse Cube (to a total of two) and choosing an area (blue square)
-          within Range 1 to inflict BURN 4 on each Character in it. Each of the other
-          Heroes who was not caught by the fire finds this hilarious, and receives an
-          INSPIRATION token.
+        name: Drachenatem
+        effect:  Immer wenn du eine Rastaktion ausführst, musst du 1 zusätzlichen FW als Strafe nehmen (aktuell also insgesamt 2 FW). Danach wählst du 1 Zone in Reichweite 1 und jeder Charakter in dieser Zone erleidet BRENNEN 4. Jeder andere Held, der nicht von diesem BRENNEN-Effekt betroffen ist, erhält INSPIRATION. 
       - id: fainted-memoir
-        name: Fainted Memoir
-        effect: Whenever a Hero takes a Recall Action, they gain an INSPIRATION token
-          and receive EMPOWER.
+        name: Verblasste Erinnerungen
+        effect: Immer wenn ein Held eine Rastaktion durchführt, erhält er INSPIRATION UND VERSTÄRKEN. 
       - id: fighting-back
-        name: Fighting Back
-        effect: Whenever any Hero takes an Interruption or a Reaction to respond to
-          an attack, the attacker takes 1 non-preventable damage.
+        name: Zurückschlagen
+        effect:  Immer wenn ein Held eine Unterbrechung ausführt oder eine Reaktion „gegen“ einen Angriff ausführt, erleidet der Angreifer 1 nicht-verhinderbaren Schaden. 
       - id: fighting-spirit
-        name: Fighting Spirit
-        effect: "Whenever a Monster is killed: Self, Regain 1 Health"
+        name: Kampfgeist
+        effect: Immer wenn ein Monster besiegt wird (egal von wem und auf welche Weise), erhältst du SELBST, ERHALTE 1 LP ZURÜCK. 
       - id: gold-digger
-        name: Gold Digger
-        effect: Whenever you search a Chest or grab a Loot, you draw the top two cards
-          of the Chest deck, choose one of them to keep, and discard the other instead
-          of just drawing the top card.
+        name: Goldsucher
+        effect:  Immer wenn du eine Truhe „durchsuchst“ oder ein BEUTE-Plättchen „aufsammelst“, ziehst du 2 Karten und wählst 1 davon, die andere wirfst du ab.
       - id: heroic-resolution
-        name: Heroic Resolution
-        effect: Whenever a Hero would be Knocked Out by an attack's damage, they may
-          make a Strength (yellow) Skill Challenge of difficulty 13. Each Melee cube
-          they have gives them a +2 bonus to their roll. If they succeed, they drop
-          to 1 Health instead. If they fail, they are Knocked Out as normal.
+        name: Helden unter sich
+        effect: Immer wenn ein Held durch den Schaden eines Angriffs ohnmächtig werden würdet, macht er eine Stärkeprobe mit Schwierigkeitsgrad 13+. Jeder gelbe Nahkampfwürfel, den dein Held besitzt, gibt einen Bonus von +2 auf den Wurf. MISSERFOLG: Der Held wird ohnmächtig. ERFOLG: Der Held setzt seine LP stattdessen auf 1.
       - id: hurry-up
-        name: Hurry Up
-        effect: Whenever any Hero Expends 1 AC to take an Additional Move Action on
-          a turn, that Additional Move Action gains +1 MOVEMENT and TRAMPLE 2.
+        name: Platz da
+        effect:  Die zusätzliche Bewegung eurer Heldentableaus erhält +1 BEWEGUNG UND STAMPFEN 2.
       - id: inspired
-        name: Inspired
-        effect: Once per turn and only during your turn, you may reroll a d20 you just
-          rolled if you disliked the result.
+        name: Inspiriert
+        effect: Du darfst in deinem eigenen Spielzug 1-mal einen Wurf mit dem W20 WIEDERHOLEN, wenn dir das Würfelergebnis nicht zusagt. Das neue Ergebnis gilt, auch wenn es „schlechter“ als das vorherige ist. 
       - id: inspiring-presence
-        name: Inspiring Presence
-        effect: Weapon Attack made by any Hero within Range 1 of them gain a +1 TO HIT
-          Bonus.
+        name: Anfeuern
+        effect:  Immer wenn ein Held in Reichweite 1 zu dir einen Waffenangriff macht, erhält er +1 ZU TRF. 
       - id: kitten-chaser
-        name: Kitten Chaser
-        effect: Whenever you Expend 1 AC to take an additional Move Action (this does
-          not include any Agility Skills or your Free Move Action), you gain FOCUS 2.
+        name: Katzenfänger
+        effect: Immer wenn du einen AW verbrauchst, um die „zusätzliche Bewegung“ deines Heldentableaus auszuführen, erhältst du FOKUS 2. Andere Bewegungseffekte und auch deine freie Bewegung zählen hierfür nicht. 
       - id: lone-wolf
-        name: Lone Wolf
-        effect: While no other ally is adjacent to you (Heroes, Comrades, and Pets are
-          allies), whenever you take an Interrupt or a Reaction against an attack or
-          threat generated by a Monster, the attacking monster takes 2 non-preventable
-          DMG.
+        name: Einsamer Wolf
+        effect:  Immer wenn du eine UNTERBRECHUNG oder eine REAKTION ausführst, um auf den Angriff (bzw. die Bedrohung) eines Monsters zu „reagieren“: Falls sich in diesem Moment kein Verbündeter angrenzend zu dir befindet, erleidet dieses Monster 2 NICHT-VERHINDERBAREN SCHADEN. 
       - id: moves-like-jagger
-        name: Moves Like Jagger
-        effect: Whenever you take a Reaction also Target Other Hero, INSPIRE.
+        name: Schlangenlinie
+        effect: Immer wenn du deine Reaktion ausführst, darfst du 1 anderen Helden wählen, der INSPIRATION erhält. 
       - id: obscure-lore
-        name: Obscure Lore
-        effect: FOCUS effects you cast gain a +1 Bonus.
+        name: Verworrene Erinnerung 
+        effect: Wenn du einen Effekt FOKUS X auslöst, erhält dieser FOKUS-Effekt einen Bonus von +1, unabhängig davon, wer die FOKUS-Plättchen erhält. Du verlierst diese Aura, wenn du einen TW oder eine andere Aura erhältst.
       - id: prohibition
         name: Prohibition
-        effect: Each Hero can, once per turn, take a Curse Cube to reroll a d20 they
-          just rolled and disliked the result.
+        effect:  Jeder Held darf 1-mal pro Zug 1 FW nehmen, um 1 Wurf mit dem W20 zu WIEDERHOLEN.
       - id: protector
-        name: Protector
-        effect: PREVENT effects any Hero casts gain a +1 BONUS.
+        name: Gut beschützt
+        effect: Alle Helden erhalten +1 Bonus auf ihre VERHINDERN-Effekte.
       - id: reckless-revenge
-        name: Reckless Revenge
-        effect: Whenever you lose 1 or more Health, you gain FOCUS 1 (suffering damage
-          causes loss of life).
+        name: Rücksichtslose Rache
+        effect:  Immer wenn du 1+ LP verlierst, z. B. durch erlittenen Schaden, erhältst du FOKUS 1. 
       - id: sentinel
-        name: Sentinel
-        effect: "Whenever an ally Character adjacent to you is attacked, as an Interrupt,
-          you may Expend 1 Action Cube to make a Weapon Attack of +0 HIT against the
-          Monster attacking them, if that Monster is also in your weapon's Range. If
-          that Monster is defeated by your attack, cancel its current attack: It won't
-          cause damage to any of its targets. NOTE: If you take an Interrupt against
-          a Monster's attack, you cannot also take Reactions against any threats generated
-          by this same attack."
+        name: Wächter
+        effect:  Immer wenn ein Verbündeter angrenzend zu dir angegriffen wird, darfst du als UNTERBRECHUNG 1 AW VERBRAUCHEN für: MACHE Waffenangriff +0 TRF gegen den Angreifer (es gilt deine Waffenreichweite). Wenn der Angreifer durch diesen Angriff besiegt wird, ABBRUCH. 
       - id: setting-sun-s-blessing
-        name: Setting Sun's Blessing
-        effect: "Heroes hit with Weapon Attack and succeed with Skill Challenges whenever
-          they roll 1 on the d20. Also, whenever a Hero casts a Spell Attack effect,
-          they must roll the d20: if they roll 16+, that Spell Attack is a Critical
-          Hit (it deals double the damage it normally would)."
+        name: Gesegnetes Abendrot
+        effect: Immer wenn ein Held bei einem Angriffswurf oder einer Probe eine „1“ als Ergebnis würfelt, zählt dies automatisch als Treffer bzw. als Erfolg. Außerdem würfeln eure Helden auch bei Zauberangriffen mit dem W20. Zauberangriffe treffen weiterhin immer, aber bei einem Würfelergebnis von 16+ zählt ein Zauberangriff (¹) als kritischer Treffer und verdoppelt den Schaden.
       - id: sisters-bond
-        name: Sisters Bond
-        effect: Whenever other Hero within Range 1 would suffer damage or receive a
-          Curse Cube, you may suffer that damage or receive that Curse Cube on their
-          place. If you do, you feel rewarded and gain an INSPIRATION token.
+        name: Schwesternbindung
+        effect: Immer wenn ein anderer Held in Reichweite 1 Schaden erleidet oder einen Fluchwürfel nehmen muss, darfst du entscheiden, dass du stattdessen diesen Schaden zu erleiden oder den Fluchwürfel zu nehmen. Wenn du das tust, erhältst du INSPIRATION. 
       - id: taunt
-        name: Taunt
-        effect: "Whenever your allies in Range 1 are attacked, you may suffer FATIGUE
-          1 to: COVER target ALLY (if two or more allies are being attacked at the same
-          time, you can Cover only one of them). Covering a Target like this takes no
-          action and is done at Interrupt speed, but is not considered an Interrupt."
+        name: Abgelenkt
+        effect:  Immer wenn ein Verbündeter von dir in Reichweite 1 angegriffen wird, darfst du ERSCHÖPFEN 1 erleiden, um den angegriffenen Verbünden ABZUSICHERN. Werden dabei mehrere Verbündete gleichzeitig angegriffen, darfst du nur 1 davon wählen und ABSICHERN. Dies geschieht zwar im „Zeitfenster“ für UNTERBRECHUNGEN, aber zählt selbst nicht als UNTERBRECHUNG. 
       - id: throat-slitter
-        name: Throat Slitter
-        effect: "Whenever you deliver a Killing Blow: you gain FOCUS 1. This effect
-          can trigger only once per turn."
+        name: Kehlenschlitzer
+        effect:  Immer wenn du den TODESSCHLAG ausführst, erhältst du FOKUS 1, jedoch maximal 1-mal pro Spielzug. 
       - id: truthful
-        name: Truthful
-        effect: You take only one Curse Cube when taking Recall Actions.
+        name: Ehrlich
+        effect:  Immer wenn du eine Rastaktion ausführst, musst du nur 1 FW als Strafe nehmen.
       - id: uncertain-readings
-        name: Uncertain Readings
-        effect: Heroes can take a Curse Cube and suffer BRITTLE to turn an Accuracy
-          Check they just missed into a success.
+        name: Unsichere Lesung
+        effect:Eure Helden dürfen einmal pro Spielzug 1 FW nehmen UND ZERBRECHLICH erleiden, um einen Misserfolg bei einer Probe als Erfolg zu zählen.
       - id: valorous-party
-        name: Valorous Party
-        effect: Whenever a Hero scores a Critical Hit, that Hero may gain their choice
-          of FOCUS 1 or CLEANSE 1
+        name: Tapfere Truppe
+        effect:  Immer wenn ein Held einen kritischen Treffer landet, erhält er nach seiner Wahl entweder FOKUS 1 oder REINIGEN 1. 
       - id: vision-beyond-reach
-        name: Vision Beyond Reach
-        effect: All Ranged Weapon Attack you make and Ranged effects you cast gain +1
-          RANGE. Then, you may continue to play the Adventure
+        name: Weitreichende Vision
+        effect: Deine Fernkampfangriffe (Waffenangriffe) und alle anderen Effekte mit einer Reichweite von 1+ (nicht angrenzend) erhalten +1 REICHWEITE. 
     storyrecord: []
 statuses:
   core:
