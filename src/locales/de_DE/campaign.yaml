@@ -29,7 +29,6 @@ outcome:
       - id: guardians-curse
         name: Der Fluch des Wächters
         effect: Solange du den Fluch des Wächters hast, kannst Du den Verfluchten Armreif nicht ablegen.
-          Bracelet.
       - id: humbled
         name: Gedemütigt
         effect: ""
@@ -726,25 +725,25 @@ statuses:
         effect: ""
       - id: bloodlust
         name: Blutlust
-        effect:  Immer wenn du einen Gegner besiegst, erhältst du INSPIRATION.
+        effect: Immer wenn du einen Gegner besiegst, erhältst du INSPIRATION.
       - id: bully
         name: Tyrann
         effect: Immer wenn du einen kritischen Treffer landest, erhältst du 1 INSPIRATIONS-Plättchen.
       - id: chaotic-wheel
         name: Chaosrad
-        effect:  Immer wenn du einen Zauberangriff ausführst, musst du mit dem W20 würfeln. Ist das Ergebnis eine grade Zahl, erhält dieses Angriff DOPPELSCHADEN; bei einem ungeraden Ergebnis misslingt der Angriff. Dies zählt nicht als Angriffswurf.
+        effect: Immer wenn du einen Zauberangriff ausführst, musst du mit dem W20 würfeln. Ist das Ergebnis eine grade Zahl, erhält dieses Angriff DOPPELSCHADEN; bei einem ungeraden Ergebnis misslingt der Angriff. Dies zählt nicht als Angriffswurf.
       - id: crystal-clear
         name: Kristallklar
-        effect:  Immer wenn du eine Karte vom Truhenstapel ziehst, darfst du stattdessen den Stapel gezielt nach einer Karte durchsuchen und diese nehmen. Danach mischst du den Truhenstapel.
+        effect: Immer wenn du eine Karte vom Truhenstapel ziehst, darfst du stattdessen den Stapel gezielt nach einer Karte durchsuchen und diese nehmen. Danach mischst du den Truhenstapel.
       - id: disappointed
         name: Enttäuscht
-        effect:  Immer wenn du bei einem Angriffswurf eine 1 mit dem W20 würfelst, zählt dies als kritischer Treffer. Zusätzlich darfst du 1 Truhenkarte aus deiner Tasche abwerfen und dafür sofort 1 neue ziehen..
+        effect: Immer wenn du bei einem Angriffswurf eine 1 mit dem W20 würfelst, zählt dies als kritischer Treffer. Zusätzlich darfst du 1 Truhenkarte aus deiner Tasche abwerfen und dafür sofort 1 neue ziehen..
       - id: disgusted
         name: Verachtung
-        effect:  Immer wenn du eine Truhe durchsuchst, ziehst du 1 zusätzliche Karte. Du wählst 1 davon und legst die andere unter den Truhenstapel.
+        effect: Immer wenn du eine Truhe durchsuchst, ziehst du 1 zusätzliche Karte. Du wählst 1 davon und legst die andere unter den Truhenstapel.
       - id: dismembered
         name: Verstümmelt
-        effect:  Immer wenn du eine Rastaktion ausführst, egal ob freiwillig oder unfreiwillig, erleidest danach du BETÄUBEN. Dieser Effekt durchbricht jede Form von Immunität.
+        effect: Immer wenn du eine Rastaktion ausführst, egal ob freiwillig oder unfreiwillig, erleidest danach du BETÄUBEN. Dieser Effekt durchbricht jede Form von Immunität.
       - id: effort
         name: Bemühung
         effect: ""
@@ -820,7 +819,7 @@ statuses:
         effect: ""
       - id: betrayed1
         name: Verrat Umbrals
-        effect:  Immer wenn ein Held einen Condottieri Umbrals besiegt, erhält dieser Held nach seiner Wahl entweder FOKUS 2 ODER REINIGEN 2.
+        effect: Immer wenn ein Held einen Condottieri Umbrals besiegt, erhält dieser Held nach seiner Wahl entweder FOKUS 2 ODER REINIGEN 2.
       - id: betrayed2
         name: Verrat der Wüste
         effect: Immer wenn ein Held eine Narbenwüsten Tänzerin besiegt, erhält dieser Held nach seiner Wahl entweder FOKUS 2 ODER REINIGEN 2.
@@ -841,7 +840,7 @@ statuses:
         effect: Für eure Helden sind alle Truhen sicher. Ihr müsst nicht den Fallenwürfel werfen, wenn ihr sie durchsucht.
       - id: contempt
         name: Verachtung
-        effect:  Immer wenn du eine Truhe durchsuchst, ziehst du 1 zusätzliche Karte. Du wählst 1 davon und legst die andere unter den Truhenstapel.
+        effect: Immer wenn du eine Truhe durchsuchst, ziehst du 1 zusätzliche Karte. Du wählst 1 davon und legst die andere unter den Truhenstapel.
       - id: damsel-in-distress
         name: Eine Dame in Nöten
         effect: ""
@@ -852,302 +851,250 @@ statuses:
         name: Tiefes Verständnis
         effect: Immer wenn ein Held eine freiwillige Rastaktion durchführt, darf dieser danach sofort 1 Würfelaktion ausführen und dann erst seinen Spielzug beenden.
       - id: desert-knight
-        name: Ritter der Wüste #   ---------------------
-        effect: Whenever a Hero defeats a Condottieri, they gain either FOCUS 2 or CLEANSE
-          2.
+        name: Ritter der Wüste
+        effect: Immer wenn ein Held einen Condottieri Umbrals besiegt, erhält dieser Held nach seiner Wahl entweder FOKUS 2 ODER REINIGEN 2.
       - id: disarmed-father
-        name: Disarmed Father
+        name: Entwaffneter Vater
         effect: ""
       - id: downer
-        name: Downer
-        effect: Critical Hits no longer double the damage of an attack.
+        name: Unmotiviert
+        effect: Eure kritischen Treffer verdoppeln nicht den Schaden.
       - id: drowned-prayer
-        name: Drowned Prayer
+        name: Gebet der Tiefe
         effect: ""
       - id: element-collection
-        name: Element Collection
+        name: Elementarsammlung
         effect: ""
       - id: even-number
-        name: Even Number
+        name: Gerade Zahl
         effect: ""
       - id: frozen-to-death
-        name: Frozen to Death
+        name: Im Tod erstarrt
         effect: ""
       - id: ghostly-plunder
-        name: Ghostly Plunder
-        effect: "As a Cube Action, a Hero may Expend 1 AC to: If there are three or
-          fewer Chests on the board, place a Chest in a square that is adjacent to them."
+        name: Gespenstische Schätze
+        effect: Solange sich weniger als 4 Truhen auf dem Spielplan befinden, dürfen eure Helden als Würfelaktion 1 AW verbrauchen, um 1 Truhe auf einem angrenzenden Feld zu platzieren.
       - id: give-or-take
-        name: Give or Take
+        name: Geben und Nehmen
         effect: ""
       - id: glyph-unraveled
-        name: Glyph Unraveled
+        name: Entzifferte Glyphe
         effect: ""
       - id: gold-digger
-        name: Gold Digger
-        effect: Whenever a Monster is defeated for the first time in a round, it drops
-          a Loot token.
+        name: Gier nach Beute
+        effect: In jeder Runde lässt das 1. Monster, das ihr besiegt, 1 BEUTE-Plättchen auf seinem Feld zurück. 
       - id: head-start
-        name: Head Start
-        effect: 'Heroes can take the following Reaction by Expending 1 AC: "SELF, PREVENT
-          ALL DMG AND FATIGUE Y where Y is the number of Time tokens on the Famine Horseman''s
-          Boss Monster Status Board; Then the Famine Horseman receives a Time token
-          (this is just a reminder, not a Condition or Resource)."'
+        name: Vorsprung
+        effect: Eure Helden habeneine zusätzliche Fähigkeit: „\n“ EINEN SCHRITT VORAUS SEIN: (Reaktion) „\n“ VERBRAUCHE 1 AW FÜR: SELBST, VERHINDERE ALLEN SCHADEN UND ERSCHÖPFEN X „\n“ (X= ANZAHL DER ZEITPLÄTTCHEN AUF DEM BOSSTABLEAU)
       - id: healed-wound
-        name: Healed Wound
+        name: Geheilte Wunde
         effect: ""
       - id: heirloom-blade
-        name: Heirloom Blade
+        name: Althergebrachte Klinge
         effect: ""
       - id: herosplaining
-        name: Herosplaining
-        effect: Whenever a Hero rolls 1 on the d20 while attacking, they score a Critical
-          Hit instead of a Critical Failure.
+        name: Helderklärung
+        effect: Immer wenn ein Held bei einem Angriffswurf eine 1 würfelt, zählt dies als kritischer Treffer.
       - id: improvisation-time
-        name: Improvisation Time
-        effect: Wwhenever a Hero defeats a Minion, they gain either FOCUS 1 or CLEANSE
-          1.
+        name: Zeit zum Improvisieren
+        effect: Immer wenn ein Held ein Monster vom Typ Lakai besiegt, erhält dieser Held nach seiner Wahl entweder FOKUS 1 ODER REINIGEN 1.
       - id: initiative
         name: Initiative
-        effect: "Whenever a Hero from your party takes a Reaction, roll the 20: If they
-          roll 16+: Recall the AC they just spent."
+        effect: Immer wenn ein Held eine Reaktion aktiviert, würfelt er mit dem W20. Würfelt er dabei 16+:Er darf den eingesetzten AW sofort ZURÜCKHOLEN.
       - id: it-takes-two
-        name: It Takes Two
-        effect: The Cohort Robin Rising activates two times during each of his turns.
+        name: Dazu gehören immer zwei
+        effect: In jeder Runde aktiviert ihr die Kohorte Robin Rising immer 2-mal hintereinander, sie macht also immer einen „Doppelzug“.
       - id: lever-pushed
-        name: Lever Pushed
+        name: Hebel umgelegt
         effect: ""
       - id: lifesaver
-        name: Lifesaver
+        name: Lebensretter
         effect: ""
       - id: luccanor-s-revenge
-        name: Luccanor's Revenge
-        effect: Whenever a Hero inflicts damage to the Commander Betrayer with a Weapon
-          or Spell attack, they gain FOCUS 1.
+        name: Luccanors Vergeltung
+        effect: Immer wenn ein Held Dem Großverräter Schaden zufügt (durch Waffen- oder Zauberangriff), erhält er danach FOKUS 1.
       - id: no-maiden-fair
-        name: No Maiden Fair
+        name: Keine holde Jungfer
         effect: ""
       - id: obstinate
-        name: Obstinate
-        effect: Whenever a Hero takes a Willing Recall Action, they may immediately
-          take a Cube Action before ending their turn.
+        name: Hartnäckig
+        effect: Immer wenn ein Held eine freiwillige Rastaktion durchführt, darf er 1 Würfelaktion ausführen, bevor er seinen Spielzug beendet.
       - id: odd-number
-        name: Odd Number
+        name: Ungerade Zahl
         effect: ""
       - id: past-life-hauntings
-        name: Past-Life Hauntings
-        effect: If the Scenario Commanders Lorennor or Uldannor receive a HEAL effect,
-          they will take that same amount of non-preventable damage instead of regaining
-          Health. Similarly, if they receive CLEANSE, they suffer INTIMIDATE 4 instead
-          of removing a Curse Cube.
+        name: Schatten der Vergangenheit
+        effect: Immer wenn Held Lorennor bzw. Held Uldannor das Ziel eines HEILEN-Effektes ist, erleidet der jeweilige Kommandant statt der Heilung dieselbe Menge an NICHT-VERHINDERBAREN SCHADEN. Immer wenn Held Lorennor bzw. Held Uldannor das Ziel eines REINIGEN-Effektes ist, erleidet der jeweilige Kommandant stattdessen EINSCHÜCHTERN 4, ungeachtet der „Stärke“ von REINIGEN.
       - id: perimeter-kept
-        name: Perimeter Kept
+        name: Rundum abgesichert
         effect: ""
       - id: pirate-s-luck
-        name: Pirate's Luck
-        effect: Whenever the first Monster is defeated on each new Setup your party
-          makes, replace its miniature with a Loot token. If that Monster is a Large
-          Monster, Commander, or Overlord, replace it with two of these tokens instead
+        name: Piratenglück
+        effect: Das 1. Monster, dass ihr aus jedem neuen Aufbau besiegt, lässt 1 BEUTE fallen. Handelte es sich dabei um ein Großes Monster, einen Kommandanten oder einen Leutnant? Dann lässt das besiegte Monster 2 BEUTE fallen.
       - id: post-traumatic-stress
-        name: Post-Traumatic Stress
-        effect: Whenever a Hero is Knocked Out, each other Hero in your party gains
-          FOCUS 1 and suffers CURSE 1. This effect pierces any kind of immunity a Hero
-          might have.
+        name: PTBS
+        effect: Immer, wenn ein Held bewusstlos wird, erhält jeder andere Held in eurer Gruppe FOKUS 1 und erleidet außerdem FLUCH 1. Dieser FLUCH-Effekt durchbricht jede Form von Immunität!
       - id: questioning
-        name: Questioning
+        name: Unsicherheit
         effect: ""
       - id: removed-helmet
-        name: Removed Helmet
+        name: Helm entfernt
         effect: ""
       - id: removed-necklace
-        name: Removed Necklace
+        name: Kette entfernt
         effect: ""
       - id: removed-shield
-        name: Removed Shield
+        name: Schild entfernt
         effect: ""
       - id: righteous
-        name: Righteous
-        effect: Heroes from your party can hold one additional Trauma Cube.
+        name: Gerecht
+        effect: Jeder eurer Helden kann 1 zusätzlichen TW erhalten, ohne besiegt zu sein.
       - id: royal-outrage
-        name: Royal Outrage
+        name: Königliches Aufbegehren
         effect: ""
       - id: sealed-fate
-        name: Sealed Fate
+        name: Besiegeltes Schicksal
         effect: ""
       - id: ship-s-on
-        name: Ship's On
+        name: Schiff in Betrieb
         effect: ""
       - id: suspicious
-        name: Suspicious
-        effect: Heroes that are being threatened can take one additional Reaction against
-          their threats.
+        name: Verdachtsmoment
+        effect: Immer wenn ein Held einer Bedrohung ausgesetzt ist, darf dieser Held bis zu 2 Reaktionen ausführen. 
       - id: swallowed-pride
-        name: Swallowed Pride
-        effect: Whenever a Hero scores a Crit, that Hero also gains FOCUS 2.
+        name: Runtergeschluckter Stolz
+        effect: Immer wenn ein Held einen kritischen Treffer landet, erhält dieser Held FOKUS 2.
       - id: terrible-fate
-        name: Terrible Fate
+        name: Grausames Schicksal
         effect: ""
       - id: the-heirloom-blade
-        name: The Heirloom Blade
+        name: Althergebrachte Klinge
         effect: ""
       - id: thy-kingdom-come
-        name: Thy Kingdom Come
+        name: Dein Königreich komme
         effect: ""
       - id: two-words
-        name: Two Words
+        name: Zwei Worte
         effect: ""
       - id: umbralian-knight
-        name: Umbralian Knight
-        effect: Whenever a Hero defeats a Dunedancer, they gain either FOCUS 2 or CLEANSE
-          2.
+        name: Ritter Umbrals
+        effect: Immer wenn ein Held eine Narbenwüsten Tänzerin besiegt, erhält dieser Held nach seiner Wahl entweder FOKUS 2 ODER REINIGEN 2.
       - id: until-the-end
-        name: Until the End
-        effect: Whenever a Hero takes the Tie Breaker Special Mechanic action, the War
-          Horsewoman loses 2 Health per Rune removed.
+        name: Bis zum bitteren Ende
+        effect: Immer wenn ein Held die kleine Aktion des Besonderen Mechanismus – Knoten lösen ausführt, verliert die Reiterin des Krieges 2 LP für jede dabei entfernte Rune.
       - id: varatash-terror
-        name: Varatash Terror
-        effect: "At the beginning of each Hero's turn, they gain: SELF, INSPIRE."
+        name: Terror der Varatash
+        effect: Jeder Held erhält zu Beginn seines eigenen Zuges INSPIRATION. 
       - id: weak-spot
-        name: Weak Spot
-        effect: Whenever any Hero hits the Famine Horseman with a Weapon attack or a
-          Critical Hit, they choose one of his Attack cards to receive INTIMIDATE 2
-          (up to a maximum of 4 per card). The next time that card is activated, remove
-          all of these tokens from it. The activated Attack deals -1 damage per token
-          removed this way.
+        name: Schwachpunkt
+        effect: Immer wenn ein Held gegen den Reiter des Hungers einen kritischen Treffer landet, wählt dieser Held 1 Angriffskarte des Reiters des Hungers. Diese Karte „erleidet“ EINSCHÜCHTERN 2 (nicht der Reiter selbst!). Legt die entsprechenden Plättchen auf die gewählte Karte (bis zum Maximum von 4, wie üblich bei stapelbaren Zuständen). Immer wenn ihr eine Angriffskarte mit EINSCHÜCHTERN-Plättchen ausführt, verursacht der zugehörige Angriff-1 Schaden pro EINSCHÜCHTERN-Plättchen. Danach entfernt ihr alle EINSCHÜCHTERN-Plättchen von dieser Karte, wie üblich bei diesem Zustand.
       - id: well-fed
-        name: Well Fed
-        effect: Heroes receive only two Curse Cubes as a penalty when taking a Recall
-          Action.
+        name: Wohlgenährt
+        effect: Die Fluchstrafe für Rastaktionen – Dreifach gilt nicht mehr. Eure Helden müssen lediglich 2 FW nehmen, wenn sie eine Rastaktion durchführen.
   awakenings:
     campaign:
       - id: acquaintance
-        name: Acquaintance
+        name: Verbundenheit
         effect: ""
       - id: better-judgment
-        name: Better Judgment
-        effect: Once per turn, after you miss with a Weapon Attack made from a Skill,
-          you may Recall the cube you just spent to use that Skill.
+        name: Umentschieden
+        effect: Einmal pro Spielzug darfst du nach einem misslungenen Waffenangriff den AW ZURÜCKHOLEN, mit dem du den Waffenangriff ausgelöst hast. 
       - id: corrupt-power
-        name: Corrupt Power
-        effect: Heroes may never have fewer than 2 Curse Cubes in their boards and,
-          once per turn, they may roll the d20 if they disliked a move’s outcome.
+        name: Faule Macht
+        effect: Helden müssen immer mindestens 2 FW besitzen. Dafür darf jeder Held 1-mal pro Spielzug einen Wurf mit dem W20 WIEDERHOLEN, wenn ihm das Würfelergebnis nicht „zusagt“
       - id: haunted
-        name: Haunted
-        effect: Whenever you roll 1 on the d20 while attacking, if an Ally is in that
-          attack's Range, they are hit by it instead of a Monster (this happens even
-          if you have abilities that turn 1 rolls into hits or critical hits).
+        name: Verflucht
+        effect: Immer wenn du bei einem Angriffswurf mit dem W20 eine „1“ als Ergebnis würfelst (ohne Modifikatoren), musst du 1 Verbündeten in Waffenreichweite wählen. Dieser Verbündete wird das Ziel des Angriffes, und dein Angriff zählt als Treffer gegen ihn. Das passiert selbst dann, wenn ein anderer Effekt deinen Angriffswurf zu einem (kritischen) Treffer macht; wenn du eine 1 würfelst, trifft dieser Angriff 1 Verbündeten. 
       - id: lifesaver
-        name: Lifesaver
-        effect: As a Cube Action, you may Expend 1 Action Cube to take 2 Curse Cubes
-          (taking a Curse Cube is different from suffering CURSE) and remove a Trauma
-          Cube from a Knocked Out Hero who is adjacent to you. If that Hero has already
-          Regained their Breath, you can't remove their Trauma Cube in this way.
+        name: Lebensretter
+        effect: Du darfst als Würfelaktion 1 AW VERBRAUCHEN und zusätzlich 2 FW nehmen, um sofort 1 TW von einem angrenzenden Helden zu entfernen. Dies ist nur möglich, wenn dieser angrenzende  Held aktuell OHNMÄCHTIG ist, nicht wenn der TW bereits „länger“ liegt.
       - id: power-of-hate
-        name: Power of Hate
-        effect: Heroes can take 1 additional Cube Action on their turns.
+        name: Zielgerichteter Hass
+        effect: Eure Helden dürfen in ihrem eigenen Spielzug 1 zusätzliche Würfelaktion durchführen.
       - id: shadow-crown
-        name: Shadow Crown
-        effect: Heroes are not affected by Darkness (they suffer neither the damage
-          nor the penalties).
+        name: Schattenkrone
+        effect: Eure Helden erleiden keinen Schaden, wenn sie die Dunkelheit betreten oder ihren Spielzug darauf beenden und ignorieren außerdem die „-2 ZU TRF“, wenn sie sich auf der Dunkelheit befinden. Außerdem erleiden sie keinen Schaden durch Zermalmung.
       - id: soft-heart
-        name: Soft Heart
-        effect: While there is another Hero adjacent to you, that Hero will receive
-          the benefits of the "Dour" Aura (the Aura benefits will only apply while you
-          are still adjacent to them).
+        name: Weichherzig
+        effect: Deine Aura Mürrisch gilt auch für andere Helden, solange diese sich angrenzend zu dir befinden.
       - id: sweet-scent
-        name: Sweet Scent
-        effect: Minions are bewitched by its pleasant smell and are unable to attack
-          you (they don't consider you as a target) and the Wild Boar that roams the
-          island (if still alive) will no longer try to escape. Instead, it will move
-          towards you, trying to stay adjacent to you.
+        name: Süßer Geruch
+        effect: Monster sehen dich nicht als Gegner an und wählen dich nicht als Ziel. Falls der Flimmernde Eber noch im Spiel ist, versucht er sich immer angrenzend zu dir zu bewegen und seine Fähigkeit „FLIMMERN“ ist ab sofort außer Kraft gesetzt.
     storyrecord:
       - id: acquaintance
-        name: Acquaintance
+        name: Verbundenheit
         effect: ""
       - id: acquainted
-        name: Acquainted
+        name: Man kennt sich
         effect: ""
       - id: bright-pupil
-        name: Bright Pupil
+        name: Fähiger Schüler
         effect: ""
       - id: careful
-        name: Careful
+        name: Fürsorge
         effect: ""
       - id: christi-s-aid
-        name: Christi's Aid
-        effect: Whenever a Hero in your party takes a Recall Action, that Hero gains
-          an Inspiration token
+        name: Christis Hilfe
+        effect: Immer wenn einer eurer Helden eine Rastaktion durchführt, erhält dieser Held INSPIRATION.
       - id: dark-past
-        name: Dark Past
+        name: Dunkle Vergangenheit
         effect: ""
       - id: guided
-        name: Guided
+        name: Angeleitet
         effect: ""
       - id: heirloom
-        name: Heirloom
+        name: Erbstück
         effect: ""
       - id: imminent-danger
-        name: Imminent Danger
+        name: Die drohende Gefahr
         effect: ""
       - id: karsten-freed
-        name: Karsten Freed
+        name: Karsten Befreit 
         effect: ""
       - id: king-s-cause
-        name: King's Cause
+        name: Kings Beweggründe
         effect: ""
       - id: loose-arm
-        name: Loose Arm
+        name: Freier Arm
         effect: ""
       - id: nautical-empathy
-        name: Nautical Empathy
+        name: Nautisches Mitgefühl
         effect: ""
       - id: painful-memories
-        name: Painful Memories
+        name: Schmerzhafte Erinnerungen
         effect: ""
       - id: pirate-s-gift
-        name: Pirate's Gift
+        name: Piratenbeute
         effect: ""
       - id: pushover
-        name: Pushover
+        name: Schwächling
         effect: ""
       - id: remorse
-        name: Remorse
+        name: Bedauern
         effect: ""
       - id: salamander-s-sweat
-        name: Salamander's Sweat
-        effect: "Whenever a Hero rolls 16+ during an attack with a Weapon Attack or
-          they cast a Spell Attack: the attack gains BURN 2."
+        name: Salamanderschweiß
+        effect: Immer wenn ein Held bei einem Waffenangriff  16+ würfelt oder einen Zauberangriff ausführt: Dieser Angriff erhält BRENNEN 2.
       - id: sea-fighter
-        name: Sea Fighter
-        effect: At the end of the Rune turn, after the Rune card effects are resolved,
-          each Hero may take a SIDESTEP. A SIDESTEP is a MOVE 1 effect that is not affected
-          by any movement bonuses or penalties you might have. In addition, it can be
-          taken even if you are SLOWED or KNOCKED DOWN, however, these Conditions are
-          not removed.
+        name: Seebeine
+        effect: Nachdem ihr die Runenkarte abgehandelt habt, aber bevor ihr das Initiativeplättchen weiterbewegt, darf jeder Held einen SCHRITT ZUR SEITE machen. Dabei erhält jeder Held BEWEGUNG 1. Diese „Sonder-Bewegung“ profitiert nicht von etwaigen Boni zu BEWEGUNG, aber unterliegt auch keinen Abzügen. Das heißt z. B., dass auch Helden, die von LANGSAM oder NIEDERSCHLAGEN betroffen sind, diese Sonder-Bewegung benutzen dürfen, aber diese „Bewegung“ hat keinen Einfluss auf diese Zustände.
       - id: search-party
-        name: Search Party
-        effect: Whenever a Hero in your party draws an Eradren Surprises Special Event
-          card, that Hero gains FOCUS 2
+        name: Suchtrupp
+        effect: Immer wenn einer eurer Helden dafür sorgt, dass ihr eine Eradren-Karte zieht und ausführt, erhält dieser Held FOKUS 2.
       - id: sunken-relic
-        name: Sunken Relic
+        name: Versunkene Schätze 
         effect: ""
       - id: suspicious
-        name: Suspicious
-        effect: Whenever a Hero Search a Chest, they draw an additional card, choose
-          one of those cards to keep, and put the other on the bottom of the Chest deck.
+        name: Verdächtig
+        effect: Immer wenn einer eurer Helden eine Truhe durchsucht, zieht er 1 zusätzliche Karte, wählt 1 davon und legt die andere unter den Truhenstapel.
       - id: the-x-mark-the-spot
-        name: The X Mark the Spot
-        effect: Whenever a Hero delivers the killing blow through a Critical Hit, the
-          defeated Monster drops a Loot token on its space.
+        name: Ein X markiert die Stelle 
+        effect: Immer wenn ein Held mit einem kritischen Treffer den TODESSCHLAG landet, lässt das besiegte Monster –egal welche Art und größe – 1 BEUTE-Plättchen fallen.
       - id: turn-around
-        name: Turn Around
-        effect: "Any Weapon Attack bonus to HIT your Attacks would have or receive becomes
-          DMG bonus instead. Example: Vorn's Arching Swing reads: “CLEAVE 2, +3 HIT”;
-          therefore, it becomes: “CLEAVE 2, +0 HIT, +3 DMG”. Any HIT bonus your Hero
-          has from Equipment, Class Abilities, or Special Effects also turns into bonus
-          damage."
+        name: Schaden umdrehen
+        effect: Jedwede Form von „+X ZU TRF“ zählt stattdessen als „+X SCHADEN“. Dasselbe gilt für den „Wert“ des Waffenangriffs „+X TRF“. Nachteile der Art „-X TRF“ und „-X ZU TRF“ bleiben bestehen.
       - id: wrong-foot
-        name: Wrong Foot
+        name: Auf dem falschen Fuß
         effect: ""
 unfolding:
   core:
@@ -1157,79 +1104,79 @@ unfolding:
     campaign: []
     storyrecord:
       - id: a-broken-man
-        name: A Broken Man
+        name: Gebrochener Mann
         act: 2
       - id: a-crown-with-no-jewels
-        name: A Crown with no Jewels
+        name: Krone ohne Juwelen
         act: 2
       - id: a-hero-restored
-        name: A Hero Restored
+        name: Einmal ein Held ...
         act: 2
       - id: carmillas-goodbye
-        name: Carmilla's Goodbye
+        name: Carmillas Abschied 
         act: 1
       - id: compromising
-        name: Comprimising
+        name: Kompromisse
         act: 4
       - id: connecting-dots
-        name: Connecting Dots
+        name: Das letzte Puzzleteil
         act: 3
       - id: crossroads
-        name: Crossroads
+        name: Am Scheideweg
         act: 3
       - id: gil-garoth-reborn
-        name: Gil Garoth Reborn
+        name: Gil Garoths Wiedergeburt
         act: 2
       - id: heroic-folks
-        name: Heroic Folks
+        name: Heldenhafte Einwohner
         act: 1
       - id: luccanors-redemption
-        name: Luccanor's Redemption
+        name: Luccanors Erlösung
         act: 1
       - id: luccanors-regret
-        name: Luccanor's Regret
+        name: Luccanors Bedauern 
         act: 1
       - id: no-ones-land
-        name: No One's Land
+        name: Niemandsland
         act: 2
       - id: survivors-survived
-        name: Survivors Survived
+        name: Die Familie hat überlebt
         act: 3
       - id: the-bargain
-        name: The Bargain
+        name: Um die Rettung Feilschen
         act: 3
       - id: the-bonds-uniting-us
-        name: The Bonds Uniting Us
+        name: Was uns verbindet
         act: 3
       - id: the-desert-flower
-        name: The Desert Flower
+        name: Blume der Wüste
         act: 2
       - id: the-earl-of-nothing
-        name: The Earl of Nothing
+        name: Graf ohne Grafschaft
         act: 3
       - id: the-fallout
-        name: The Fallout
+        name: Was übrig bleibt
         act: 4
       - id: the-good-duke
-        name: The Good Duke
+        name: Der gute Herzog
         act: 1
       - id: the-last-dance
-        name: The Last Dance
+        name: Der letzte Tanz
         act: 2
       - id: the-safeguard-corporation
-        name: The Safeguard Corporation
+        name: Die Safeguard Corporation
         act: 3
       - id: to-be-or-not-to-be
-        name: To Be Or Not To Be?
+        name: Sein oder nicht sein?
         act: 1
       - id: tragic-fate
-        name: Tragic Fate
+        name: Tragisches Schicksal
         act: 3
       - id: truth-untold
-        name: Truth Untold
+        name: Die reine Wahrheit
         act: 1
       - id: what-goes-around-comes-around
-        name: What Goes Around, Comes Around
+        name: Man sieht sich immer zweimal
         act: 3
   awakenings:
     campaign: []
