@@ -722,169 +722,137 @@ statuses:
   apocalypse:
     campaign:
       - id: a-strange-rod
-        name: A Strange Rod
+        name: Merkwürdiger Stab
         effect: ""
       - id: bloodlust
-        name: Bloodlust
-        effect: Whenever you defeat a Monster, you receive INSPIRE.
+        name: Blutlust
+        effect:  Immer wenn du einen Gegner besiegst, erhältst du INSPIRATION.
       - id: bully
-        name: Bully
-        effect: "Wwhenever you score a Critical Hit: You gain an INSPIRATION token."
+        name: Tyrann
+        effect: Immer wenn du einen kritischen Treffer landest, erhältst du 1 INSPIRATIONS-Plättchen.
       - id: chaotic-wheel
-        name: Chaotic Wheel
-        effect: "Whenever you cast a Spell attack, roll the D20: If you roll an even
-          number, it deals DOUBLE DAMAGE; If you roll an odd number, the attack fails."
+        name: Chaosrad
+        effect:  Immer wenn du einen Zauberangriff ausführst, musst du mit dem W20 würfeln. Ist das Ergebnis eine grade Zahl, erhält dieses Angriff DOPPELSCHADEN; bei einem ungeraden Ergebnis misslingt der Angriff. Dies zählt nicht als Angriffswurf.
       - id: crystal-clear
-        name: Crystal Clear
-        effect: If you would draw a Chest card, search the deck for a card of your choice
-          and pick it instead. Shuffle the Chest deck afterwards.
+        name: Kristallklar
+        effect:  Immer wenn du eine Karte vom Truhenstapel ziehst, darfst du stattdessen den Stapel gezielt nach einer Karte durchsuchen und diese nehmen. Danach mischst du den Truhenstapel.
       - id: disappointed
-        name: Disappointed
-        effect: Whenever you roll 1 on the d20, you score a Critical Hit and then you
-          may RECYCLE.
+        name: Enttäuscht
+        effect:  Immer wenn du bei einem Angriffswurf eine 1 mit dem W20 würfelst, zählt dies als kritischer Treffer. Zusätzlich darfst du 1 Truhenkarte aus deiner Tasche abwerfen und dafür sofort 1 neue ziehen..
       - id: disgusted
-        name: Disgusted
-        effect: Whenever you Search a Chest, draw an additional card, choose one of
-          those cards to keep, and put the other on the bottom of the Chest deck.
+        name: Verachtung
+        effect:  Immer wenn du eine Truhe durchsuchst, ziehst du 1 zusätzliche Karte. Du wählst 1 davon und legst die andere unter den Truhenstapel.
       - id: dismembered
-        name: Dismembered
-        effect: Whenever you take a Recall Action, you suffer STUN. This STUN pierces
-          any kind of immunity you have, since it represents your difficulty in handling
-          your actions after the recent loss of a limb.
+        name: Verstümmelt
+        effect:  Immer wenn du eine Rastaktion ausführst, egal ob freiwillig oder unfreiwillig, erleidest danach du BETÄUBEN. Dieser Effekt durchbricht jede Form von Immunität.
       - id: effort
-        name: Effort
+        name: Bemühung
         effect: ""
       - id: empathetic
-        name: Empathetic
-        effect: Whenever a Hero from their party receives a Curse Cube, they may take
-          it instead (they may choose individually if they receive more than one in
-          a single effect).
+        name: Mitgefühl
+        effect: Immer wenn ein anderer Held einen FW erhält, darfst du den FW stattdessen erhalten.
       - id: exquisite-attunement
-        name: Exquisite Attunement
-        effect: Whenever you take the “Tie-Breaker Special Rule“ Action, you gain both
-          FOCUS 1 and CLEANSE 1 instead of choosing one of them.
+        name: Feinfühlige Ausrichtung
+        effect: Immer wenn du die kleine Aktion des Besonderen Mechanismus – Knoten lösen ausführst, erhältst du FOKUS 1 UND REINIGEN 1, anstatt zu wählen.
       - id: guess-what
-        name: Guess What
-        effect: At the beginning of each of your turns, you may rearange the Skills
-          being blocked by the Curse Cubes and Trauma Cubes you are holding.
+        name: Wenn du das so sagst
+        effect: Zu Beginn deiner eigenen Spielzüge darfst du deine „platzierten“ AW und FW auf deinen Fähigkeiten umverteilen, solange am Ende alle auf einen regelkonformen „Platz“ liegen.
       - id: heartbroken
-        name: Heartbroken
-        effect: "Whenever you or another Hero from your party suffers damage: you gain
-          FURY 1."
+        name: Gebrochenes Herz
+        effect: Immer wenn du oder ein anderer Held Schaden erleidet, erhältst du WUT 1.
       - id: lash-out
-        name: Lash Out
-        effect: Whenever you roll 1 on the d20, you fail the current Accuracy check
-          or Skill Challenge you are taking and suffer FATIGUE 4. This FATIGUE pierces
-          any kind of immunity your Hero might have.
+        name: Kragen geplatzt
+        effect: Immer wenn du bei einem Angriffswurf oder einer Probe eine 1 mit dem W20 würfelst, misslingt dieser Wurf und du erleidest zusätzlich ERSCHÖPFEN 4. Dieser Effekt durchbricht jede Form von Immunität.
       - id: orcish-perseverance
-        name: Orcish Perseverance
-        effect: You can hold one additional Trauma Cube.
+        name: Zäher Ork 
+        effect: Solange ein Held ihn hat (ihr entfernt diesen Status in der nächsten Lagerphase): Dieser Held darf 1 weiteren TW erhalten, bevor er besiegt wird.
       - id: possession
-        name: Possession
-        effect: Whenever you move the third space in a turn, you must make an Agility
-          (green) Skill Challenge of Difficulty 11. Each Agility cube you have gives
-          you a +2 bonus to your roll. If you fail, you suffer KNOCK DOWN. If you succed,
-          you gain EMPOWER instead.
+        name: Besessen
+        effect: Immer wenn du im selben Zug bewegst, musst du eine Gewandtheitsprobe mit Schwierigkeitsgrad 11+ machen. Jeder grüne Gewandtheitswürfel, den dein Held besitzt, gibt einen Bonus von +2 auf den Wurf. MISSERFOLG: Du erleidest NIEDERSCHLAGEN. ERFOLG: Du erhältst VERSTÄRKEN.
       - id: queen-slayer
-        name: Queen Slayer
-        effect: Whenever you take a Willing or Unwilling Recall Action, the next Weapon
-          or Spell attack you make this turn does not require an Accuracy check and
-          is considered a Critical Hit.
+        name: Mörder der Königin 
+        effect: Immer wenn du eine unfreiwillige Rastaktion ausführst, erfordert dein nächster Waffenangriff in diesem Zug keinen Angriffswurf und zählt automatisch als kritischer Treffer.
       - id: scornful
-        name: Scornful
-        effect: If you would suffer only 1 point of damage from an Attack, you suffer
-          no damage instead.
+        name: Verächtlich
+        effect: Immer wenn du – nach allen VERHINDERN- und SCHILD-Effekten – nur genau 1 Schaden tatsächlich erleidest, darfst du diesen 1 Schadenspunkt ignorieren und erleidest keinen Schaden.
       - id: second-thoughts
-        name: Second Thoughts
-        effect: At the beginning of your turn, you may recall one AC spent in one of
-          your Hero or Role Skills. If you do, you must place a different AC in one
-          of your available Skills; This effect does not activate any of your Skills.
+        name: Es sich anders überlegen
+        effect: Zu Beginn deines Zuges darfst du 1 AW ZURÜCKHOLEN, der auf einer Heldenfähigkeit oder Rollenkarte (Kampfrolle oder Vermächtnis) liegt. Tust du das, musst du sofort 1 anderen AW auf einer Fähigkeit platzieren, die dabei nicht aktiviert wird.
       - id: shielded-mind
-        name: Shielded Mind
-        effect: You and every Hero within Range 1 of you are immune to INTIMIDATE. Also,
-          whenever a Character tries to cast an INTIMIDATE effect against you or any
-          other Hero within Range 1 of you, the target of that INTIMIDATE effect receives
-          INSPIRE instead.
+        name: Geschützte Gedanken
+        effect:  Du und alle anderen Helden in Reichweite 1 zu dir sind immun gegen EINSCHÜCHTERN UND erhalten, wenn sie einen solchen Effekt erleiden würden, stattdessen INSPIRATION.
       - id: veteran-s-sorrow
-        name: Veteran's Sorrow
-        effect: "Whenever you miss a Weapon attack, you may: SELF, CURSE 1. If you do,
-          the attack hits instead."
+        name: Fluch der Veteranen
+        effect: Immer wenn du mit einem Waffenangriff NICHT triffst, darfst du SELBST; FLUCH 1, damit dieser Angriff trifft.
     storyrecord:
       - id: a-broken-man
-        name: A Broken Man
+        name: Gebrochener Mann
         effect: ""
       - id: a-hard-bargain
-        name: A Hard Bargain
+        name: Harte Verhandlungen
         effect: ""
       - id: afterlife-mysteries
-        name: Afterlife Mysteries
-        effect: Whenever any Hero scores a Critical Hit, they may Recall up to one AC.
+        name: Geheimnisse des Jenseits
+        effect: Immer wenn ein Held einen kritischen Treffer landet, darf er 1 AW ZURÜCKHOLEN.
       - id: aftermath
-        name: Aftermath
-        effect: Whenever a Hero from your party takes a Recall Action, after resolving
-          it, they receive CLEANSE 1 or FOCUS 1.
+        name: Nachwirkungen
+        effect: Immer wenn ein Held eine Rastaktion ausführt, egal ob freiwillig oder unfreiwillig, erhält dieser Held nach seiner Wahl danach FOKUS 1 ODER REINIGEN 1.
       - id: aggressive-negotiations
-        name: Aggressive Negotiations
+        name: Aggressive Verhandlung
         effect: ""
       - id: anchor-locked
-        name: Anchor Locked
+        name: Anker verriegelt
         effect: ""
       - id: anchor-sunk
-        name: Anchor Sunk
+        name: Anker gesetzt
         effect: ""
       - id: anger-management
-        name: Anger Management
-        effect: Whenever a Hero suffers damage from an Attack card, they gain INSPIRE.
+        name: Aggressionsbewältigung
+        effect: Immer wenn ein Held Schaden durch eine Angriffskarte erleidet, erhält dieser Held INSPIRATION.
       - id: angered-entrepreneur
-        name: Angered Entrepreneur
-        effect: "Whenever a Hero rolls 16+: Activate Carmilla Reinard. This Ability
-          can trigger only once per turn."
+        name: Erboste Unternehmerin
+        effect: Für jeden Helden gilt „WÜRFELST DU 16+: AKTIVIERE sofort Carmilla Reinard“. Dies darf nur 1-mal pro Spielzug ausgelöst werden.
       - id: back-to-back
-        name: Back-to-Back
-        effect: All Heroes in your party gain the WARDEN trait.
+        name: Rückendeckung
+        effect: Alle eure Helden erhalten das Merkmal Aufseher mit allen verbunden Effekten.
       - id: bad-hosting
-        name: Bad Hosting
+        name: Gastfeindschaft
         effect: ""
       - id: betrayed1
-        name: Betrayed (Condottieri)
-        effect: Whenever a Hero defeats a Condottieri, they gain either FOCUS 2 or CLEANSE
-          2.
+        name: Verrat Umbrals
+        effect:  Immer wenn ein Held einen Condottieri Umbrals besiegt, erhält dieser Held nach seiner Wahl entweder FOKUS 2 ODER REINIGEN 2.
       - id: betrayed2
-        name: Betrayed (Dunedancer)
-        effect: Whenever a Hero defeats a Dunedancer, they gain either FOCUS 2 or CLEANSE
-          2.
+        name: Verrat der Wüste
+        effect: Immer wenn ein Held eine Narbenwüsten Tänzerin besiegt, erhält dieser Held nach seiner Wahl entweder FOKUS 2 ODER REINIGEN 2.
       - id: bloody-mess
-        name: Bloody Mess
-        effect: Whenever a Hero drops to 0 Health, each other Hero suffers CURSE 1.
+        name: Blutiges Durcheinander
+        effect: Immer wenn ein Held auf 0 LP oder darunter fällt, erleiden alle anderen Helden FLUCH 1.
       - id: bricklayer-s-assistant
-        name: Bricklayer's Assistant
+        name: Maurergeselle
         effect: ""
       - id: broken-man
-        name: Broken Man
+        name: Gebrochener Mann
         effect: ""
       - id: clean-conscience
-        name: Clean Conscience
-        effect: At the beginning of each Hero's turn, if they are holding no Curse Cubes,
-          they receive INSPIRE.
+        name: Reines Gewissen
+        effect: Helden, die zu Beginn ihres eigenen Zugs keinen FW besitzen, erhalten INSPIRATION.
       - id: compassion
-        name: Compassion
-        effect: Heroes do not roll the Trap Die when opening Chests.
+        name: Sichere Beute
+        effect: Für eure Helden sind alle Truhen sicher. Ihr müsst nicht den Fallenwürfel werfen, wenn ihr sie durchsucht.
       - id: contempt
-        name: Contempt
-        effect: Whenever a Hero inflicts damage to the Plague Horseman with a Weapon
-          or Spell attack, they gain CLEANSE 1.
+        name: Verachtung
+        effect:  Immer wenn du eine Truhe durchsuchst, ziehst du 1 zusätzliche Karte. Du wählst 1 davon und legst die andere unter den Truhenstapel.
       - id: damsel-in-distress
-        name: Damsel in Distress
+        name: Eine Dame in Nöten
         effect: ""
       - id: declawed-beast
-        name: Declawed Beast
+        name: Biest ohne Krallen
         effect: ""
       - id: deep-understanding
-        name: Deep Understanding
-        effect: Whenever a Hero takes a Willing Recall Action, they may immediately
-          take an additional Cube Action before ending their turn.
+        name: Tiefes Verständnis
+        effect: Immer wenn ein Held eine freiwillige Rastaktion durchführt, darf dieser danach sofort 1 Würfelaktion ausführen und dann erst seinen Spielzug beenden.
       - id: desert-knight
-        name: Desert Knight
+        name: Ritter der Wüste #   ---------------------
         effect: Whenever a Hero defeats a Condottieri, they gain either FOCUS 2 or CLEANSE
           2.
       - id: disarmed-father
