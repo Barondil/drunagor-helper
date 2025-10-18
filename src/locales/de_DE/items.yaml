@@ -80,25 +80,25 @@ weapon:
     ultimate-rapier: Perfektes Rapier
     ultimate-royal-staff: Perfekter Königsstab
   awakenings:
-    arcabalest: Arcabalest
-    chaos-staff: Chaos Staff
-    cleavescythe: Cleavescythe
-    hack-slash: Hack-Slash
-    improved-hack-slash: Improved Hack-Slash
-    improved-twin-blades: Improved Twin-Blades
-    improved-cleavescythe: Improved Cleavescythe
-    improved-chaos-staff: Improved Chaos Staff
-    improved-war-bow: Improved War Bow
-    improved-arcabalest: Improved Arcabalest
-    twin-blades: Twin-Blades
-    rancor-blade: Rancor Blade
-    ultimate-hack-slash: Ultimate Hack-Slash
-    ultimate-twin-blades: Ultimate Twin-Blades
-    ultimate-cleavescythe: Ultimate Cleavescythe
-    ultimate-chaos-staff: Ultimate Chaos Staff
-    ultimate-war-bow: Ultimate War Bow
-    ultimate-arcabalest: Ultimate Arcabalest
-    war-bow: War Bow
+    arcabalest: Simpler Arkambrust
+    chaos-staff: Simpler Chaosstab
+    cleavescythe: Simple Bogensichel
+    hack-slash: Simple Hammerkralle
+    improved-hack-slash: Bessere Hammerkralle
+    improved-twin-blades: Bessere Doppelklinge
+    improved-cleavescythe: Bessere Bogensichel
+    improved-chaos-staff: Besserer Chaosstab
+    improved-war-bow: Besserer Kriegsbogen
+    improved-arcabalest: Bessere Arkambrust
+    twin-blades: Simple Doppelklinge
+    rancor-blade: Grollklinge
+    ultimate-hack-slash: Perfekte Hammerkralle
+    ultimate-twin-blades: Perfekte Doppelklinge
+    ultimate-cleavescythe: Perfekte Bogensichel
+    ultimate-chaos-staff: Perfekter Chaosstab
+    ultimate-war-bow: Perfekter Kriegsbogen
+    ultimate-arcabalest: Perfekte Arkambrust
+    war-bow: Simpler Kriegsbogen
 trinket:
   core:
     amulet-of-power: Amulett der Macht
@@ -165,35 +165,35 @@ trinket:
     ultimate-titan-stompers: Perfekte Titanenstamper
     vow-keeper: Ewiges Gelübde
   awakenings:
-    accuracy-ring: Accuracy Ring
-    cornucopia: Cornucopia
-    arcane-glove: Arcane Glove
-    black-harpoon: Black Harpoon
-    bright-crest: Bright Crest
-    captains-brooch: Captain's Brooch
-    christis-kitten: Christi's Kitten
-    cosmic-heart-chipped: Cosmic Heart - Chipped
-    cosmic-heart-flawless: Cosmic Heart - Flawless
-    eradrens-lamp: Eradren's Lamp
+    accuracy-ring: Simpler Präzisionsring
+    cornucopia: Simples Füllhorn
+    arcane-glove: Arkane Handschuhe
+    black-harpoon: Schwarze Harpune
+    bright-crest: Zeichen des Lichts
+    captains-brooch: Kapitänsbrosche
+    christis-kitten: Christis Kätzchen
+    cosmic-heart-chipped: Kosmisches Herz (Dumpf)
+    cosmic-heart-flawless: Kosmisches Herz (Hell)
+    eradrens-lamp: Eradrens Laterne
     felix-felis: Felix Felis
-    fighters-ring-back: Fighter's Ring (Back)
-    fighters-ring-front: Fighter's Ring (Front)
-    grimoire: Grimoire
-    huntmasters-whistle: Huntmaster's Whistle
-    improved-accuracy-ring: Improved Accuracy Ring
-    improved-tracker-boots: Improved Tracker Boots
-    improved-cornucopia: Improved Cornucopia
-    improved-grimoire: Improved Grimoire
-    loriens-flute: Lorien's Flute
-    mind-gem: Mind Gem
-    polished-helmet: Polished Helmet
-    token-of-friendship: Token of Friendship
-    tracker-boots: Tracker Boots
-    trappers-toolkit: Trapper's Toolkit
-    ultimate-accuracy-ring: Ultimate Accuracy Ring
-    ultimate-tracker-boots: Ultimate Tracker Boots
-    ultimate-cornucopia: Ultimate Cornucopia
-    ultimate-grimoire: Ultimate Grimoire
+    fighters-ring-back: Kampfring (Geladen)
+    fighters-ring-front: Kampfring (Erloschen)
+    grimoire: Simpler Grimoire
+    huntmasters-whistle: Jagdpfeife
+    improved-accuracy-ring: Besserer Präzisionsring
+    improved-tracker-boots: Besserer Jagdstiefel
+    improved-cornucopia: Besseres Füllhorn
+    improved-grimoire: Besserer Grimoire
+    loriens-flute: Loriens Flöte
+    mind-gem: Gedankenstein
+    polished-helmet: Glänzender Helm
+    token-of-friendship: Freundschaftsring
+    tracker-boots: Simple Jagdstiefel
+    trappers-toolkit: Fallenkasten
+    ultimate-accuracy-ring: Perfekter Präzisionsring
+    ultimate-tracker-boots: Perfekte Jagdstiefel
+    ultimate-cornucopia: Perfektes Füllhorn
+    ultimate-grimoire: Perfekter Grimoire
 armor:
   core:
     breastplate: Brustplatte
@@ -245,21 +245,21 @@ armor:
     veteran-cuirass: Kürass des Veteranen
     warworn-breastplate: Lädierter Brustpanzer
   awakenings:
-    battle-plate: Battle Plate
-    exquisite-mail: Exquisite Mail
-    improved-mystics-robe: Improved Mystic's Robe
-    improved-rogues-vest: Improved Rogue's Vest
-    improved-battle-plate: Improved Battle Plate
-    improved-exquisite-mail: Improved Exquisite Mail
-    improved-quilted-doublet: Improved Quilted Doublet
-    mystics-robe: Mystic's Robe
-    quilted-doublet: Quilted Doublet
-    rogues-vest: Rogue's Vest
-    ultimate-mystics-robe: Ultimate Mystic's Robe
-    ultimate-rogues-vest: Ultimate Rogue's Vest
-    ultimate-battle-plate: Ultimate Battle Plate
-    ultimate-exquisite-mail: Ultimate Exquisite Mail
-    ultimate-quilted-doublet: Ultimate Quilted Doublet
+    battle-plate: Simpler Plattenpanzer
+    exquisite-mail: Simpler Kettenpanzer
+    improved-mystics-robe: Bessere Mystikerrobe
+    improved-rogues-vest: Bessere Diebesweste
+    improved-battle-plate: Besserer Plattenpanzer
+    improved-exquisite-mail: Besserer Kettenpanzer
+    improved-quilted-doublet: Besseres Wams
+    mystics-robe: Simple Mystikerrobe
+    quilted-doublet: Simples Wams
+    rogues-vest: Simple Diebesweste
+    ultimate-mystics-robe: Perfekte Mystikerrobe
+    ultimate-rogues-vest: Perfekte Diebesweste
+    ultimate-battle-plate: Perfekter Plattenpanzer
+    ultimate-exquisite-mail: Perfekter Kettenpanzer
+    ultimate-quilted-doublet: Perfektes Wams
 consumable:
   core:
     cosmic-gemstone: Kosmischer Edelstein
@@ -287,15 +287,15 @@ consumable:
     scroll-of-translocation: Rolle der Teleportation
     treasure-trove: Schatz (Veteranenbeute)
   awakenings:
-    artisans-tools: Artisan's Tools (Hero)
-    combustible-grenade: Combustible Grenade
-    dragons-breath: Dragon's Breath
-    potion-of-haste: Potion of Haste
-    potion-of-strength: Potion of Strength
-    scroll-of-beguile: Scroll of Beguile
-    scroll-of-polymorph: Scroll of Polymorph
-    scroll-of-protection: Scroll of Protection
-    treasure-trove: Treasure Trove (Hero)
+    artisans-tools: Werkzeug (Heldenbeute)
+    combustible-grenade: Brandgranate
+    dragons-breath: Drachenatem
+    potion-of-haste: Trank der Eile
+    potion-of-strength: Trank der Stärke
+    scroll-of-beguile: Rolle der Mainpulation
+    scroll-of-polymorph: Rolle der Verniedlichung
+    scroll-of-protection: Rolle des Schutzes
+    treasure-trove: Schatz (Heldenbeute)
 offhand:
   core:
     deadly-backstabber: Tödlicher Verräter
@@ -357,24 +357,24 @@ offhand:
     ultimate-shell-opener: Perfektes Austernmesser
     ultimate-umbral-buckler: Umbrals Perfekter Schild
   awakenings:
-    astral-symbol: Astral Symbol
-    buckler: Buckler
-    azure-robins-knife: Azure Robins Knife
-    defenders-buckler-back: Defender's Buckler (Back)
-    defenders-buckler-front: Defender's Buckler (Front)
-    heart-of-the-ocean: Heart of the Ocean
-    heavy-shield: Heavy Shield
-    hippocampus-banner: Hippocampus Banner
-    holy-aegis: Holy Aegis
-    improved-astral-symbol: Improved Astral Symbol
-    improved-heavy-shield: Improved Heavy Shield
-    improved-skull-piercer: Improved Skull Piercer
-    improved-holy-aegis: Improved Holy Aegis
-    improved-buckler: Improved Buckler
-    ominous-spearhead: Ominous Spearhead
-    skull-piercer: Skull Piercer
-    ultimate-astral-symbol: Ultimate Astral Symbol
-    ultimate-heavy-shield: Ultimate Heavy Shield
-    ultimate-skull-piercer: Ultimate Skull Piercer
-    ultimate-holy-aegis: Ultimate Holy Aegis
-    ultimate-buckler: Ultimate Buckler
+    astral-symbol: Simples Astralsymbol
+    buckler: Simpler Faustschild
+    azure-robins-knife: Messer der Blausperber
+    defenders-buckler-back: Verteidigerschild (Hell)
+    defenders-buckler-front: Verteidigerschild (Stumpf)
+    heart-of-the-ocean: Herz des Meeres
+    heavy-shield: Simples Vollschild
+    hippocampus-banner: Seepferdbanner
+    holy-aegis: Simple Schildägis
+    improved-astral-symbol: Besseres Astralsymbol
+    improved-heavy-shield: Besseres Vollschild
+    improved-skull-piercer: Besseres Skalpmesser
+    improved-holy-aegis: Bessere Schildägis
+    improved-buckler: Besserer Faustschild
+    ominous-spearhead: Goldene Speerspitze
+    skull-piercer: Simples Skalpmesser
+    ultimate-astral-symbol: Pefektes Astralsymbol
+    ultimate-heavy-shield: Perfektes Vollschild
+    ultimate-skull-piercer: Perfektes Skalpmesser
+    ultimate-holy-aegis: Perfekte Schildägis
+    ultimate-buckler: Perfekter Faustschild
