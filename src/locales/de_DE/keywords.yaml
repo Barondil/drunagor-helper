@@ -1534,7 +1534,7 @@ keyword:
     description: Der Held mit den aktuell wenigsten LP. Bei Gleichstand der beteiligte
       Held, der zuletzt in der Runde drankommt.
   - id: weapon-attack
-    keyword: WEAPON ATTACK
+    keyword: Waffenangriff
     description: "Diese Fähigkeit beinhaltet einen Angriff mit deiner Waffe. Du musst
       einen Angriffswurf („+X TRF“) mit dem W20 machen und dabei – nach allen Modifikatoren
       – mindestens die Genauigkeit deiner Waffe erreichen, um zu treffen. Ansonsten
