@@ -2,23 +2,28 @@
 keyword:
   - id: x-hp
     keyword: "+X LP"
+    description: 
+      "Effekt nach Grundspiel siehe „+X LP (Vereinfacht)“ <br><br>
+      Effekt nach Erweiterungen „Apokalypse“ und „Erwachen“:<br>
+      Dieser statische Vorteil betrifft immer den Helden  selbst und besteht aus zwei eng verbundenen Effekten: <br><br>
+      1. Beim Erlernen erhöht der Held seine maximalen LP sofort um X . Ein Held kann jedoch nie mehr als 16 LP haben, alle weiteren Erhöhungen verfallen ersatzlos. Wenn die Wirkung verschwindet (z. B. durch einen FW blockiert), verringern sich die maximalen LP entsprechend um den Wert X. <br> 
+      2. In den meisten Fällen passt ihr außerdem sofort die aktuellen LP des Helden um den gleichen Wert X an. Dabei erhaltene LP zählen jedoch nicht als HEILEN, verlorene LP zählen nicht als SCHADEN. <br> 
+      Der 2. Teil des Effekts (die Anpassung der aktuellen LP) ist jedoch an eine Bedingung geknüpft: Dass sich die maximalen LP effektiv geändert haben!Wenn der Held also bereits beim absoluten Maximum von 16 LP ist, hat eine weitere Erhöhung keine Auswirkung auf die aktuellen LP, da sich die maximalen LP nicht verändert haben (weiterhin 16). Das Gleiche gilt umgekehrt. Wenn ein entsprechender Effekt blockiert wird und die maximalen LP danach weiterhin bei 16+ liegen, verliert dieser Held keine LP! Auch hier sind die maximalen LP effektiv gleichgeblieben. <br><br>
+      Einfach gesagt: Die aktuellen LP werden um genau den Wert erhöht bzw. verringert, um den sich die maximalen  LP „tatsächlich“ erhöhen bzw. verringern.<br><br>
+      Beispiel 1: Du hast eine passive Fähigkeit mit +2 LP, die deine maximalen LP von 13 auf 15 erhöht. Du erhältst also sofort 2 LP. Wenn du auf dieser Fähigkeit einen FW platzierst, musst du sofort 2 LP verlieren und deine maximalen LP sind ab sofort reduziert (von 15 auf 13). Sobald du den FW entfernst, erhältst du 2 LP zurück und erhöhst dein Maximum.<br><br>
+      Beispiel 2: Du findest eine Ausrüstung, die dir weitere +2 LP gibt und dein Maximum steigt damit auf 17. Du darfst jedoch nie mehr als 16 LP haben und deine tatsächlichen maximalen LP haben sich damit effektiv nur um 1 erhöht (von 15 auf 16). Deshalb erhältst du in  diesem Moment nur 1 LP zurück." 
+  - id: x-hp-(simple)
+    keyword: "+X LP (Vereinfacht)"
     description: "Dieser statische Vorteil betrifft immer den Helden selbst. Beim Erlernen
       erhält der Held sofort X LP und erhöht auch seine maximalen LP um X. Ein Held
-      kann jedoch nie mehr als 16 LP haben, alle weiteren Erhöhungen verfallen ersatzlos.
+      kann jedoch nie mehr als 16 LP haben, alle weiteren Erhöhungen verfallen ersatzlos. <br>
       Wenn die Wirkung verschwindet, verliert der Held sofort die gleiche Anzahl LP.
-      Ihr könnt dafür ein passendes Vorteilsplättchen verwenden. <br><br>Beispiel:
-      Du hast eine passive Fähigkeit, die dir +2 LP gibt. Wenn du auf dieser Fähigkeit
+      Ihr könnt dafür ein passendes Vorteilsplättchen verwenden. 
+      <br><br>
+      Beispiel: Du hast eine passive Fähigkeit, die dir +2 LP gibt. Wenn du auf dieser Fähigkeit
       einen FW platzierst, musst du sofort 2 LP verlieren und deine maximalen LP sind
       ab sofort reduziert. Sobald du den FW entfernst, erhältst du 2 LP und erhöhst
       dein Maximum."
-  - id: x-hp-(simple)
-    keyword: "[Wave 2] +X HP (SIMPLE)"
-    description: Aus Wave 2, Übersetzung folgt noch. <br><br> If you prefer not to deal
-      with the granularity of the +X HP rule, you can choose the simple version and
-      disregard the second and third NOTEs. So, if you lose an effect that confers +X
-      HP, you lose Health accordingly. However, if you regain these effects later, you
-      won't recover any Health, even if the sum of the +X HP effects you have exceeds
-      16 Health.
   - id: x-dmg
     keyword: "+X SCHADEN"
     description: Steht dieser Bonus hinter einen Waffenangriff, erhöht er den Schaden
@@ -26,9 +31,11 @@ keyword:
       vorhanden, erhöht er alle entsprechenden Angriffe. Kritische Treffer und DOPPELSCHADEN
       verdoppeln jeweils auch +X Schaden.
   - id: x-hit
-    keyword: "+X TRF"
+    keyword: "+X TRF oder -X TRF"
     description: Kennzeichnet den Angriffswurf eines Waffenangriffs und den damit verbundenen
-      Modifikator. Bei Mehrfachangriffen sind diese mit einem Strich | voneinander getrennt.
+      Modifikator. Dieser Modifikator X wird auf das Würfelergebnis angewendet, aber er zählt nur für die 
+      Genauigkeit der Waffe und hat keinen Einfluss auf das Erreichen eines kritischen Treffers. <br>
+      Bei Mehrfachangriffen sind diese mit einem Strich | voneinander getrennt.
       Für jeden dieser Waffenangriffe ist ein eigener Angriffswurf erforderlich.
   - id: x-to-hit
     keyword: "+X ZU TRF"
@@ -41,23 +48,17 @@ keyword:
     keyword: "+X BEWEGUNG"
     description: Wenn der Charakter den Effekt BEWEGUNG erhält, erhält er X zusätzliche
       Bewegungspunkte. Ihr könnt dafür ein passendes Vorteilsplättchen verwenden, um
-      diesen Bonus anzuzeigen
+      diesen Bonus anzuzeigen.
   - id: action-cubes-(ac)
     keyword: AKTIONSWÜRFEL (AW)
     description: "Aktionswürfel (abgekürzt: AW) gibt es in 4 Farben: Gelb (Nahkampf),
       Rot (Fernkampf), Grün (Gewandtheit) und Blau (Weisheit). "
   - id: activate
-    keyword: "[Wave 2] ACTIVATE"
-    description: "Aus Wave 2, Übersetzung folgt noch. <br><br> Activate is a complicated
-      term that appears in many effects over the three generations of the AoD System.
-      At its design root, Activate is the instruction to take a turn. So, when you Activate
-      a Monster, for example, you take a turn with that Monster; Whenever a Monster
-      takes a turn, we say it is being “activated.” When a Character is activated, it
-      takes a turn as normal: its Conditions trigger at the beginning of the turn, then
-      its Triggered Abilities fire, and finally it takes a Movement Action and/or an
-      Attack Action. Pets, however, have an optional effect: when you Activate one of
-      them, instead of making them take a turn, you can Summon them. It's worth remembering:
-      a Summoned Pet appears in an adjacent unoccupied space next to its Master."
+    keyword: "AKTIVIEREN (BEGLEITTIER)"
+    description: "Beschwört das genannte Begleittier auf einem angrenzenden Feld. Befindet 
+      sich das Begleittier bereits auf dem Spielplan, kommt es sofort an die Reihe und macht sofort einen 
+      „zusätzlichen“ Spielzug. Ist kein Begleittier benannt („1 deiner Begleittiere“), kann 1 der verfügbaren 6 
+      Begleittiere gewählt werden. <br> Wichtig: Ein beschworenes Beggleittier wird in einem benachbarten, freien Feld angrenzend seinem Meister platziert."
   - id: adj-or-adjacent
     keyword: ANGRENZEND
     description: Felder und Zonen sind angrenzend, wenn sie eine gemeinsame Ecke oder
@@ -72,10 +73,11 @@ keyword:
     keyword: ALLEN SCHADEN (BIS AUF 1) VERHINDERN
     description: "Das Ziel des Effekts verhindert den erhaltenen Schaden aus einer Quelle
       vollständig (bzw. reduziert ihn auf 1). Besitzt das Ziel SCHILD-Plättchen, müssen
-      diese wie üblich zuvor eingesetzt werden. Dieser Effekt betrifft immer den angegriffenen
-      Charakter und dessen erhaltenen Schaden, nicht den Angreifer. Beispiel: Bei einem
+      diese wie üblich zuvor eingesetzt werden. <br>Dieser Effekt betrifft immer den angegriffenen
+      Charakter und dessen erhaltenen Schaden, nicht den Angreifer. <br>Beispiel: Bei einem
       FLÄCHENSCHLAG wird nur der Schaden verhindert, den das Ziel erleidet. Nicht der
-      gesamte Schaden des Angriffs bei allen Zielen."
+      gesamte Schaden des Angriffs bei allen Zielen.<br>
+      Hat der ausführende Held einen Bonus auf VERHINDERN? Dann wird dieser zusätzlich hinzugezählt. „ALLEN SCHADEN BIS AUF 1“ wird damit zu „ALLEN SCHADEN“."
   - id: ambush
     keyword: HINTERHALT
     description: Wenn ihr ein Monster mit HINTERHALT aktiviert, entfernt ihr es kurzzeitig
@@ -179,15 +181,13 @@ keyword:
       erleidet es 1 nicht-verhinderbaren Schaden für jedes dieser Plättchen. Danach
       entfernt ihr 1 dieser BRENNEN -Plättchen. BRENNEN ist ein stapelbarer Zustand.
   - id: cancel
-    keyword: "[Wave 2] CANCEL"
-    description: Aus Wave 2, Übersetzung folgt noch. <br><br> Cancel is a term that
-      has come to be associated with Interruptions due to their ability to respond to
-      an attack while it is being delivered, rather than after it has already hit its
-      target. When an attack is Canceled, this means that it no longer exists and doesn’t
-      cause damage to any of its targets anymore. Characters who have already used Interrupts
-      for a Canceled attack are still considered to have used those abilities, but after
-      the attack is Canceled, no other Characters can use an Interrupt (and of course,
-      no Reactions) against that attack.
+    keyword: "Abbrechen/Abbruch"
+    description: "ABBRECHEN/ABBRUCH: Dieser Effekt tritt im Zusammenhang mit UNTERBRECHUNGEN auf. 
+      Wenn ein „ANGRIFF ABGEBROCHEN WIRD“, finden seine Effekte nicht statt. Das bedeutet auch, dass 
+      keine weiteren UNTERBRECHUNGEN und keine REAKTIONEN stattfinden können, da der Auslöser dafür 
+      (der Angriff und damit auch die daraus folgende Bedrohung) nicht mehr gegeben ist. Der Angriff hat 
+      dennoch „stattgefunden“ und die Angriffsaktion eines Monsters bleibt auch bei einem ABBRUCH „ausgeführt“. <br>
+      Achtung: Sind zuvor bereits andere UNTERBRECHUNGEN von euch eingesetzt worden, werden diese nicht „rückgängig“ gemacht."
   - id: cast
     keyword: "[Wave 2] CAST"
     description: Aus Wave 2, Übersetzung folgt noch. <br><br> This term is used to define
@@ -337,15 +337,11 @@ keyword:
       the Monster swings their weapon around, causing the described amount of non-preventable
       damage to all enemies of the Monster that are adjacent to it.
   - id: cover
-    keyword: "[Wave 2] COVER"
-    description: Aus Wave 2, Übersetzung folgt noch. <br><br> Some protective abilities
-      that Heroes possess go beyond just mitigating damage; they can also change the
-      target of an attack. When a Character Covers the target of an attack, they redirect
-      that attack to themselves, becoming the new target of that attack. Any Prevent
-      effect that comes with a Cover effect is also redirected to the new target of
-      that attack. If an attack is targeting you and another target at the same time,
-      you can still Cover that other Character, but you will suffer both attacks as
-      if you had been targeted by it twice.
+    keyword: "ABSICHERN"
+    description: Ein Charakter kann diesen Effekt nur dann anwenden, wenn das Ziel angegriffen wird. Der 
+      „absichernde Charakter“ wird damit zum Ziel des Angriffs anstelle des ursprünglichen Ziels. ABSICHERN 
+      funktioniert auch bei Angriffen wie z. B. SPALTEN, aber falls der absichernde Charakter bereits Ziel desselben 
+      Angriffs ist, wird er damit „2-mal“ zum Ziel mit allen Konsequenzen, dies zählt jedoch nur als 1 Bedrohung.
   - id: covetous
     keyword: HABGIERIG
     description: Dieses Monster wählt den Helden als primäres Ziel, der aktuell insgesamt
@@ -575,18 +571,18 @@ keyword:
       a Weapon Attack through each of your two Cube Actions and a third through your
       Focus Ability or by spending a KI token.
   - id: idol
-    keyword: "[Wave 2] IDOL"
-    description: Aus Wave 2, Übersetzung folgt noch. <br><br> Idols are figures that
-      possess magical properties which Heroes are able to summon to aid them in battle.
-      When an Idol is Invoked, the Hero places or repositions (if that Idol is already
-      on the board) its matching token on the center intersection of the area (blue
-      square) they are in or in an area adjacent to it. Take note that just Invoking
-      an Idol does not activate its effects immediately (Shamans have a class ability
-      that allows them to do this as a special power). Once placed, the Idol is considered
-      an Immovable Ground Object, meaning that it can’t be moved by any means, including
-      Telekinesis. Each Idol has a power that can be Evoked by any Hero (not only the
-      casting one) within Range 1 of that Idol using a Minor Action and spending any
-      combination of 2 Resource tokens
+    keyword: "TOTEM (ANBETEN & RUFEN)"
+    description: "Wenn ihr ein Totem RUFT, platziert ihr das zugehörige Plättchen in der Mitte eurer oder einer 
+      angrenzenden Zone. Befindet sich dieses Totem bereits im Spiel, wird es beim RUFEN „versetzt“. Es darf nur 
+      höchstens 1 Totem gleichzeitig im Spiel sein. Gerufene Totems sind unbewegliche Bodenobjekte. <br>
+      Eure Helden – nicht nur derjenige, der das Totem platziert hat – dürfen (platzierte) Totems mit einer kleinen Aktion 
+      ANBETEN. Dafür müssen sie in Reichweite 1 zum Totem stehen und zusätzlich 2 beliebige Ressourcen abwerfen, 
+      z. B. 2 SCHILD-Plättchen oder 1 WUT-Plättchen und 1 KI-Plättchen. Dafür erhalten sie dann den jeweiligen Effekt 
+      des Totems, das sie ANGEBETET haben:<br>
+      Totem der Ausdauer (Grün): SELBST, HEILEN 2<br>
+      Totem der Wut (Orange): SELBST, DEIN NÄCHSTER EINZELNER WAFFENANGRIFF ODER ZAUBERANGRIFF IN DIESEM ZUG ERHÄLT +2 SCHADEN <br>
+      Totem des Sturms (Dunkelblau): ZAUBERANGRIFF REICHWEITE 1, 2 SCHADEN <br>
+      Totem der Ruhe (Hellblau): SELBST, REINIGEN 1"
   - id: immunity
     keyword: IMMUN (IMMUNITÄT)
     description: Der Charakter kann den angegebenen Zustand oder Eﬀekt ignorieren. Das
@@ -666,17 +662,17 @@ keyword:
     description: Aus Wave 2, Übersetzung folgt noch. <br><br> Stone Pillars are of no
       use for anything in particular. They just represent a rigid obstacle.
   - id: interrupt
-    keyword: "[Wave 2] INTERRUPT"
-    description: Aus Wave 2, Übersetzung folgt noch. <br><br> This Skill can only be
-      used in response to a Character being targeted by an Attack, but before the targeted
-      Character spends SHIELD tokens and a threat is generated. Thus, Interrupts are
-      “faster” than Reactions. When using an Interrupt, a Character will not be able
-      to use a Reaction against any threats generated by the attack they have interrupted,
-      as if they had already “reacted” to that attack. Interrupts, also, cannot target
-      attacks that deal non-preventable damage, and they are not considered Reactions
-      for triggering abilities such as **Caltrops**, for example. A Hero can take only
-      one Interruption per attack, regardless of how many Characters were targeted by
-      it.
+    keyword: "Unterbrechung"
+    description: "Ihr dürft diese Art von Fähigkeit nur einsetzen, wenn ein Angriff einen Charakter als 
+      Ziel „auswählt“. Das heißt, die Unterbrechung findet statt, bevor die Bedrohung entsteht und somit immer 
+      vor etwaigen Reaktionen. Es ist jedoch zwingend erforderlich, dass der Angriff zu einer Bedrohung führt, 
+      denn Unterbrechungen dürfen nicht eingesetzt werden, wenn der Angriff nicht-verhinderbaren Schaden 
+      verursacht. <br>
+      Unterbrechungen mit SELBST darfst du nur benutzen, wenn dein Held angegriffen wird. Ein Charakter kann 
+      pro Angriff nur 1 Unterbrechung einsetzen, auch wenn der Angriff mehrere Ziele hat.<br> 
+      Unterbrechungen sind KEINE Reaktionen und können deshalb keine anderen Effekte auslösen, die sich auf „Reaktionen“ beziehen. 
+      Allerdings gibt es eine direkte Wechselwirkung: <br>
+      Helden, die Unterbrechungen einsetzen, dürfen für Bedrohungen aus diesem Angriff KEINE Reaktion mehr ausführen!"
   - id: intimidate-x
     keyword: EINSCHÜCHTERN X
     description: "Das Ziel erhält X EINSCHÜCHTERN-Plättchen. Ein Charakter mit mindestens
@@ -695,7 +691,7 @@ keyword:
       bei BEWEGUNG mit „Punkten“ (X). Es ist möglich „über“ Hindernisse und Gegner
       hinwegzuspringen, jedoch nicht darauf zu enden. Ein springender Charakter erleidet
       zwar keinen Fallschaden, aber die direkte Bewegung von Ebene 0 auf 2 verbraucht
-      2 „Punkte“
+      2 „Punkte“.
   - id: ki
     keyword: KI X
     description: Du erhältst X KI-Plättchen, KI ist eine stapelbare Ressource. Du darfst
@@ -1004,8 +1000,8 @@ keyword:
       ihm markierte Ziel ausführt, verursachen +1 SCHADEN. MARKIERT ist ein redundanter
       Zustand.
   - id: reaction
-    keyword: REAKTIONEN
-    description: Du darfst diese Art von Fähigkeit nur als Reaktion auf eine „Bedrohung“
+    keyword: REAKTION
+    description: "Du darfst diese Art von Fähigkeit nur als Reaktion auf eine „Bedrohung“
       einsetzen. Eine Bedrohung ist jede Art von Angriff, Ereignis oder Effekt, bei
       dem dein Held oder ein Verbündeter verhinderbaren Schaden erleiden würde.<br><br>
       Es ist dabei unerheblich, ob der Held bzw. Verbündete tatsächlich Schaden erleidet
@@ -1013,7 +1009,9 @@ keyword:
       Bedrohung reagieren, aber jeder Held darf nur maximal 1x auf jede Bedrohung reagieren.
       Auf nicht-verhinderbaren Schaden darfst du nicht reagieren. Reaktionen mit SELBST
       kannst du nur benutzen, wenn dein Held bedroht wird. Den Effekt ZURÜCKSCHLAGEN
-      kannst du nur benutzen, wenn dein Held angegriffen wird.
+      kannst du nur benutzen, wenn dein Held angegriffen wird.<br><br>
+      Ergänzung aus Erweiterungen „Apokalypse“ und „Erwachen“:<br>
+      Achtung: Wenn sich das Ziel eines Angriffs dabei außer Reichweite bewegt, bleibt es trotzdem ein Ziel!"
   - id: recall-x
     keyword: ZURÜCKHOLEN X
     description: "Der Held nimmt bis zu X platzierte oder verbrauchte AW zurück. Sie
@@ -1241,7 +1239,7 @@ keyword:
       suffered 2 damage. Then, each other Hero that is Adjacent to him takes 2 non-preventable
       damage.
   - id: spell-attack
-    keyword: ZAUBERANGRIFFE
+    keyword: ZAUBERANGRIFF
     description: Diese Fähigkeit ist ein Angriff ohne Waffe. Ein Zauberangriff trifft
       immer, so dass kein Angriffswurf nötig ist – das Ziel erleidet den Schaden und
       alle verbundenen Effekte. Ein BONUS auf deine Zauberangriffe erhöht immer den
@@ -1514,13 +1512,11 @@ keyword:
       Range 1 of this Monster enrages and gains +1 DMG permanently (place this token
       on their Monster Status board).
   - id: warden-(trait)
-    keyword: "[Wave 2] WARDEN (TRAIT)"
-    description: Aus Wave 2, Übersetzung folgt noch. <br><br> Characters who have the
-      Warden trait can use Interrupts and Reactions with the Keyword “SELF” on other
-      Characters as long as they are adjacent to them. Also, Wardens can use such Skills
-      when Characters adjacent to them are attacked or threatened (if the Skill you
-      are using is either an Interrupt or a Reaction, respectively) instead of using
-      them only when they are attacked or threatened themselves.
+    keyword: "ABSICHERN"
+    description: Ein Charakter kann diesen Effekt nur dann anwenden, wenn das Ziel angegriffen wird. Der 
+      „absichernde Charakter“ wird damit zum Ziel des Angriffs anstelle des ursprünglichen Ziels. ABSICHERN 
+      funktioniert auch bei Angriffen wie z. B. SPALTEN, aber falls der absichernde Charakter bereits Ziel desselben 
+      Angriffs ist, wird er damit „2-mal“ zum Ziel mit allen Konsequenzen, dies zählt jedoch nur als 1 Bedrohung.
   - id: warlock-(trait)
     keyword: "[Wave 2] WARLOCK (TRAIT)"
     description: Aus Wave 2, Übersetzung folgt noch. <br><br> Bargaining with the Darkness,
@@ -1541,7 +1537,7 @@ keyword:
       ist dein Angriff misslungen.  Du erhältst +2 ZU TRF, wenn du dich im Vergleich
       zum Ziel  auf einer höheren Ebene befindest. Befindet sich dein Ziel auf einer
       höheren Ebene, erleidest du -2 ZU TRF. Stehst du auf Dunkelheit, erleidest du
-      -2 ZU TRF. <br>Standardmäßig gilt noch: Zeigt der Würfel die 1 (ohne Modifikation):
+      -2 ZU TRF. <br><br> Standardmäßig gilt noch: Zeigt der Würfel die 1 (ohne Modifikation):
       Kritischer Patzer. Der Angriff misslingt automatisch. Zeigt der Würfel die 20
       (ohne Modifikation): Kritischer Treffer. Der Angrifft trifft automatisch und verursacht
       doppelten Schaden inklusive Bonusschaden; Kollateraleffekte werden nicht verdoppelt."
