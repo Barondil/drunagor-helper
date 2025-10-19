@@ -184,15 +184,8 @@ keyword:
       to use a Battle Focus Skill, for example, that Hero is casting a FOCUS 1 AND CLEANSE
       1 effect.
   - id: catalyze
-    keyword: "[Wave 2] CATALYZE"
-    description: Aus Wave 2, Übersetzung folgt noch. <br><br> This is a Keyword designed
-      to condense an effect into a single word, saving text space. When a Hero Catalyzes,
-      it means that the next Action Cube they use this turn (current turn only) is treated
-      as a Wild Cube (if it is used to use a Hero Skill, treat all numbers written in
-      their numerical form as if they were doubled). Wild Cubes can be used as if they
-      were any color, but it is important to remember that the Range for the effects
-      of a Skill activated using a Wild Cube is based on its Type (i.e., a Melee Skill
-      activated through a Wild Cube still has Melee Range).
+    keyword: "INTENSIVIEREN"
+    description: Der ausführende Held  behandelt den nächsten AW, den er in diesem Spielzug einsetzt, als JOKERWÜRFEL.
   - id: chain-up
     keyword: "EINFANGEN"
     description: Diese Monsterfähigkeit löst zu Beginn des Zugs aus, direkt nachdem 
@@ -204,12 +197,14 @@ keyword:
       nicht betreten. Gibt es kein zum Monster angrenzendes freies Feld? Dann bleibt das Ziel 
       an seinem Platz stehen und erleidet stattdessen 4 NICHT-VERHINDERBAREN Schaden.
   - id: channel
-    keyword: "[Wave 2] CHANNEL"
-    description: Aus Wave 2, Übersetzung folgt noch. <br><br> As long as a Skill with
-      Channel has an Action Cube occupying its slot (not when it is blocked by a Curse
-      Cube or Trauma Cube), the passive bonus described in “Channel - Effect” takes
-      effect as if it were a Passive Skill. This benefit is also applied to the very
-      Skill that generated it. It lasts until this Action Cube is recalled.
+    keyword: "KANALISIEREN"
+    description: "Fähigkeiten mit diesem Effekt haben eine besondere Funktionsweise und ähneln passiven 
+      Fähigkeiten. Solange sie mit 1 AW belegt sind, gelten alle Effekte hinter „KANALISIEREN:“, als wäre es eine 
+      passive Fähigkeit. Der AW blockiert zwar den „aktiven“ Teil der Fähigkeit, aber gleichzeitig ist der „passive“ 
+      KANALISIEREN-Teil in Kraft.<br><br>
+      Sobald der „aktivierende“ AW von der Fähigkeit genommen wird, endet der KANALISIEREN-Effekt sofort. 
+      Sie werden jedoch nur mit AW „aktiviert“! Sind sie mit einem TW oder FW belegt, sind sie einfach blockiert, so 
+      wie jede andere Fähigkeit."
   - id: character
     keyword: CHARAKTER
     description: Helden und ihre Verbündeten (z. B. Begleittiere), NSC-Plättchen und Monster gelten 
@@ -305,28 +300,24 @@ keyword:
       Gefährten haben in ihrem Zug 1 Bewegungs- und 1 Angriffsaktion, in genau dieser
       Reihenfolge. Gefährten haben keine Lebenspunkte, sondern einen Wert namens Robustheit.
       Sie werden nur besiegt, wenn sie auf einmal Schaden erleiden, der ihre Robustheit
-      übersteigt. Sie ignorieren allen Schaden, der diesen Wert nicht übersteigt.n<br><br>
+      übersteigt. Sie ignorieren allen Schaden, der diesen Wert nicht übersteigt.<br><br>
       Gefährten werden nur dann angegriffen, wenn das Monster keinen Helden angreifen
       kann. Wenn ein Monster entweder ein Begleittier oder einen Gefährten angreifen
       könnte, wählt der Anführer der Gruppe das Ziel. In der Lagerphase verlassen Gefährten
       eure Gruppe.
   - id: copy-effect
     keyword: KOPIEREN
-    description: "Diese Fähigkeit kopiert alle Werte und Effekte der gewählten Fähigkeit.
-      Wenn nicht anders angegeben, können nur Heldenfähigkeiten (Tableau und Karten)
-      kopiert werden, auch die eigenen. Die kopierte Fähigkeit bestimmt die Reichweite,
-      nicht der eingesetzte AW. <br><br> Beispiel: Hast du eine Weisheitsfähigkeit genutzt,
-      um eine Fernkampffähigkeit zu kopieren, beträgt die Reichweite Fähigkeit 1.Copies
-      effect of another Hero skill including its base color (range). **Dungeon Roll
-      Skills, Equipment Skills and Reactions, unless stated otherwise, cannot be copied.**"
+    description: "Diese Fähigkeit kopiert alle Werte und Effekte der gewählten Fähigkeit. Wenn nicht anders 
+    angegeben, können nur Heldenfähigkeiten (sowohl vom Tableau als auch auf Karten) kopiert werden, auch 
+    die eigenen. Es ist normalerweise nicht möglich Reaktionen oder Unterbrechungen zu kopieren. Die 
+    kopierte Fähigkeit bestimmt die Reichweite, nicht der eingesetzte AW.<br><br>
+    Beispiel: Du nutzt eine Weisheitsfähigkeit mit unbegrenzter Reichweite, die eine andere Fähigkeit 
+    KOPIERT. Du kopierst damit eine Fernkampffähigkeit und die Reichweite beträgt deshalb 1."
   - id: counter-x
-    keyword: "[Wave 2] COUNTER X"
-    description: Aus Wave 2, Übersetzung folgt noch. <br><br> Some Monsters are versed
-      in the art of fencing and know how to take advantage of a Hero's slip-ups when
-      fighting them. Whenever a Hero misses a Weapon Attack against a Monster that has
-      this ability (an attack is only considered a miss after using their reroll abilities),
-      the Monster swings their weapon around, causing the described amount of non-preventable
-      damage to all enemies of the Monster that are adjacent to it.
+    keyword: "KONTER X"
+    description: "Wenn ein Held mit einem Waffenangriff gegen dieses Monster nicht trifft, schlägt es zurück. Alle 
+      angrenzenden Gegner erleiden X nicht-verhinderbaren Schaden. Hinweis: Der Konter kann erst nach etwaigen 
+      WIEDERHOLUNGEN eintreten und findet auch statt, wenn der ursprüngliche Angreifer selbst nicht angrenzend ist."
   - id: cover
     keyword: "ABSICHERN"
     description: Ein Charakter kann diesen Effekt nur dann anwenden, wenn das Ziel angegriffen wird. Der 
@@ -507,13 +498,10 @@ keyword:
       es alle und führt danach eine unfreiwillige Rastaktion durch. Die „noch fehlenden“
       AW werden nach der Rastaktion nicht verbraucht.
   - id: fine
-    keyword: "[Wave 2] FINE"
-    description: "Aus Wave 2, Übersetzung folgt noch. <br><br>Fine is a term created
-      to condense a larger game state into a single word: a Fine character is one who
-      currently has half or more of their maximum Health (rounded up). Fine is the opposite
-      of Wounded. For example, As long as a Hero with 15 maximum Health has 8 or more
-      HP, they are Fine. If they have 7 or less HP, they are Wounded. A Character may
-      be considered both Wounded and Fine when it has exactly half its maximum Health."
+    keyword: "GESUND"
+    description: "Ein Charakter gilt als GESUND, wenn seine aktuellen LP bei der Hälfte 
+    seiner maximalen LP oder darüber liegen. Liegen die aktuellen LP bei genau der Hälfte,
+    ist der Charakter gleichzeitig auch VERWUNDET. "
   - id: fire-trap
     keyword: BRANDFALLE
     description: " Beim Auslösen erleidet jeder Gegner in der Zone 2 nicht-verhinderbaren
@@ -536,7 +524,14 @@ keyword:
       wird auf dem Heldentableau platziert. Gleichzeitig zählt sie aber als Verbrauchsgut.
       Mit der kleinen Aktion „Verbrauchsgut benutzen“ kann sie für diesen Effekt abgeworfen
       werden: SELBST, HEILEN 2. Helden können diese Plättchen mit der kleinen Aktion
-      „Gegenstände austauschen“ abgeben bzw. nehmen."
+      „Gegenstände austauschen“ abgeben bzw. nehmen.<br><br>
+      Änderungen in Erweiterungen „Apokalypse“ und „Erwachen“:<br>
+      Mit der kleinen Aktion „Verbrauchsgut benutzen“ kann sie für diesen Effekt abgeworfen werden: 
+      SELBST, ERHALTE 2 LP ZURÜCK. Dies zählt nicht als HEILEN und profitiert von keinen Boni zu HEILEN-Effekten. 
+      Helden können diese Plättchen wie andere Gegenstände untereinander „tauschen“ (=freie Aktion) und sie belegen nie einen Platz in der Tasche.<br><br>
+      ACHTUNG: Die Klassenfertigkeit Frühlingsknospen der Heldenklasse Druide verstärkt FRUCHT DES LEBENS um „+1 HEILEN“. 
+      Dieser Bonus gilt trotzdem und der Effekttext dieser Fertigkeit lautet ab sofort:<br>
+      WENN DU EINE FRUCHT DES LEBENS BENUTZT: ERHALTE +1 LP ZURÜCK."
   - id: fury
     keyword: WUT
     description: Wenn ein Held mit einem Zauber- oder Waffenangriff trifft, darf er
@@ -545,7 +540,7 @@ keyword:
   - id: heal-x
     keyword: HEILEN X
     description: "Das Ziel erhält X LP zurück. Ein Charakter kann dabei niemals sein
-      aktuelles Maximum überschreiten. Jede überschüssige Heilung geht verloren. "
+      aktuelles Maximum überschreiten. Jede überschüssige Heilung geht verloren."
   - id: heavy-wield
     keyword: "[Wave 2] HEAVY WIELD"
     description: Aus Wave 2, Übersetzung folgt noch. <br><br> Weapons that have the
@@ -589,12 +584,11 @@ keyword:
       Remember, if a Character is immune to a Condition, naturally, such Condition does
       not affect it when it is Inflicted on it.
   - id: inspire
-    keyword: "[Wave 2] INSPIRE"
-    description: Aus Wave 2, Übersetzung folgt noch. <br><br>Representing a morale boost,
-      when a Hero becomes Inspired, they receive an Inspiration token. By discarding
-      one of these tokens (no action required) a Hero can reroll any d20 roll they have
-      just made, taking the second result even if it is lower than the first. Inspiration
-      is a redundant Resource.
+    keyword: "INSPIRATION"
+    description: Das Ziel erhält 1 INSPIRATIONS-Plättchen. Ein Held darf 1 eigenes INSPIRATIONS-Plättchen nach 
+      einem Wurf mit dem W20 abwerfen, um diesen Wurf zu WIEDERHOLEN. Dies ist auch möglich, wenn der 
+      Wurf kein MISSERFOLG war, aber das neue Ergebnis zählt, auch wenn es niedriger ist. INSPIRATION ist eine 
+      redundante Ressource.
   - id: interact
     keyword: INTERAKTION
     description: Interaktionen sind Situationen, die während eines Abenteuers passieren
@@ -736,11 +730,14 @@ keyword:
       Knocked Out in this way."
   - id: large-monster
     keyword: GROßES MONSTER
-    description: Große Monster haben eine Basis von 50 mm und belegen 1 ganze Zone.
+    description: "Große Monster haben eine Basis von 50 mm und belegen 1 ganze Zone.
       Ein großes Monster ist immun gegen NIEDERSCHLAGEN, SCHUBSEN, BETÄUBEN und TELEKINESE.
       Es bewegt sich von Zone zu Zone und kann kleine Monster VERDRÄNGEN und Truhen
       ZERTRÜMMERN. Das zugehörige Symbol befindet sich auf Monsterkarten als Immunität
-      und steht stellvertretend für alle 4 o. g. Immunitäten.
+      und steht stellvertretend für alle 4 o. g. Immunitäten.<br><br>
+      Ergänzung aus Erweiterungen „Apokalypse“ und „Erwachen“:<br>
+      Zusätzlich ist ein großes Monster immun gegen VERNIEDLICHEN und kann Möbel ZERTRÜMMERN. 
+      Auch sind Große Monster unbewegliche Hindernisse."
   - id: learn
     keyword: "[Wave 2] LEARN"
     description: Aus Wave 2, Übersetzung folgt noch. <br><br> During the Campaign, the
@@ -784,23 +781,16 @@ keyword:
       der Rune bestimmt wird. Legt die manifestierte Rune danach zurück in den Beutel,
       sie wird nicht auf die Initiativeleiste gelegt
   - id: mending-x
-    keyword: "[Wave 2] MENDING X"
-    description: Aus Wave 2, Übersetzung folgt noch. <br><br> Monsters with this ability
-      are field doctors in the enemy's service, keeping their allies ready for another
-      round. When this ability is triggered, another weaker Monster (the Monster with
-      the lowest Health at the time) within range 1 of the casting Monster regains X
-      Health (this Health cannot exceed its maximum). If two or more Monsters are tied,
-      the one that occupies the highest color slot on the Monster Status board between
-      them will be the chosen target (yellow is higher than dark blue, for example).
-      If there is no other Monster within Range 1 of the caster, a Monster cannot use
-      Mending on itself.
+    keyword: "LINDERN X"
+    description: Das Monster wählt das schwächste andere Monster in Reichweite 1 als Ziel. 
+      Dieses Monster erhält X LP.  Bei Gleichstand das beteiligte Monster, das in der Reihenfolge 
+      der Monstertableaus „höher“ steht, also „zuerst“ an die Reihe kommt.
   - id: mindlock
-    keyword: "[Wave 2] MINDLOCK"
-    description: Aus Wave 2, Übersetzung folgt noch. <br><br> Monsters with this ability
-      are able to interfere with the Heroes thoughts just by being in their presence.
-      While a Monster with this ability is on the board, no Hero can spend (blue) Wisdom
-      Action Cubes to use Skills. They can still Expend these cubes to take Tie-Breaker
-      Actions, additional Minor Actions, additional Move Actions, and so on.
+    keyword: "GEDANKENSPERRE"
+    description: "Monster mit dieser passiven Fähigkeit schränken eure Helden ein. Solange sich 
+      mindestens 1 Monster mit GEDANKENSPERRE auf dem Spielplan befindet: Eure Helden dürfen KEINE 
+      blauen Weisheitswürfel verwenden, um Fähigkeiten zu aktivieren. Ihr dürft sie weiterhin VERBRAUCHEN, 
+      z. B. für eine weitere kleine Aktion (→ S. 23) oder eine zusätzliche Bewegung."
   - id: most-corrupted-hero
     keyword: DER VERDORBENSTE HELD
     description: Der Held mit den aktuell meisten FW. Bei Gleichstand der beteiligte
@@ -1013,11 +1003,11 @@ keyword:
       FW) als primäres Ziel. Bei Gleichstand den beteiligten Held, der zuerst in der
       Runde drankommt.
   - id: regain-x-health
-    keyword: "[Wave 2] REGAIN X HEALTH"
-    description: Aus Wave 2, Übersetzung folgt noch. <br><br> The target recovers X
-      Health. A Character can never gain more Health than their maximum value. Any excess
-      Health is lost. Since this effect is not bound to the Keyword HEAL, your Hero
-      does not receive any bonus from “HEAL +X” abilities.
+    keyword: "LP (ZURÜCK) ERHALTEN X"
+    description: "Das Ziel „gewinnt“ X Lebenspunkte hinzu. Dieser Effekt folgt denselben Regeln wie 
+      HEILEN: keine Überschreitung der Maximalen LP (außer bei Kommandanten u. Ä.), definiertes Ziel, 
+      Stärke mit X angeben etc.<br><br>
+      Achtung: LP ERHALTEN zählt nicht als HEILEN und profitiert darum nicht von entsprechenden Boni."
   - id: regain-your-breath
     keyword: WIEDER ZU ATEM KOMMEN
     description: Ein Held der ohnmächtig ist, kommt zu Beginn seines Zuges wieder zu
@@ -1075,17 +1065,12 @@ keyword:
       it will still remove 1 charge from the Interaction token (unless it is a Recurring
       Interaction or the effect itself specifies otherwise, of course)."
   - id: restrain
-    keyword: "[Wave 2] RESTRAIN"
-    description: Aus Wave 2, Übersetzung folgt noch. <br><br> Characters with the Restrain
-      ability are armed with natural or artificial restraints and can use this ability
-      to always keep their opponents within range. When a Character is Restrained by
-      an enemy, they receive a Restrain token and cannot leave the space they occupy
-      as long as they hold it. A Character may discard their Restrain token when there
-      are no more enemies with the ability to Restrain them within Range 1. Restrain
-      is a redundant Condition. <br><br>**NOTE:** Characters who are Restrained are
-      able to leave their space through a Swap effect. When this is the case, the Object
-      swapping with the Restrained Character takes its Restrain token. If this target
-      is not a Character, the Restrain effect ends.
+    keyword: "FESTHALTEN"
+    description: "Das Ziel erhält 1 FESTHALTEN-Plättchen. Solange ein Charakter ein solches Plättchen besitzt, 
+      darf er sein Feld nicht verlassen (Ausnahme: TAUSCHEN, siehe unten). Dieser Zustand endet automatisch, sobald 
+      sich kein Monster mit FESTHALTEN in Reichweite 1 befindet. FESTHALTEN ist ein redundanter Zustand.<br><br> 
+      Ausnahme: Ein FESTGEHALTENER Charakter darf den PLATZ mit einem anderen Charakter TAUSCHEN. In diesem Fall 
+      bleibt das FESTHALTEN-Plättchen auf dem Feld und wird sozusagen „mitgetauscht“. Es hält ab sofort den „anderen“ Charakter fest."
   - id: retaliate-x
     keyword: ZURÜCKSCHLAGEN X
     description: Fügt dem Ziel (dem Angreifer) sofort X Schaden zu. Ein Held kann nur
@@ -1172,12 +1157,14 @@ keyword:
       der aktuellen Bewegung. LANGSAM ist ein redundanter Zustand.
   - id: solid-objects
     keyword: HINDERNISSE
-    description: "Wenn nicht anders angegeben, gelten alle Charaktere, Truhen- oder
-      Interaktionsplättchen, Runen, NSC-Plättchen und jedes andere spezielle Objekt
-      auf dem Spielplan als Hindernis. Charaktere können Felder mit Hindernissen nur
-      betreten, wenn sie verbündet mit ihnen sind. Sie können ihre Bewegung darauf
-      jedoch nicht beenden.<br><br>Ausnahme: Große Monster können Truhen zertrümmern
-      und kleine Monster verdrängen."
+    description: "Hindernisse blockieren, wie schon ihr Name vermuten lässt, das bzw. die Felder, die sie belegen. 
+      Das bedeutet gleichzeitig, dass nicht 2 (oder mehr) Hindernisse dasselbe Feld belegen dürfen.<br><br>
+      Die einzige Ausnahme ist eine „temporäre“ Situation, wie z. B. ein Charakter, der sich durch einen Verbündeten 
+      bewegt, ein Charakter, der „über“ ein Hindernis SPRINGT oder ein großes Monster, das andere Hindernisse 
+      ZERTRAMPELT bzw. VERDRÄNGT. Am Ende eines „Effekts“ darf sich auf jedem Feld nur noch 1 Hindernis befinden. 
+      Zu den Hindernissen zählen:<br><br>
+      Charaktere, Truhen, Möbelstücke, Runenstapel, Interaktionsplättchen jeder Art und alle Objekte, die per Anweisung 
+      als „Hindernis“ deklariert sind."
   - id: soul-shard
     keyword: "[Wave 2] SOUL SHARD"
     description: Aus Wave 2, Übersetzung folgt noch. <br><br> By confining a fragment
@@ -1462,14 +1449,12 @@ keyword:
       “Taint”. They may choose for each Pet with this trait whether or not to do so,
       paying the Taint cost for each one individually.
   - id: versatile
-    keyword: "[Wave 2] VERSATILE"
-    description: Aus Wave 2, Übersetzung folgt noch. <br><br> Equipment that is Versatile
-      can be handled in two different ways by its user. When you first receive this
-      double-sided Equipment card, you can choose which face you want to use. From then
-      on, as a Minor Action, you can flip the card over if there are no Action Cubes
-      occupying any of its slots. You can even flip a card that is in your bag. <br><br>**NOTE:**
-      If you flip a Versatile Equipment to a face with an Equipment type that you are
-      not proficient in, you must immediately Unequip that card.
+    keyword: "FLEXIBEL"
+    description: Ausrüstung mit diesem Zusatz ist immer zweiseitig. In dem Moment, in dem du einen solchen 
+      Gegenstand erhältst, kannst du frei bestimmen, welche Seite „oben“ liegt. Zusätzlich kannst du einen solchen 
+      Gegenstand in deinem Besitz mit einer kleinen Aktion umdrehen, solange kein AW darauf liegt, auch in 
+      deiner Tasche. Wenn du eine ausgerüstete Ausrüstung umdrehst und sie danach nicht mit deiner „Erlaubten 
+      Ausrüstung“ übereinstimmt, legst du sie automatisch ab und musst sie in deiner Tasche verstauen.
   - id: vicious
     keyword: GRAUSAM
     description: Die Angriffe dieses Monsters fügen nicht-verhinderbaren Schaden zu.
@@ -1500,13 +1485,15 @@ keyword:
       wird zu „EIN ANGRENZENDER CHARAKTER, Effekt“. Wenn die entsprechende Fähigkeit mit einem TW 
       oder FW blockiert wird, verliert der Held das Merkmal."
   - id: warlock-(trait)
-    keyword: "[Wave 2] WARLOCK (TRAIT)"
-    description: Aus Wave 2, Übersetzung folgt noch. <br><br> Bargaining with the Darkness,
-      Warlocks flirt with corruption in exchange for power. As long as the Otherwordly
-      Pact Skill is not blocked, they receive their Curse Cubes as if they were Action
-      Cubes, and when they spend them, these are treated as Wild Cubes. Once spent,
-      these cubes become conventional Curse Cubes again, and are removed only through
-      Cleanse effects.
+    keyword: "HEXER (MERKMAL)"
+    description: "Ein Held mit diesem MERKMAL hat dieselbe Eigenschaft wie die Heldenklasse Hexenmeister. 
+      Wenn ein Hexer FW erhält, legt er sie zu seinen verfügbaren AW. Er darf sie wie einen AW einsetzen 
+      und sie zählen als eigene „Farbe“ von AW mit, wenn ihre Anzahl relevant ist (z. B.: für Rastaktionen). 
+      Gleichzeitig sind sie jedoch weiterhin FW und zählen für das Limit von FW, die ein Held besitzen darf.<br><br>
+      Der HEXER darf diese „verfügbaren FW“ dann als JOKERWÜRFEL einsetzen (auch auf Ausrüstung). Danach 
+      werden sie wieder zu „regulären“ FW und blockieren die entsprechende Fähigkeit. Sie dürfen dann nur durch 
+      REINIGEN oder direkte Anweisung entfernt werden, nicht durch eine Rastaktion.<br><br>
+      Wenn die entsprechende Fähigkeit mit einem TW oder FW blockiert wird, verliert der Held das Merkmal." 
   - id: weakest-hero
     keyword: DER SCHWÄCHSTE HELD
     description: Der Held mit den aktuell wenigsten LP. Bei Gleichstand der beteiligte
@@ -1524,12 +1511,10 @@ keyword:
       (ohne Modifikation): Kritischer Treffer. Der Angrifft trifft automatisch und verursacht
       doppelten Schaden inklusive Bonusschaden; Kollateraleffekte werden nicht verdoppelt."
   - id: wild-copy
-    keyword: "[Wave 2] WILD COPY"
-    description: Aus Wave 2, Übersetzung folgt noch. <br><br> To copy an ally's effect
-      is one of the most rewarding AoD experiences. And, you'll be able to do it with
-      preeminence from now on! An effect that Wild Copies a Skill applies the same effects
-      as a Copy, but it doubles all the numbers written in its numerical form, as would
-      have happened if those effects had been cast by spending a Wild Cube.
+    keyword: "KOPIEREN MIT JOKER"
+    description: Dieser Sonderfall von KOPIEREN behandelt die kopierte Fähigkeit so, als 
+      würde sie mit einem → JOKERWÜRFEL aktiviert werden. Das heißt, dass alle numerischen 
+      Werte aller Effekte dieser Fähigkeit verdoppelt sind. 
   - id: wild-cube
     keyword: JOKERWÜRFEL
     description: "Wenn 1 AW als Jokerwürfel benutzt wird, hat er in diesem Moment alle
