@@ -63,7 +63,7 @@ keyword:
     keyword: ANGRENZEND
     description: Felder und Zonen sind angrenzend, wenn sie eine gemeinsame Ecke oder
       Kante haben. Wenn dieser Begriff als Angabe direkt vor dem eigentlichen Effekt
-      einer Fähigkeitn steht, kann der Effekt kann nur Ziele betreffen, die sich angrenzend
+      einer Fähigkeit steht, kann der Effekt nur Ziele betreffen, die sich angrenzend
       zum ausführenden Charakter befinden.
   - id: area
     keyword: Zone
@@ -77,20 +77,21 @@ keyword:
       Charakter und dessen erhaltenen Schaden, nicht den Angreifer. <br>Beispiel: Bei einem
       FLÄCHENSCHLAG wird nur der Schaden verhindert, den das Ziel erleidet. Nicht der
       gesamte Schaden des Angriffs bei allen Zielen.<br>
-      Hat der ausführende Held einen Bonus auf VERHINDERN? Dann wird dieser zusätzlich hinzugezählt. „ALLEN SCHADEN BIS AUF 1“ wird damit zu „ALLEN SCHADEN“."
+      Hat der ausführende Held einen Bonus auf VERHINDERN? Dann wird dieser zusätzlich hinzugezählt. 
+      „ALLEN SCHADEN BIS AUF 1“ wird damit zu „ALLEN SCHADEN“."
   - id: ambush
     keyword: HINTERHALT
     description: Wenn ihr ein Monster mit HINTERHALT aktiviert, entfernt ihr es kurzzeitig
       vom Spielplan und bestimmt das Ziel in unbegrenzter Reichweite. Dann wählt derjenige
       von euch, dessen Held (oder dessen Gefährte/Begleittier) das Ziel des Monsters
       ist, ein zum Ziel angrenzendes freies Feld. Dort wird das Monster sofort platziert.
-      Diese „Bewegung“ gilt als SPRUNG.
+      Dieses „Versetzen“ gilt als SPRUNG.
   - id: attack-twice
-    keyword: "[Wave 2]ATTACK TWICE"
-    description: Aus Wave 2, Übersetzung folgt noch. <br><br> Monster moves once then
-      attacks two times. Each attack is resolved separately (includes reactions). If
-      character is out of range between attacks, the monster may choose another target
-      for second attack as long it doesn't have to move.
+    keyword: DOPPELANGRIFF
+    description: Ein Monster mit diesem Effekt bewegt sich zuerst und greift danach 2x an. Die Angriffe 
+      finden einzeln statt und zählen als eigene Bedrohung für REAKTIONEN und UNTERBRECHUNGEN. <br>
+      Bewegt sich das Ziel nach dem 1. Angriff außer Reichweite, wählt das Monster ein neues primäres Ziel 
+      für seinen 2. Angriff. Es kann sich jedoch nicht bewegen.
   - id: aura
     keyword: AURA
     description: Eine Aura ist die Konsequenz einer Interaktion oder eines Ereignisses,
@@ -99,71 +100,58 @@ keyword:
       Aura gleichzeitig haben. Sie wird entfernt, wenn der Held eine neue Aura erhält
       (sie ersetzt die alte) oder der Held 1 TW erhält.
   - id: aura-(token)
-    keyword: "[Wave 2] AURA (TOKEN)"
-    description: Aus Wave 2, Übersetzung folgt noch. <br><br> As a Resolution effect,
-      a Hero is often instructed to write down an Aura on their Campaign Log or Companion
-      App. You can keep this token on your board as a tactile and visual reminder that
-      you have a special effect noted there. Aura tokens are Reminder tokens and were
-      introduced in Apocalypse.
+    keyword: "AURA (PLÄTTCHEN)"
+    description: AURA-Plättchen dienen als Merker, dass ihr eine Aura erhalten habt. 
+      Ihr könnte diese als Erinnerung euren Heldentableus platzieren. 
   - id: available
-    keyword: "[Wave 2] AVAILABLE"
-    description: Aus Wave 2, Übersetzung folgt noch. <br><br> Available refers more
-      to a game term than necessarily a Keyword. An Available Skill, for example, is
-      a Skill learned by a Hero that does not have its slot currently occupied (either
-      by an Action Cube, Curse Cube, or Trauma Cube). An Available Resolution, in turn,
-      is a Resolution that has not yet been chosen in a Charged Interaction or has not
-      been declared “unavailable” by some effect.
+    keyword: VERFÜGBAR
+    description: Verfügbare AW liegen auf euren Heldentableaus und können verbraucht oder benutzt 
+      werden.  Eine Fähigkeit ist „verfügbar“, wenn sie erlernt ist und mindestens 1 ihrer „Felder“ frei ist. 
+      Bei Interaktionsszenen können Auflösungen wiederum dafür sorgen, dass bestimmte Optionen → NICHT MEHR VERFÜGBAR sind.
   - id: avoid
-    keyword: "[Wave 2] AVOID"
-    description: Aus Wave 2, Übersetzung folgt noch. <br><br> Avoid is not properly
-      a Keyword, however, it is a new term in relation to the Corebox, so it is worth
-      clarifying. “Avoid” is used to indicate that you do not suffer some effect, much
-      as PREVENT would, but since PREVENT is a Keyword, the adoption of a different
-      term is necessary.
+    keyword: IGNORIEREN
+    description: Neben VERHINDERN, das als Effekt direkt mit SCHADEN interagiert, gibt es noch weitere 
+      Möglichkeiten, um Effekten „aus dem Weg“ zu gehen. Um dies anzuzeigen, verwenden wir zumeist das Wort 
+      „ignorieren“, es ist jedoch kein Schlüsselwort, mit dem bestimmte Regeln verbunden sind. Es bedeutet schlicht, 
+      dass etwas ignoriert wird und nicht zum Tragen kommt.
   - id: bash
-    keyword: "[Wave 2] BASH"
-    description: Aus Wave 2, Übersetzung folgt noch. <br><br> Bash is a trait characteristic
-      of the Hero Andreas. Whenever a Skill has Bash, at the moment you are about to
-      resolve the effect containing the Bash Keyword, you may discard 2 Shield tokens.
-      If you do, add the effect described between the “[]” to your Skill resolution.
-      Otherwise, you must resolve that Skill without considering it a part of the effect.
+    keyword: "PRÜGELN [EFFEKT]"
+    description: PRÜGELN ist an den Held Andreas (aus der Erweiterung Erwachen) gekoppelt und wird 
+      immer von einem weiteren [EFFEKT] in eckigen Klammern begleitet. Dieser „eingeklammerte“ Zusatzeffekt 
+      wird nur dann angewendet, wenn der Held Andreas in diesem Moment 2 eigene SCHILD-Plättchen abwirft. 
+      Verzichtet er darauf oder hat er nicht genug SCHILD-Plättchen, finden nur die restlichen Effekte statt 
+      und der [EFFEKT] entfällt.
   - id: bear-trap
     keyword: BÄRENFALLE
     description: Beim Auslösen erleidet jeder Gegner in dieser Zone 2 nicht-verhinderbaren
       Schaden und BLUTEN 2
   - id: beginning-of-turn-(bot)
-    keyword: "[Wave 2] BEGINNING OF TURN (BOT)"
-    description: Aus Wave 2, Übersetzung folgt noch. <br><br> BOT is an abbreviation
-      used to describe the “Beginning of Turn” moment of time, when some Characters’
-      special abilities are triggered, right after they suffer the effects of the Conditions
-      they possess that also trigger at the beginning of their turn.
+    keyword: "Beginn des Zuges (BDZ)"
+    description: Die Abkürzung BDZ für „Beginn des Zuges“ wird aus Platzgründen eingesetzt. 
+      Ein Spielzug beginnt immer damit, dass zuerst die Zustände abgehandelt werden, erst 
+      danach folgen etwaige Effekte zu BDZ.
   - id: bleed-x
     keyword: BLUTEN X
     description: Das Ziel erhält X BLUTEN-Plättchen. Zu Beginn seines nächsten Zuges
       erleidet es 1 nicht-verhinderbaren Schaden für jedes dieser Plättchen. Danach
       entfernt ihr alle diese BLUTEN-Plättchen. BLUTEN ist ein stapelbarer Zustand.
   - id: blindness
-    keyword: "[Wave 2] BLINDNESS"
-    description: Aus Wave 2, Übersetzung folgt noch. <br><br> This is a special ability
-      that a few Monsters possess and that turns them into very dangerous enemies. When
-      a Character suffers BLINDNESS, they must take a BLIND token and keep it on their
-      board. While holding a BLIND Token, the Character automatically misses any weapon
-      attack if their natural d20 roll is 10 or lower, even if they have succeeded on
-      their Weapon's Accuracy check. BLINDNESS is a Redundant Condition that lasts until
-      the Character takes a Recall Action or it is removed by a CLEANSE effect.
+    keyword: "BLENDEN"
+    description: "Das Ziel erhält 1 GEBLENDET-Plättchen. Solange ein Charakter geblendet ist, 
+      zählen seine Angriffswürfe bei bei 10 oder weniger als misslungen und treffen nicht. 
+      Die Genauigkeit der Waffe ist in diesem Fall irrelevant, es zählt nur der W20. Wenn 
+      ein anderer Effekt zeitgleich einen kritischen Treffer erzeugt, zählt der Angriff als 
+      kritischer Treffer. GEBLENDET ist ein redundanter Zustand.<br><br>
+      Achtung: GEBLENDET bleibt so lange bestehen, bis der Zustand durch REINIGEN entfernt wird oder der 
+      betroffene Charakter eine Rastaktion durchführt."
   - id: bloodseeker
     keyword: BLUTSUCHER
     description: Dieses Monster wählt den schwächsten Helden (mit den aktuell wenigsten
       LP) als primäres Ziel. Bei Gleichstand den beteiligten Held, der zuletzt in der
       Runde drankommt.
   - id: bounty
-    keyword: "[Wave 2] BOUNTY"
-    description: Aus Wave 2, Übersetzung folgt noch. <br><br> Bounty replaces and updates
-      the “LOOT” Keyword that Companions had in Age of Darkness. Therefore, when a Monster
-      is defeated by an attack that has BOUNTY, that Monster drops a LOOT token when
-      removed from the board (LOOT tokens are Ground Movable Objects that can be collected
-      with a Minor Action; when collecting Loot, a Hero draws a Chest card, but does
-      not roll the Trap Die).
+    keyword: "ERBEUTEN"
+    description: Wenn ein Charakter mit diesem Kollateraleffekt ein Monster besiegt, lässt dieses 1 BEUTE-Plättchen fallen.
   - id: brittle
     keyword: "[Wave 2] BRITTLE"
     description: Aus Wave 2, Übersetzung folgt noch. <br><br> Some attacks are capable
@@ -206,15 +194,15 @@ keyword:
       of a Skill activated using a Wild Cube is based on its Type (i.e., a Melee Skill
       activated through a Wild Cube still has Melee Range).
   - id: chain-up
-    keyword: "[Wave 2] CHAIN-UP"
-    description: Aus Wave 2, Übersetzung folgt noch. <br><br> Monsters with this skill
-      specialize in capturing Heroes. At the beginning of their turn, immediately after
-      suffering the effects of any Condition that might be affecting them, a Monster
-      with Chain-Up targets the Strongest Hero who is not adjacent and within Range
-      1 (if there is such a Hero). That Hero suffers 2 non-preventable damage and is
-      dragged to an empty square of their choice that is adjacent to the Monster with
-      Chain-Up. If there is no space for them, the Hero suffers 4 non-preventable damage
-      instead of 2, but they are not dragged.
+    keyword: "EINFANGEN"
+    description: Diese Monsterfähigkeit löst zu Beginn des Zugs aus, direkt nachdem 
+      ihr die Zustände des Monsters abgehandelt habt. Das Monster wählt den stärksten 
+      Helden (mit den aktuell meisten LP) in Reichweite 1 als Ziel dieser Fähigkeit. 
+      Das Ziel erleidet 2 NICHT-VERHINDERBAREN Schaden und wird außerdem an das Monster 
+      „herangezogen“. Das Ziel muss seine Miniatur auf ein zum Monster angrenzendes freies 
+      Feld stellen und betritt dieses Feld damit. Die Felder „auf dem Weg dorthin“ werden 
+      nicht betreten. Gibt es kein zum Monster angrenzendes freies Feld? Dann bleibt das Ziel 
+      an seinem Platz stehen und erleidet stattdessen 4 NICHT-VERHINDERBAREN Schaden.
   - id: channel
     keyword: "[Wave 2] CHANNEL"
     description: Aus Wave 2, Übersetzung folgt noch. <br><br> As long as a Skill with
@@ -224,10 +212,10 @@ keyword:
       Skill that generated it. It lasts until this Action Cube is recalled.
   - id: character
     keyword: CHARAKTER
-    description: Helden, Begleittiere, Gefährten, NSC-Plättchen und Monster gelten als
-      Charaktere. Alle Charaktere können das Ziel von Soforteffekten wie z. B. VERHINDERN
-      sein. Aber nur Charaktere mit Karten oder Tableaus können Zustands- oder Ressourcenplättchen
-      erhalten!
+    description: Helden und ihre Verbündeten (z. B. Begleittiere), NSC-Plättchen und Monster gelten 
+      als Charaktere. Alle Charaktere können das Ziel von Soforteffekten wie z. B. VERHINDERN sein, 
+      aber nur Charaktere mit Karten oder Tableaus können Zustands- oder Ressourcenplättchen erhalten!
+      Wenn nicht anders angegeben, zählen Charaktere als bewegliche Hindernisse (Ausnahme GROẞES MONSTER).
   - id: charge
     keyword: "[Wave 2] CHARGE"
     description: "Aus Wave 2, Übersetzung folgt noch. <br><br> Some Monsters have the
@@ -253,16 +241,15 @@ keyword:
       damage is applied as normal). Darkness damage boost, as well as damage reducers
       like Intimidate, are counted after this base value has been determined."
   - id: claim
-    keyword: "[Wave 2] CLAIM"
-    description: Aus Wave 2, Übersetzung folgt noch. <br><br> Claim is a typical Warlord
-      effect, representing their ability to coordinate the assaults of their allies.
-      When a Hero uses Claim, they place (or replace) the Banner on an empty square
-      that is adjacent to them. While under the influence of a Banner, as a Minor Action,
-      a Hero may discard an INSPIRATION token to make a Weapon Attack of +0 HIT. For
-      rules purposes, all squares that are adjacent to a Banner are considered “Under
-      the Banner”. Finally, Banners are Movable Solid Objects considered Furniture and,
-      therefore, can be crushed by Large Monsters and cause 2 DMG AND BLEED 2 if they
-      are thrown at a Character.
+    keyword: "BANNER / BEANSPRUCHEN / EINFLUSSBEREICH"
+    description: "Der Held darf den Aufsteller BANNER auf 1 angrenzendes freies Feld platzieren. 
+      Befindet sich das BANNER bereits im Spiel, wird es auf 1 angrenzendes freies Feld versetzt.<br>
+      Die bis zu 8 angrenzenden Felder zum BANNER sind „im Einflussbereich“ des Banners und erlauben 
+      euren Helden eine besondere kleine Aktion: <br>Wenn ein Held sich im Einflussbereich des BANNERS 
+      befindet, darf er eine kleine Aktion ausführen. Dafür muss er 1 eigenes INSPIRATIONS-Plättchen abwerfen, 
+      und darf dann einen Waffenangriff +0 TRF machen. <br>BANNER sind bewegliche Hindernisse und zählen 
+      als Möbelstück. Große Monster zertrümmern sie und ihr könnt BANNER, wie andere Möbelstücke, mit 
+      einer kleinen Aktion „auf“ 1 Charakter werfen. Dabei verursachen sie 2 SCHADEN UND BLUTEN 2."
   - id: cleanse-x
     keyword: REINIGEN X
     description: "Das Ziel entfernt bis zu X seiner FW. Zusätzlich entfernt es alle
@@ -274,36 +261,40 @@ keyword:
       all the points the same way."
   - id: cleave-x
     keyword: SPALTEN X
-    description: Dieser Angriff kann bis zu X Gegner zum Ziel haben. Alle Ziele müssen
+    description: Dieser Angriff kann bis zu X Gegner zum Ziel haben. Alle Ziele müssen unterschiedlich und
       angrenzend zum Angreifer sein (sie müssen aber nicht angrenzend zueinander sein).
       Helden führen dabei nur 1 Angriffswurf durch und wenden das Ergebnis auf alle
       Ziele an (Höhenunterschiede für jedes Ziel einzeln beachten!).
   - id: command
     keyword: BEFEHLIGEN
-    description: Dieses Monster aktiviert sofort 1 anderes Monster. Es wählt dafür
+    description: "Dieses Monster aktiviert sofort 1 anderes Monster. Es wählt dafür
       das stärkste andere Monster (außer sich selbst) und das aktivierte Monster führt
       seinen Zug sofort „außer der Reihe“ aus, mit allen Konsequenzen. Das Initiativeplättchen
       bewegt sich dabei nicht. Danach setzt das befehligende Monster seinen Zug fort.
-      <br><br> Befindet sich kein anderes Monster auf dem Spielplan, hat BEFEHLIGEN
-      keine Auswirkung.
+      <br><br> Befindet sich kein anderes Monster bzw. sonst nur einen Boss auf dem Spielplan, hat BEFEHLIGEN
+      keine Auswirkung.<br><br>
+      Ergänzung aus Erweiterungen „Apokalypse“ und „Erwachen“:<br>
+      Wenn Helden BEFEHLIGEN, ist davor immer das direkte Ziel angegeben: → DRAUGR (BEFEHLIGEN); → BEGLEITTIER (BEFEHLIGEN)."
   - id: command-a-draugr
-    keyword: "[Wave 2] COMMAND A DRAUGR"
-    description: Aus Wave 2, Übersetzung folgt noch. <br><br> To Command a Draugr means
-      to activate a Draugr of your choice that is already on the board. Unlike other
-      Pets, Draugrs cannot be “Raised” through a “Command” effect or vice-versa. For
-      them, these effects act independently. Other than this detail, Draugrs follow
-      the same rules as a Pet when it comes to their turns and for other rules purposes.
+    keyword: "BEFEHLIGE EINEN DRAUGR"
+    description: Nur die Heldenklasse Nekromant darf diese besonderen „untoten Begleittiere“ verwenden. 
+      Sie zählen zwar als Begleittiere und verfügen über eine entsprechende Karte, aber nur die spezifischen 
+      Effekte „BEFEHLIGE EINEN DRAUGR“ und „BESCHWÖRE EINEN DRAUGR“ nehmen Einfluss auf sie und beide Effekte 
+      sind voneinander getrennt.<br> 
+      Wenn ein Held EINEN DRAUGR BEFEHLIGT, darf er 1 Draugr im Spiel wählen, der sofort einen vollständigen 
+      Spielzug ausführt, wie bei AKTIVIERE BEGLEITTIER. BEFEHLIGEN darf jedoch keinen Draugr neu beschwören, 
+      sondern nur einen bereits im Spiel befindlichen Draugr „aktivieren“.<br>
+      Falls ein Held mehrmals BEFEHLIGT, darf er jedes Mal 
+      denselben Draugr wählen, wenn gewünscht.
   - id: command-a-pet
-    keyword: "[Wave 2] COMMAND A PET"
-    description: Aus Wave 2, Übersetzung folgt noch. <br><br> Command a Pet is an effect
-      similar to Activate a Pet, with the restriction that it can never be used to invoke
-      a Pet on the board. So, when you Command a Pet you have summoned, you must choose
-      a Pet that is already on the board and that is affiliated with you to Activate.
-      An activation through this effect consists of a Move Action followed by a normal
-      Attack Action. Similarly, any Conditions that this Pet has at the time it is activated
-      are triggered. If another effect that allows you to summon a Pet on the board
-      is triggered at the same time you would Command a Pet, you can choose to resolve
-      it first
+    keyword: "BEFEHLIGE BEGLEITTIER"
+    description: "Dieser Effekt erlaubt es 1 eigenes Begleittier zu wählen, das sofort einen 
+      vollständigen Spielzug ausführt, ähnlich wie bei AKTIVIEREN. Es gibt jedoch einen Unterschied 
+      zu AKTIVIEREN: BEFEHLIGEN kann kein neues Begleittier beschwören! Er kann stets nur ein Begleittier 
+      als Ziel haben, dass sich bereits auf dem Spielplan befindet.<br>
+      Hinweis: Findet dieser Effekt zeitgleich mit einem anderen Effekt statt, der das Beschwören 
+      eines Begleittiers (z. B. BESTE FREUNDE auf Mayas Heldentableau) erlaubt? Dann kann das Begleittier 
+      zuerst aktiviert (beschworen) und danach direkt befehligt werden."
   - id: companions
     keyword: GEFÄHRTEN
     description: Gefährten besitzen eine eigene Karte und können Plättchen (z. B. Schild
@@ -457,15 +448,14 @@ keyword:
       Empower effect is only applied to the first of them (Cleave is a single hit that
       affects two or more targets, so this bonus applies to all of them).
   - id: end-of-turn-(eot)
-    keyword: "[Wave 2] END OF TURN (EOT)"
-    description: "Aus Wave 2, Übersetzung folgt noch. <br><br>EOT is an abbreviation
-      used to describe the “End of Turn” moment of time, when some effects are triggered,
-      such as those that last until the end of the Character’s turn. The End of Turn
-      is exactly the last thing that happens in a turn, before the Initiative 81 Marker
-      is moved forward: it triggers right after a Hero has completed all their Actions
-      and chooses whether or not to take a Willing Recall Action. If some effect triggers
-      because of this Recall Action, the End of Turn occurs immediately after the resolution
-      of that effect"
+    keyword: "Ende des Zuges (EDZ)"
+    description: "Diese Abkürzung für „Ende des Zuges“ wird einige Male verwendet, 
+      um den Zeitpunkt eines Effekts zu definieren und dabei Platz zu sparen. Er stellt den 
+      letztmöglichen Zeitpunkt in einem Spielzug dar.<br><br>
+      Nachdem ein Held seine Würfelaktionen und kleinen Aktionen durchgeführt hat, endet sein Spielzug. 
+      In diesem Moment kann er noch eine Rastaktion durchführen, wenn die Voraussetzung dafür erfüllt ist. 
+      Nach dieser Rastaktion und allen verbundenen Effekten bzw. nach der Entscheidung keine Rastaktion 
+      durchzuführen, kommt es zu den Effekten, die am EDZ stattfinden."
   - id: enemy
     keyword: GEGNER
     description: Monster betrachten Helden und ihre Verbündeten als Gegner, ihr betrachtet
@@ -486,15 +476,12 @@ keyword:
       second attack made on its activation may do more damage, since this Monster may
       receive a +1 DMG token as a result of the first attack.
   - id: entropy
-    keyword: "[Wave 2] ENTROPY"
-    description: "Aus Wave 2, Übersetzung folgt noch. <br><br>Specialists in spellcasting
-      can bring about miraculous transformations in their spells by releasing large
-      amounts of energy. Whenever they do, the energy oscillation resulting from this
-      process generates what we call Arcane Entropy, or just Entropy. When a Hero has
-      4 of these tokens, they can discard them to provoke an Entropy Burst and do one
-      of two things: As a Minor Action, to gain an additional Cube Action this turn;
-      Or to gain an additional Reaction against the current Threat. Entropy is a stackable
-      Resource token."
+    keyword: "ENTROPIE"
+    description: "Das Ziel erhält 1 ENTROPIE-Plättchen und ENTROPIE ist eine stapelbare Ressource.<br><br> 
+      Sobald ein Held 4 ENTROPIE-Plättchen besitzt, kann er alle 4 auf einmal abwerfen und damit einen „Ausbruch“ auslösen. 
+      Er darf dies in seinem eigenen Spielzug als kleine Aktion tun und dafür in diesem Spielzug 1 weitere Würfelaktion durchführen.<br><br>
+      Alternativ darf ein Held auch alle 4 auf einmal abwerfen, damit er gegen dieselbe Bedrohung eine weitere Reaktion (³) durchführen darf,
+      also entweder „2 Reaktionen“ oder „Unterbrechung + Reaktion“."
   - id: evolve
     keyword: ENTWICKELN
     description: Das Monster wird stärker und erhält +2 SCHADEN und +1 BEWEGUNG. Legt
@@ -712,15 +699,13 @@ keyword:
       board (as happens if Special Mechanic - Shared Lifeline is in progress, for example),
       the attack is not considered a Killing Blow.
   - id: keen
-    keyword: "[Wave 2] KEEN"
-    description: "Aus Wave 2, Übersetzung folgt noch. <br><br> In this second generation,
-      we have replaced the Keyword CRIT 16+ with “Keen”. The effect remains the same:
-      If you roll a natural 16 or more on the d20, you score a Critical Hit. With the
-      introduction of Upgrade Skills and the Warlock Trait update, interactions with
-      Wild Cubes will be more common, and doubling the numeric value “16+” (supposedly
-      to “CRIT 32+”) is aesthetically displeasing as well as representing a detriment
-      to the Skill rather than a benefit. Thus, we deemed it appropriate to turn this
-      benefit into a Keyword to avoid this problem."
+    keyword: "BEGABT"
+    description: "Dieser Effekt ersetzt „KRITISCH BEI 16+“ und verändert das notwendige Würfelergebnis 
+      für einen kritischen Treffer. Zeigt der Angriffswurf 16+ (ohne etwaige Modifikatoren), ist es ein kritischer Treffer. 
+      Wenn ein Zauberangriff BEGABT erhält, werft ihr ebenfalls den W20 bei diesem Angriff. Auch dann führt 16+ zu einem 
+      kritischen Treffer und verdoppelt den gesamten Schaden des Angriffs. Es handelt sich jedoch nicht um einen Angriffswurf 
+      und der Zauberangriff trifft immer.<br>
+      Hinweis: Diese Anpassung sorgt dafür, dass ein JOKERWÜRFEL den zugrunde liegenden Effekt nicht mehr „verschlechtert“. "
   - id: knock-down
     keyword: NIEDERSCHLAGEN
     description: Das Ziel erhält 1 NIEDERSCHLAGEN-Plättchen und das Plättchen bleibt
@@ -774,13 +759,12 @@ keyword:
       cannot Learn a Class Ability of Level 2 or 3 if they have not learned a Class
       Ability of Level 1 or 2 (respectively) belonging to that same Class Tree.
   - id: loot-(tokens)
-    keyword: "[Wave 2] LOOT (TOKENS)"
-    description: "Aus Wave 2, Übersetzung folgt noch. <br><br> Loot tokens are Movable
-      Ground Objects that can be picked up by Heroes who are adjacent to or on top of
-      them with a Minor Action. When they do, they draw the top card of the Chest deck,
-      but do not have to roll the Trap Die: Loot is always safe. Like a Chest, the moment
-      a Hero draws a Consumable Item, they can choose to use it immediately as a free
-      action. Otherwise, they keep that card in their bag."
+    keyword: "BEUTE-PLÄTTCHEN"
+    description: "Diese neuen Plättchen sind bewegliche Bodenobjekte. Eure Helden können sie 
+      mit einer kleinen Aktion „einsammeln“, wenn sie angrenzend oder auf dem Feld selbst stehen.<br> 
+      Wenn ein Held ein solches Plättchen einsammelt, entfernt ihr es vom Spielplan. Dieser Held zieht dafür 
+      sofort die oberste Karte vom Truhenstapel. Wie bei einer „sicheren Truhe“ müsst ihr dabei nicht den Fallenwürfel 
+      werfen. Wie bei Truhen könnt ihr ein gezogenes Verbrauchsgut sofort benutzen."
   - id: loot
     keyword: PLÜNDERN (vormals BEUTE)
     description: Wenn ein Gefährte mit diesem Effekt ein Monster besiegt, ersetzt ihr
@@ -857,19 +841,22 @@ keyword:
       können durch Objekte, die nicht als Hindernis gelten, hindurchgehen und ihre Bewegung
       auf ihnen beenden.
   - id: overpressure
-    keyword: "[Wave 2] OVERPRESSURE"
-    description: Aus Wave 2, Übersetzung folgt noch. <br><br> Some Monsters possess
-      eldritch energy so powerful that they distort space-time and often emanate disrupting
-      vibes. Therefore, while a Monster with this ability is on the board, no Hero can
-      take Minor Actions except for “Use a Consumable Item” if they are taking this
-      action to drink a potion.
+    keyword: "ERDRÜCKEND"
+    description: "Monster mit dieser passiven Fähigkeit schränken die kleinen Aktionen eurer Helden ein. 
+      Solange sich mindestens 1 Monster mit ERDRÜCKEND auf dem Spielplan befindet, dürfen eure Helden KEINE 
+      kleinen Aktionen nutzen mit 1 Ausnahme: Ihr dürft ausschließlich „Verbrauchsgut benutzen“, aber nur, 
+      wenn es sich dabei um einen „Trank“ handelt! Alle anderen kleinen Aktionen (inkl. andere Verbrauchsgüter 
+      zu nutzen) stehen euch nicht zur Verfügung."
   - id: outcome
     keyword: AUSWIRKUNG
-    description: Eine Auswirkung ist die Konsequenz einer Interaktion oder eines Ereignisses,
+    description: "Eine Auswirkung ist die Konsequenz einer Interaktion oder eines Ereignisses,
       die ein Held in seinem Kampagnen-Logbuch notiert. In der Regel ist damit kein
       Effekt verbunden, aber sie wirken sich auf spätere Entscheidungen aus und werden
       häufig abgefragt („Hat einer eurer Helden die Auswirkung ...“). Auswirkungen bleiben
-      so lange bestehen, bis eine Anweisung sie explizit aufhebt.
+      so lange bestehen, bis eine Anweisung sie explizit aufhebt.<br><br>
+      Ergänzung aus Erweiterungen „Apokalypse“ und „Erwachen“:<br>
+      Die Anweisung gibt vor, ob ihr sie „für eure Gruppe“ in der Chronik oder 
+      „für einen Helden“ in dessen Kampagnen-Logbuch notieren sollt."
   - id: passive
     keyword: PASSIV
     description: Passive Fähigkeit sind „grau“ und zeigen ein „P“. Nur, wenn sie von
@@ -972,22 +959,19 @@ keyword:
       Character cannot be pushed.
   - id: raise-a-draugr
     keyword: "[Wave 2] RAISE A DRAUGR"
-    description: Aus Wave 2, Übersetzung folgt noch. <br><br> Reusing the evil energy
-      used by the Darkness to make its Creatures, Necromancers can create an army of
-      their own. Raising a Draugr means placing one of them in an empty square of your
-      choice that is adjacent to you, loyal to the Necromancer who summoned it. Unlike
-      other Pets, Draugrs cannot be “Raised” through a “Command” effect or vice-versa.
-      Likewise, the generic effect of “Activate a Pet of your choice” doesn’t work to
-      Raise or Command them. Only the specific effects of Raise a Draugr and Command
-      a Draugr affect these creatures. Other than this detail, Draugrs follow the same
-      rules as Pets when it comes to their turns and other rules purposes. If all four
-      Draugrs are already on the board, a Necromancer can no longer Raise them, only
-      Command them (note that unlike other Pets, an effect that allows you to Raise
-      a Draugr does not allow you to Command a Draugr—these are separate effects for
-      the Necromancer). <br><br> **NOTE:** Draugrs that are raised during the Draugrs
-      turn (the one the Pets have after their masters turn) do not act during that activation.
-      <br><br> **NOTE:** A Necromancer can Raise all four Draugrs, even though they
-      can only sustain two of them during their turn.
+    description: Nur die Heldenklasse Nekromant darf diese besonderen „untoten Begleittiere“ 
+      verwenden. Sie zählen zwar als Begleittiere und verfügen über eine entsprechende Karte, aber nur die 
+      spezifischen Effekte „→BEFEHLIGE EINEN DRAUGR“ und „BESCHWÖRE EINEN DRAUGR“ nehmen Einfluss auf sie 
+      und beide Effekte sind voneinander getrennt.<br><br>
+      Wenn ein Held EINEN DRAUGR BESCHWÖRT, darf er 1 Draugr auf einem angrenzenden freien Feld beschwören. 
+      Dafür stehen insgesamt 4 Aufsteller zur Verfügung, die sich eine Karte teilen. <br><br>
+      Mit diesem Effekt dürft ihr keinen „Draugr im Spiel BEFEHLIGEN“, sondern nur einen neuen „ins Spiel bringen“.<br><br>
+      Wie Begleittiere machen sie ihren Spielzug direkt nach dem Helden, der sie kontrolliert.<br><br>
+      Achtung: Wenn weitere Draugr im Spielzug eines Draugrs beschworen werden, kommen sie nicht sofort an die Reihe, 
+      sondern erst in der nächsten Runde. Als NICHT-LEBENDE Wesen sind Draugr sehr „instabil“ und verschwinden 
+      nach einer gewissen Zeit von alleine. Diese „Eigenschaft“ löst immer zu Beginn des Zugs des kontrollierenden 
+      Nekromanten aus. Dieser muss für jeden seiner Draugr im Spiel entscheiden, ob er ihn „behält“, in dem er 1 FW 
+      nimmt oder, ob er ihn entlässt und damit verschwinden lässt. Der Nekromant darf dabei jedoch höchstens 2 Draugr behalten.
   - id: range-x
     keyword: REICHWEITE X
     description: Die Reichweite wird immer anhand von Zonen (blaue Quadrate) angegeben.
@@ -1018,13 +1002,11 @@ keyword:
       sind ab sofort wieder verfügbar. Hinweis: Fähigkeiten können einschränken oder
       verändern, welche „Art“ von Würfel der Held zurückholen darf."
   - id: redirect
-    keyword: "[Wave 2] REDIRECT"
-    description: Aus Wave 2, Übersetzung folgt noch. <br><br> When an effect instructs
-      you to Redirect an attack to you or another Character, that Character becomes
-      the target of that attack instead. If the Character in question is already being
-      targeted by that attack (as it could be in Multishot, Cleave, or Strike, for example),
-      they suffer it two times, resolving one attack at a time. Redirecting an attack
-      does not generate an additional threat, and thus does not allow an extra Reaction.
+    keyword: "UMLENKEN"
+    description: Das Ziel ist ein Charakter, der in diesem Moment selbst das Ziel eines Angriffes ist. Durch 
+      UMLENKEN wird ein anderer Charakter stattdessen das Ziel dieses Angriffs. UMLENKEN funktioniert auch bei 
+      Angriffen wie z. B. SPALTEN, aber falls der Charakter, auf den UMGELENKT wird, bereits Ziel desselben Angriffs ist, 
+      wird er damit „2-mal“ zum Ziel mit allen Konsequenzen, aber es handelt sich dabei nur um eine Bedrohung.
   - id: reckoner
     keyword: BERECHNEND
     description: Dieses Monster wählt den verdorbensten Helden (mit aktuell den meisten
@@ -1225,7 +1207,7 @@ keyword:
     keyword: AUFTEILEN
     description: "Der verbundene Effekt darf auf eine beliebige Anzahl von Zielen (innerhalb
       der Reichweite) verteilt werden. Ein Bonus auf den verbundenen Effekt wird nur
-      1x auf die Gesamtsumme angerechnet, nicht auf jedes einzelne Ziel. Beispiel: Hast
+      1x auf die Gesamtsumme angerechnet, nicht auf jedes einzelne Ziel. <br> Beispiel: Hast
       du einen +1 HEILEN-Bonus und führst „HEILEN 4, AUFTEILEN“ aus, kannst du den
       Effekt HEILEN 5 auf mehrere Ziele in Reichweite verteilen."
   - id: spread
@@ -1360,17 +1342,13 @@ keyword:
       Das Ziel ignoriert auf seinem Weg gefährliches Gelände, ist aber von Gelände betroffen,
       auf dem es landet. So bewegte Charaktere können auf ihrem Weg Fallschaden erleiden
   - id: threat
-    keyword: "[Wave 2] THREAT"
-    description: Aus Wave 2, Übersetzung folgt noch. <br><br> Threat is the term used
-      to define the moment when a Hero can have their Health points reduced by some
-      attack or effect, but is able to defend themselves and try to prevent this from
-      happening.<br><br>Thus, Threat essentially defines when a Hero can usea Reaction
-      in-game. As a rule, Heroes can use such Skills or Abilities whenever a Hero (either
-      themselves or an ally) is threatened, that is, when they take preventable damage
-      (non-preventable damage never generates a Threat).<br><br>Take note that Threat
-      is just a term, it doesn't change any rules. Therefore, Reactions with “SELF”
-      can only be used if the casting Character is also being threatened and so on,
-      as described on page 14 of the Corebox Rulebook.
+    keyword: "BEDROHUNG"
+    description: Eine Bedrohung ist jeder Moment, in dem ein Held bzw. Verbündeter LP verlieren könnte 
+      und der euch erlaubt darauf zu „reagieren“. NICHT-VERHINDERBARER Schaden und auch andere Effekte wie 
+      z. B. Zustände stellen keine Bedrohung dar.<br>
+      Die Bedrohung ist das Zeitfenster, in dem eure Helden REAKTIONEN ausführen dürfen.<br>
+      Wenn es sich dabei um einen Angriff handelt, eröffnet dies die Möglichkeit für UNTERBRECHUNGEN. 
+      Dies geschieht jedoch BEVOR die Bedrohung entsteht.
   - id: throw-(stack-of-barrels)
     keyword: "[Wave 2] THROW (STACK OF BARRELS)"
     description: Aus Wave 2, Übersetzung folgt noch. <br><br> When thrown at a Character,
@@ -1512,11 +1490,15 @@ keyword:
       Range 1 of this Monster enrages and gains +1 DMG permanently (place this token
       on their Monster Status board).
   - id: warden-(trait)
-    keyword: "ABSICHERN"
-    description: Ein Charakter kann diesen Effekt nur dann anwenden, wenn das Ziel angegriffen wird. Der 
-      „absichernde Charakter“ wird damit zum Ziel des Angriffs anstelle des ursprünglichen Ziels. ABSICHERN 
-      funktioniert auch bei Angriffen wie z. B. SPALTEN, aber falls der absichernde Charakter bereits Ziel desselben 
-      Angriffs ist, wird er damit „2-mal“ zum Ziel mit allen Konsequenzen, dies zählt jedoch nur als 1 Bedrohung.
+    keyword: "AUFSEHER (MERKMAL)"
+    description: "Ein Held mit diesem MERKMAL hat zwei besondere Eigenschaften in Bezug auf 
+      UNTERBRECHUNGEN und REAKTIONEN: <br>
+      Ein Aufseher darf seine UNTERBRECHUNGEN und REAKTIONEN mit der Einschränkung SELBST 
+      auch dann aktivieren, wenn ein angrenzender Charakter (und nicht er selbst) das Ziel ist. 
+      Zusätzlich gilt für diese Fähigkeiten, dass dieser angrenzende Charakter dann auch das 
+      Ziel der Fähigkeit wird. Anders gesagt: „SELBST, Effekt“ in Reaktionen und Unterbrechungen 
+      wird zu „EIN ANGRENZENDER CHARAKTER, Effekt“. Wenn die entsprechende Fähigkeit mit einem TW 
+      oder FW blockiert wird, verliert der Held das Merkmal."
   - id: warlock-(trait)
     keyword: "[Wave 2] WARLOCK (TRAIT)"
     description: Aus Wave 2, Übersetzung folgt noch. <br><br> Bargaining with the Darkness,
