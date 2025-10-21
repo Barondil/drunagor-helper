@@ -269,7 +269,7 @@ keyword:
       <br><br> Befindet sich kein anderes Monster bzw. sonst nur einen Boss auf dem Spielplan, hat BEFEHLIGEN
       keine Auswirkung.<br><br>
       Ergänzung aus Erweiterungen „Apokalypse“ und „Erwachen“:<br>
-      Wenn Helden BEFEHLIGEN, ist davor immer das direkte Ziel angegeben: → DRAUGR (BEFEHLIGEN); → BEGLEITTIER (BEFEHLIGEN)."
+      Wenn Helden BEFEHLIGEN, ist davor immer das direkte Ziel angegeben: DRAUGR (BEFEHLIGEN); BEGLEITTIER (BEFEHLIGEN)."
   - id: command-a-draugr
     keyword: "BEFEHLIGE EINEN DRAUGR"
     description: Nur die Heldenklasse Nekromant darf diese besonderen „untoten Begleittiere“ verwenden. 
@@ -486,11 +486,11 @@ keyword:
       Effektes, z. B. ERSCHÖPFEN.
   - id: falling-damage
     keyword: FALLSCHADEN
-    description: Immer dann, wenn sich ein Charakter direkt von Ebene 2 auf Ebene 0
+    description: "Immer dann, wenn sich ein Charakter direkt von Ebene 2 auf Ebene 0
       bewegt, erleidet dieser Charakter Fallschaden und muss 2 nicht-verhinderbaren
       Schaden erleiden. Fallschaden entsteht sowohl bei einer „freiwilligen“ Bewegung
       als auch bei anderen Effekten, die einen Charakter zwingen seine Position zu verändern
-      (wie SCHUBSEN, TELEKINESE oder Verdrängen
+      (wie SCHUBSEN, TELEKINESE oder Verdrängen)."
   - id: fatigue-x
     keyword: ERSCHÖPFEN X
     description: Das Ziel muss sofort X seiner verfügbaren Aktionswürfel ungenutzt
@@ -829,7 +829,14 @@ keyword:
       ist, gilt als Objekt. Grundsätzlich sind alle Objekte HINDERNISSE, außer sie sind
       explizit davon ausgenommen wie z. B. Fallen oder Dunkelheitsplättchen. Charaktere
       können durch Objekte, die nicht als Hindernis gelten, hindurchgehen und ihre Bewegung
-      auf ihnen beenden.
+      auf ihnen beenden.<br><br>
+      Ergänzung aus Erweiterungen „Apokalypse“ und „Erwachen“:<br>
+      Als Objekt bezeichnen wir alle Spielmaterialien, die sich „auf“ dem Spielplan befinden 
+      bzw. darauf platziert werden. Geländebauteile und -pläne, Karten, Tableaus und Spielanzeiger 
+      sind keine Objekte.<br><br>
+      Bei Objekten lassen sich BODENOBJEKTE und HINDERNISSE unterscheiden, die man zusätzlich in 
+      beweglich und unbeweglich differenziert. Bewegliche Hindernisse (wie z. B. die meisten Charaktere 
+      und Möbelstücke) kommen dabei am häufigsten vor. 
   - id: overpressure
     keyword: "ERDRÜCKEND"
     description: "Monster mit dieser passiven Fähigkeit schränken die kleinen Aktionen eurer Helden ein. 
@@ -963,7 +970,7 @@ keyword:
       Nekromanten aus. Dieser muss für jeden seiner Draugr im Spiel entscheiden, ob er ihn „behält“, in dem er 1 FW 
       nimmt oder, ob er ihn entlässt und damit verschwinden lässt. Der Nekromant darf dabei jedoch höchstens 2 Draugr behalten.
   - id: range-x
-    keyword: REICHWEITE X
+    keyword: "REICHWEITE X"
     description: Die Reichweite wird immer anhand von Zonen (blaue Quadrate) angegeben.
       Reichweite 1 z. B. sind alle Felder, die höchstens 1 blaue Zone weit entfernt
       sind.
@@ -1089,13 +1096,11 @@ keyword:
       es sei denn, es ist etwas anderes angegeben. Wie bei kritischen Treffern zählt
       nur die tatsächlich gewürfelte Zahl, ohne etwaige Modifikatoren.
   - id: round
-    keyword: "[Wave 2] ROUND"
-    description: Aus Wave 2, Übersetzung folgt noch. <br><br>Round is a term used to
-      denote the window of time from the first card to receive a turn on the Initiative
-      Track to the last. Thus, we can say that the Hero playing the Defender Dungeon
-      Role will always be the first Character to act in a Round while the Rune card
-      will always be the last. All effects that are measured through a round (i.e.,
-      “...during this round”) end as soon as the Rune card’s turn in that round is resolved.
+    keyword: "RUNDE"
+    description:  Eine Runde beginnt mit der Aktivierung der 1. Karte auf der Initiativeleiste 
+      (wenn einer von euch die Kampfrolle Verteidiger innehat, ist seine Karte die „1.“) und endet, 
+      nachdem die letzte Karte (in der Regel die Runenkarte) abgehandelt wurde. In diesem Moment 
+      endet die Runde und eine neue beginnt.
   - id: self
     keyword: SELBST
     description: "Fähigkeiten mit dem Schlüsselwort SELBST betreffen nur den ausführenden
@@ -1107,15 +1112,18 @@ keyword:
     description: " Legt ein kleines Dunkelheitsplättchen (Größe: 1 Feld) auf das Feld,
       auf dem das Ziel steht. Das Ziel wird danach auf das Plättchen gestellt und erleidet
       die Effekte der Dunkelheit. Dunkelheitsplättchen können nicht auf Dunkelheit gelegt
-      werden."
+      werden. Falls das Ziel ein großes Monster ist, bestimmt euer Anführer dafür 1 der 
+      Felder, die das Ziel belegt."
   - id: shield-x
     keyword: SCHILD X
-    description: Das Ziel erhält X SCHILD-Plättchen. Jedes abgegebene SCHILD-Plättchen
-      reduziert den erlittenen Schaden um 1.Ein Charakter muss alle seine SCHILD-Plättchen
+    description: "Das Ziel erhält X SCHILD-Plättchen. Jedes abgegebene SCHILD-Plättchen
+      reduziert den erlittenen Schaden um 1. Ein Charakter muss alle seine SCHILD-Plättchen
       verbrauchen, solange dadurch weiterer Schaden reduziert werden kann. Überzählige
-      SCHILD-Plättchen bleiben jedoch erhalten.Erst danach können VERHINDERN-Effekte
+      SCHILD-Plättchen bleiben jedoch erhalten. Erst danach können VERHINDERN-Effekte
       benutzt werden, um den Schaden weiter zu reduzieren. SCHILD-Plättchen sind eine
-      stapelbare Ressource.
+      stapelbare Ressource.<br><br>
+      Ergänzung aus Erweiterungen „Apokalypse“ und „Erwachen“:<br>
+      UNTERBRECHUNGEN finden jedoch statt, bevor SCHILD-Plättchen zum Einsatz kommen müssen."
   - id: shove
     keyword: VERDRÄNGEN
     description: Wenn ein großes Monster sich „auf“ ein kleines Monster bewegt, wird
@@ -1131,25 +1139,24 @@ keyword:
       ERSCHÖPFEN sind, sind auch immun gegen STILLE. STILLE kann nur etwas auslösen,
       das auch von ERSCHÖPFEN ausgelöst wir
   - id: skull-cracker
-    keyword: "[Wave 2] SKULL-CRACKER"
-    description: "Aus Wave 2, Übersetzung folgt noch. <br><br> Monsters with this ability
-      are terribly dangerous. Attacks made by creatures with this ability will pierce
-      any Sturdiness value automatically. So be careful: the attack of such creatures
-      is lethal against Allies such as Companions, Followers, Pets, and so on (you can
-      still use Prevents from your Reactions or Interrupts to try to reduce the damage
-      to 0 and prevent an allied Follower from being defeated)."
+    keyword: "SCHÄDELBRECHER"
+    description: "Diese Monster sind z. B. besonders gefährlich für Gefährten, Anhänger und Kohorten. Alle 
+      Angriffe dieses Monsters  ignorieren die → ROBUSTHEIT und fügen dem Ziel „direkt“ Schaden zu. Das bedeutet, 
+      jedes Ziel ist dem vollen Schaden ausgesetzt. SCHILDE und VERHINDERN-Effekte funktionieren auch in diesem 
+      Fall wie gewohnt und eine Reduktion des Schadens auf 0 bedeutet, dass ein angegriffener Gefährte, Anhänger 
+      oder eine Kohorte den Angriff überlebt."
   - id: slaughter
     keyword: NIEDERMETZELN
-    description: Dieses Monster wählt NSC-Plättchen, die keine Gefährten sind, als primäres
-      Ziel
+    description: Dieses Monster wählt NSC-Plättchen, die keine Gefährten oder Begleittiere sind, als primäres
+      Ziel.
   - id: slayer
-    keyword: "[Wave 2] SLAYER"
-    description: Aus Wave 2, Übersetzung folgt noch. <br><br> A Monster with this ability
-      will chase Injured NPC tokens, Cohorts, and Followers as their Primary Target,
-      in that order of preference. If there are two or more of those within reach, the
-      Party Leader chooses which of them will be the target of this Monster this turn.
-      If none of these NPCs are on the board or in reach, these Monsters switch their
-      Primary Target to the Strongest Hero.
+    keyword: "MÖRDER"
+    description: Diese Monster wählen als primäres Ziel zuerst die sogenannten „verletzten NSCs“, 
+      die in einigen Abenteuern vorkommen. „Dahinter“ folgen Kohorten und dann Anhänger, in 
+      dieser Reihenfolge. Gibt es mehrere gleichwertige Ziele entscheidet euer Anführer. 
+      Nur wenn sich kein einziges dieser Ziele im Spiel befindet oder das Monster keins dieser 
+      Ziele angreifen darf, wechselt es für diesen Spielzug sein Verhalten auf STANDARD und wählt
+      – wie üblich – den stärksten Helden als neues primäres Ziel. 
   - id: slow
     keyword: LANGSAM
     description: Das Ziel erhält 1 LANGSAM-Plättchen. Wenn das Ziel später eine Bewegung
@@ -1301,15 +1308,14 @@ keyword:
       getauschten Objekte „betreten“ dabei ihre neuen Felder und sind von gefährlichem
       Gelände und ähnliche Effekten betroffen. "
   - id: swarm
-    keyword: "[Wave 2] SWARM"
-    description: Aus Wave 2, Übersetzung folgt noch. <br><br>Swarm Monsters are tiny
-      creatures that, joined together, form a single being, and thus they have no vital
-      points in their body. Such creatures suffer only half damage (rounded up, after
-      Prevent reductions have been applied) of all Weapon Attack that hit them.<br><br>
-      **Example:** *If Lorelai has 2 Intimidate tokens when she attacks a Monster that
-      has Swarm and 1 Shield token using a 6-damage attack, that Monster would suffer
-      only 2 points of damage in the end (6 - 2 - 1 = 3; 3 ÷ 2 = 1.5, which is then
-      rounded up to 2).*
+    keyword: "SCHWARM"
+    description: "SCHWARM-Monster erleiden nur den halben Schaden. Nach dem Anwenden aller zutreffenden 
+      Schadensreduktionen (SCHILD, EINSCHÜCHTERN o. Ä.), halbiert ihr das Ergebnis und rundet ggf. auf. Dies ist der 
+      Schaden, den das Monster „tatsächlich“ erleidet.<br>
+      Beispiel: Lorelai besitzt 2 EINSCHÜCHTERN-Plättchen und greift ein SCHWARM-Monster an. Ihr Angriff macht 
+        regulär 6 Schaden und wird durch EINSCHÜCHTERN auf 4 reduziert. Das Ziel besitzt 1 SCHILD-Plättchen 
+        und reduziert den Schaden damit auf 3. Dies wird jetzt halbiert und dann aufgerundet. Das Monster erleidet 
+        also im Endeffekt nur 2 Schaden. Hier noch einmal die Rechnung: 6 - 2 - 1 = 3; 3 ÷ 2 = 1.5 ≈ 2."
   - id: take
     keyword: "[Wave 2] TAKE"
     description: Aus Wave 2, Übersetzung folgt noch. <br><br>Take is not properly a
@@ -1429,25 +1435,22 @@ keyword:
       because effects that can be used once per turn can be used once during the turn
       of each of these Shadow Knights, for example.
   - id: unavailable
-    keyword: "[Wave 2] UNAVAILABLE"
-    description: Aus Wave 2, Übersetzung folgt noch. <br><br>This is a game term usually
-      associated with Interactions. When an effect states that a Resolution becomes
-      unavailable, it means that Heroes cannot choose that Resolution anymore. Whenever
-      a Hero chooses a Resolution from a Charged Interaction, for example, it becomes
-      unavailable and cannot be chosen again during this Adventure.
+    keyword: "NICHT (MEHR) VERFÜGBAR"
+    description: Das Gegenteil von VERFÜGBAR tritt fast ausschließlich bei Interaktionen 
+      auf. Wenn eine Interaktion „nicht mehr verfügbar“ ist, kann sie nicht ausgewählt werden. 
+      Beachtet die Sonderregeln der neuen Interaktionsplättchen.
   - id: unique
     keyword: EINZIGARTIG
     description: Dieses besondere Begleittier spielt eine Rolle in der Geschichte. Es
       kann nur mit einer speziellen Fähigkeit beschworen werden, aber sobald es sich
       auf dem Spielplan befindet, gelten die allgemeinen Regeln für Begleittiere.
   - id: unlife
-    keyword: "[Wave 2] UNLIFE"
-    description: Aus Wave 2, Übersetzung folgt noch. <br><br> Pets with this trait have
-      a lying life, needing necrotic power to stay upright. At the beginning of their
-      master’s turn, they will be dismissed. At this point, the Necromancer may choose
-      to take a Curse Cube to extend the Unlife of such a Pet for one turn—This is called
-      “Taint”. They may choose for each Pet with this trait whether or not to do so,
-      paying the Taint cost for each one individually.
+    keyword: "NICHT-LEBEND"
+    description: Die Begleittiere Draugr besitzen diese „Eigenschaft“. Sie löst zu Beginn 
+      des Spielzugs des kontrollierenden Nekromanten aus. Dieser muss dann für jeden seiner 
+      Draugr im Spiel entscheiden, ob er ihn ENTLÄSST (also verschwinden lässt) oder, ob 
+      dieser im Spiel bleibt. Der Nekromant darf bis zu 2 seiner Draugr behalten, aber er
+      muss für jeden behaltenen 1 FW nehmen.
   - id: versatile
     keyword: "FLEXIBEL"
     description: Ausrüstung mit diesem Zusatz ist immer zweiseitig. In dem Moment, in dem du einen solchen 
@@ -1469,11 +1472,10 @@ keyword:
       to the strongest enemy among them. If the Monster cannot redirect such tokens,
       only then does it suffers such effects.
   - id: war-cry
-    keyword: "[Wave 2] WAR CRY"
-    description: Aus Wave 2, Übersetzung folgt noch. <br><br> War Cry is a triggered
-      ability that some Monsters possess. When activated, each other Monster within
-      Range 1 of this Monster enrages and gains +1 DMG permanently (place this token
-      on their Monster Status board).
+    keyword: "SCHLACHTRUF"
+    description: Die Fähigkeit SCHLACHTRUF löst zu Beginn des Spielzugs des Monsters aus. Jedes andere 
+      Monster in Reichweite 1 zu diesem Monster erhält +1 SCHADEN. Legt diese Vorteilsplättchen auf das 
+      Monstertableau, wie üblich.
   - id: warden-(trait)
     keyword: "AUFSEHER (MERKMAL)"
     description: "Ein Held mit diesem MERKMAL hat zwei besondere Eigenschaften in Bezug auf 
