@@ -107,7 +107,7 @@ keyword:
     keyword: VERFÜGBAR
     description: Verfügbare AW liegen auf euren Heldentableaus und können verbraucht oder benutzt 
       werden.  Eine Fähigkeit ist „verfügbar“, wenn sie erlernt ist und mindestens 1 ihrer „Felder“ frei ist. 
-      Bei Interaktionsszenen können Auflösungen wiederum dafür sorgen, dass bestimmte Optionen → NICHT MEHR VERFÜGBAR sind.
+      Bei Interaktionsszenen können Auflösungen wiederum dafür sorgen, dass bestimmte Optionen NICHT MEHR VERFÜGBAR sind.
   - id: avoid
     keyword: IGNORIEREN
     description: Neben VERHINDERN, das als Effekt direkt mit SCHADEN interagiert, gibt es noch weitere 
@@ -212,18 +212,15 @@ keyword:
       aber nur Charaktere mit Karten oder Tableaus können Zustands- oder Ressourcenplättchen erhalten!
       Wenn nicht anders angegeben, zählen Charaktere als bewegliche Hindernisse (Ausnahme GROẞES MONSTER).
   - id: charge
-    keyword: "[Wave 2] CHARGE"
-    description: "Aus Wave 2, Übersetzung folgt noch. <br><br> Some Monsters have the
-      ability to charge their enemies to maximize their attacks. Whenever a Monster
-      with this ability moves 3 or more squares in order to reach their target, consider
-      the base damage value of this attack as if it were double. Remember: Monsters
-      will always move the least amount of squares they can in order to reach their
-      targets or seek a position on top of Darkness. Despite this ability, Monsters
-      are not smart enough to take the longest way to reach their target and receive
-      this bonus. Their behavior remains the same: they move as few squares as possible
-      to the target unless they can finish the movement upon Darkness or can avoid harmful
-      terrain while doing so. Darkness damage boost, as well as damage reducers like
-      Intimidate, are counted after this base value has been determined."
+    keyword: "STÜRMEN"
+    description: "Diese Monsterfähigkeit „verbindet“ die Bewegung und den Angriff des Monsters. Wenn ein 
+      Monster mit STÜRMEN sich 3 oder mehr Felder bewegt und dann angreift, wird der aufgedruckte Angriffsschaden 
+      dieses Monsters verdoppelt.<br><br>
+      STÜRMEN hat jedoch keine Auswirkung auf die Bewegung! Das heißt, dieses Monster nimmt weiterhin den kürzesten Weg, 
+      um sein Ziel anzugreifen bzw., um den Angriffsbonus auf Dunkelheit zu erreichen oder, um gefährliches Gelände zu umgehen. 
+      Es folgt also den üblichen Regeln für Bewegung und nimmt nicht „absichtlich“ einen längeren Weg, damit STÜRMEN 
+      seine Wirkung entfaltet! STÜRMEN tritt nur in Kraft, wenn der (nach den üblichen Regeln) bestimmte Weg 
+      des Monsters die Voraussetzung „3+ Felder“ erfüllt."
   - id: charm
     keyword: "[Wave 2] CHARM"
     description: "Aus Wave 2, Übersetzung folgt noch. <br><br> By enchanting the simple-mindedness
@@ -681,17 +678,11 @@ keyword:
       niemals mehr und diese kleine Aktion ist auch möglich, wenn dein Held im Kampf
       gebunden ist.
   - id: killing-blow
-    keyword: "[Wave 2] KILLING BLOW"
-    description: Aus Wave 2, Übersetzung folgt noch. <br><br> Killing Blow is not necessarily
-      a Keyword, but it is a term worth clarifying. The Killing Blow is the attack (and
-      in this case it is necessarily an attack, Condition damage doesn't count, for
-      example) that is responsible for defeating the Monster. If an effect Slays a Character,
-      naturally, it also delivers the Killing Blow, since the term Slay specifies that
-      it defeats the Character even though it doesn't reduce its Health to 0. **NOTE:**
-      For a Monster to be defeated, it must be removed from the board. If an effect
-      reduces a Monster's Health to zero, but does not cause it to be removed from the
-      board (as happens if Special Mechanic - Shared Lifeline is in progress, for example),
-      the attack is not considered a Killing Blow.
+    keyword: "TODESSCHLAG"
+    description: Dieser Begriff bezeichnet den Angriff, der das Ziel besiegt und damit aus dem Spiel entfernt, 
+      gewissermaßen der „tödliche Treffer“. Wenn ein Effekt wie MEUCHELN einen Gegner direkt besiegt, zählt 
+      auch dies als TODESSCHLAG. Andererseits können z. B. Zustände niemals einen TODESSCHLAG darstellen, 
+      selbst wenn ein Gegner durch sie besiegt wird.
   - id: keen
     keyword: "BEGABT"
     description: "Dieser Effekt ersetzt „KRITISCH BEI 16+“ und verändert das notwendige Würfelergebnis 
@@ -894,7 +885,7 @@ keyword:
     description: Beim Auslösen erleidet jeder Gegner in der Zone 2 nicht-verhinderbaren
       Schaden und GIFT 2.
   - id: polymorph
-    keyword: POLYMORPH
+    keyword: VERNIEDLICHEN / POLYMORPH
     description: "There is nothing more satisfying than ridiculing a threat, turning
       a once-powerful enemy into a defenseless capybara! In order to emulate this effect
       with its proper glamour in the AoD System, you will need to follow some more preparation
@@ -1105,7 +1096,7 @@ keyword:
     keyword: SELBST
     description: "Fähigkeiten mit dem Schlüsselwort SELBST betreffen nur den ausführenden
       Charakter. Reaktionen mit SELBST lösen nur aus, wenn der Charakter selbst bedroht
-      wird. Beispiel: Eine Reaktion mit „SELBST, VERHINDERN 3“ bedeutet, dass der Charakter
+      wird.<br><br> Beispiel: Eine Reaktion mit „SELBST, VERHINDERN 3“ bedeutet, dass der Charakter
       nur 3 Schaden gegen sich selbst verhindern kann."
   - id: shadow-aura
     keyword: SCHATTENAURA
@@ -1137,7 +1128,7 @@ keyword:
       ungenutzt VERBRAUCHEN. STILLE zählt als besondere Art von ERSCHÖPFEN und folgt
       denselben Regeln, nur ist die Farbe der AW vorgegeben. Helden, die immun gegen
       ERSCHÖPFEN sind, sind auch immun gegen STILLE. STILLE kann nur etwas auslösen,
-      das auch von ERSCHÖPFEN ausgelöst wir
+      das auch von ERSCHÖPFEN ausgelöst wird.
   - id: skull-cracker
     keyword: "SCHÄDELBRECHER"
     description: "Diese Monster sind z. B. besonders gefährlich für Gefährten, Anhänger und Kohorten. Alle 
@@ -1173,18 +1164,14 @@ keyword:
       Charaktere, Truhen, Möbelstücke, Runenstapel, Interaktionsplättchen jeder Art und alle Objekte, die per Anweisung 
       als „Hindernis“ deklariert sind."
   - id: soul-shard
-    keyword: "[Wave 2] SOUL SHARD"
-    description: Aus Wave 2, Übersetzung folgt noch. <br><br> By confining a fragment
-      of life energy from a creature's spirit within them, these crystals can be used
-      to strengthen the Heroes. As a Minor Action, A Hero may discard a Soul Shard to
-      give Double Damage to the next Weapon Attack or Spell Attack they make this turn.
-      Note that this effect lasts only until the end of this turn or when you make your
-      next Weapon Attack or Spell Attack (even if you miss), whichever comes first.
-      If an effect allows you to make two or more separate Weapon Attack as part of
-      the same Action, this effect is only applied to the first of them *(Cleave is
-      a single hit that affects two or more targets, so this bonus applies to all of
-      them)*. Soul Shards are redundant Resource tokens that can be exchanged between
-      Heroes as if they were Consumable Items.
+    keyword: "SEELENSPLITTER"
+    description: Das Plättchen SEELENSPLITTER ist eine redundante Ressource und wird auf dem 
+      Heldentableau platziert. Gleichzeitig darf sie „als ein Verbrauchsgut“ weitergegeben werden.<br><br>
+      Helden dürfen eigene SEELENSPLITTER als kleine Aktion abwerfen, damit ihr nächster einzelner Waffengriff
+      oder Zauberangriff in diesem Spielzug DOPPELSCHADEN erhält. Wenn es sich um einen Angriff mit mehreren 
+      Zielen handelt, wie z. B. FLÄCHENSCHLAG, gilt DOPPELSCHADEN gegen alle Ziele.<br><br> 
+      Ihr müsst das Plättchen vor einem etwaigen Angriffswurf abwerfen und wenn dieser misslingt, ist das Plättchen 
+      damit trotzdem „ausgegeben“.
   - id: special-mechanic-tokens
     keyword: "[Wave 2] SPECIAL MECHANIC TOKENS"
     description: Aus Wave 2, Übersetzung folgt noch. <br><br> These board elements are
@@ -1226,18 +1213,14 @@ keyword:
       bzw. derselben stapelbaren Ressource besitzen. Sollte ein Charakter ein 5. Plättchen
       desselben stapelbaren Effekts erhalten, verfällt es ersatzlos."
   - id: stalker-(trait)
-    keyword: "[Wave 2] STALKER (TRAIT)"
-    description: Aus Wave 2, Übersetzung folgt noch. <br><br> Some killers specialize
-      in using stealth to their advantage. As long as the Stalker Skill is not blocked,
-      whenever the Slayer's Stealth fades away *(that is, it is removed on its own at
-      the beginning of its Hero's turn)*, the Slayer remains Hidden until the end of
-      the current Hero's turn or until they try to surprise another Character. <br><br>**Example:**
-      *Nyx received Stealth through the **Sucker Punch** Skill in the previous round.
-      At the beginning of her turn, in this new round, her Stealth faded away, but she
-      will still remain hidden until she tries to surprise another Character (which
-      could lead her to cause Double Damage) or finishes her current turn (so, she would
-      need to cast another Stealth effect if she wanted to continue in Stealth to escape
-      the Monsters attacks).*
+    keyword: "VERFOLGER (MERKMAL)"
+    description:  Ein Held mit diesem MERKMAL hat eine besondere Eigenschaft: Der Zustand 
+      VERBORGEN endet erst am ENDE des nächsten Spielzugs, nicht zu Beginn wie üblich. Er 
+      behält ihn also für 2 Runden. Er endet jedoch weiterhin vorzeitig, wenn der VERFOLGER 
+      einen „Überraschungsangriff“ macht. Wenn die entsprechende Fähigkeit mit einem TW oder 
+      FW blockiert wird, verliert der Held das Merkmal.<br><br>
+      Hinweis: Der Verfolger darf in dem Spielzug, an dessen Ende VERBORGEN automatisch „ausläuft“, 
+      erneut VERBORGEN erhalten und behält ihn dann erneut bis zum Ende des nächsten Spielzugs.
   - id: status
     keyword: STATUS
     description: Ein Status ist eine Konsequenz einer Interaktion oder eines Ereignisses,
@@ -1306,7 +1289,7 @@ keyword:
     description: "Der ausführende Charakter tauscht mit einem anderen Objekt den Platz.
       Der Eﬀekt benennt als Ziel die Art von Objekt, die gewählt werden darf. Die beiden
       getauschten Objekte „betreten“ dabei ihre neuen Felder und sind von gefährlichem
-      Gelände und ähnliche Effekten betroffen. "
+      Gelände und ähnliche Effekten betroffen."
   - id: swarm
     keyword: "SCHWARM"
     description: "SCHWARM-Monster erleiden nur den halben Schaden. Nach dem Anwenden aller zutreffenden 
@@ -1330,10 +1313,10 @@ keyword:
   - id: telekinesis-x
     keyword: TELEKINESE X
     description: Der Charakter „bewegt“ das Ziel um bis zu X Felder. Das Ziel kann nur
-      1 kleiner Charakter oder 1 kleines Objekt sein (Fallen, Truhen, kleine Charaktere
+      1 kleiner Charakter oder 1 kleines Objekt sein (Fallen, Truhen, Möbel
       oder kleine Dunkelheitsplättchen). Interaktionsplättchen sind immun gegen Telekinese.
       Das Ziel ignoriert auf seinem Weg gefährliches Gelände, ist aber von Gelände betroffen,
-      auf dem es landet. So bewegte Charaktere können auf ihrem Weg Fallschaden erleiden
+      auf dem es landet. So bewegte Charaktere können auf ihrem Weg Fallschaden erleiden.
   - id: threat
     keyword: "BEDROHUNG"
     description: Eine Bedrohung ist jeder Moment, in dem ein Held bzw. Verbündeter LP verlieren könnte 
@@ -1425,15 +1408,15 @@ keyword:
       2; B) 1 Monster in Reichweite 1 erleidet entweder BLUTEN 2 oder BRENNEN 2 oder
       GIFT 2."
   - id: turn
-    keyword: "[Wave 2] TURN"
-    description: Aus Wave 2, Übersetzung folgt noch. <br><br>Turn is the term used to
-      designate the time window in which a Character or a card on the Initiative Track
-      may act. Even though a Monster type has only one card in the Initiative Track
-      to represent all units of that type, each Monster’s turn is taken individually.
-      Therefore, the turn of a Shadow Knight with a pink snap-on base is different from
-      the turn of a Shadow Knight with the green snap-on base. This distinction is important,
-      because effects that can be used once per turn can be used once during the turn
-      of each of these Shadow Knights, for example.
+    keyword: "SPIELZUG"
+    description: Der Spielzug eines Charakters beginnt mit seiner Aktivierung. Dies 
+      passiert „automatisch“ in dem Moment, in dem die Karte dieses Charakters „an 
+      die Reihe kommt“. Handelt es sich dabei jedoch um ein Monster, von dem sich 
+      mehrere Miniaturen im Spiel befinden, werden diese in der Reihenfolge ihrer 
+      Farbbasen aktiviert. Jedes dieser Monster (= jede Miniatur) hat also seinen 
+      eigenen Spielzug.<br><br>
+      Zusätzlich kann ein Charakter direkt durch einen Effekt (z. B. BEGLEITTIERE 
+      über den Effekt AKTIVIERE) oder eine Anweisung „aktiviert“ werden.
   - id: unavailable
     keyword: "NICHT (MEHR) VERFÜGBAR"
     description: Das Gegenteil von VERFÜGBAR tritt fast ausschließlich bei Interaktionen 
