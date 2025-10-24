@@ -153,16 +153,15 @@ keyword:
     keyword: "ERBEUTEN"
     description: Wenn ein Charakter mit diesem Kollateraleffekt ein Monster besiegt, lässt dieses 1 BEUTE-Plättchen fallen.
   - id: brittle
-    keyword: "[Wave 2] BRITTLE"
-    description: Aus Wave 2, Übersetzung folgt noch. <br><br> Some attacks are capable
-      of leaving their opponents vulnerable. When a Character suffers Brittle, they
-      must take a Brittle token and keep it on their board. If they are a Hero, Pet,
-      or Companion of any sort, the next time they suffer damage from any source, they
-      will suffer double that damage and remove their Brittle token (remember, suffered
-      damage is the damage taken that was not prevented). If they are a Monster, the
-      next weapon or magic attack that hits them turns into a Critical Hit and removes
-      their Brittle token. Brittle lingers until it is removed or is triggered as described.
-      It is a Redundant Condition.
+    keyword: "ZERBRECHLICH"
+    description: Das Ziel erhält 1 ZERBRECHLICH-Plättchen und dies ist ein redundanter Zustand.
+      Wenn ein Held oder einer eurer Verbündeten (Begleittiere, Anhänger, Kohorten) von ZERBRECHLICH 
+      betroffen ist und Schaden erleidet (unabhängig von der Quelle des Schadens), wird der „tatsächlich“ 
+      erlittene Schaden (nach allen VERHINDERN-Effekten und etwaigen SCHILD-Plättchen) verdoppelt. Zusätzlich wird 
+      das ZERBRECHLICH-Plättchen entfernt.<br><br> 
+      Wenn ein Monster von ZERBRECHLICH betroffen ist, wird der nächste Waffenangriff 
+      oder Zauberangriff, der es trifft, zu einem kritischen Treffer und das ZERBRECHLICH-Plättchen entfernt. Ein misslungener 
+      Waffenangriff entfernt das Plättchen nicht.
   - id: burn-x
     keyword: BRENNEN X
     description: Das Ziel erhält X BRENNEN-Plättchen. Zu Beginn seines nächsten Zuges
@@ -391,18 +390,14 @@ keyword:
       AW) als primäres Ziel. Bei Gleichstand den beteiligten Held, der zuerst in der
       Runde drankommt.
   - id: devourer
-    keyword: "[Wave 2] DEVOURER"
-    description: "Aus Wave 2, Übersetzung folgt noch. <br><br> Monsters with this ability
-      show atypical behavior. They prioritize looking for prey rather than victims.
-      Therefore, such Monsters have Injured NPC tokens as their Primary Target instead
-      of the Heroes. When they attack one of these tokens, they immediately slay them,
-      satiating their bloodthirst. This, however, is not a good thing: After doing so,
-      these Monsters complete their purpose and their bodies undergo a hideous mutation.
-      Replace the Rotten Flesh model with an Abomination model and flip over the Unstable
-      Devourer card. It gains 12 Health (this Health can exceed its maximum total) and
-      becomes a Ravenous Abomination. If there are no Injured NPCs on the board (if
-      your party has rescued them all, for example) this Monster’s behavior shifts to
-      the standard: the Strongest Hero in range."
+    keyword: "VERZEHRER"
+    description: "Dieses Monster startet den Kampf auf STUFE 1 und wählt als primäres Ziel immer ein 
+      NSC-Plättchen mit dem Zusatz „Verwundet“, z. B. Verwunderter Umbralianer. Mitunter findet ihr eine 
+      Anweisung, die ein Ziel vorgibt. Schafft der VERZEHRER es, sein Ziel zu besiegen (bei NSC-Plättchen z. B. durch 
+      einen erfolgreichen Angriff), mutiert er daraufhin und steigt auf STUFE 2 auf. Dreht seine Karte um und ersetzt 
+      die Miniatur des Fleischgolems durch die Miniatur einer Abscheulichkeit. Er heilt sich daraufhin um die 
+      vollen neuen LP und kann seine Maximalen LP dabei überschreiten. Sollte kein mögliches Ziel vorhanden sein, 
+      wählt er sein primäres Ziel wie ein STANDARD-Monster."
   - id: difficult-terrain
     keyword: SCHWIERIGES GELÄNDE
     description: Ein Charakter, der schwieriges Gelände (wie z. B. Wasser) betritt,
@@ -451,14 +446,12 @@ keyword:
       Fernkampf ausführen. Gebundene Helden können als kleine Aktion nur Fokustechniken
       oder Verbrauchsgüter benutzen.
   - id: enrage
-    keyword: "[Wave 2] ENRAGE"
-    description: Aus Wave 2, Übersetzung folgt noch. <br><br>Some Monsters have a taste
-      for battle that grows as they inflict wounds on their enemies. Whenever a Monster
-      possessing this ability as Collateral Damage can reduce a Character’s Health or
-      remove a Special Character (Pet, Companion, or any other kind of ally) from play
-      with an attack, it gains a +1 DMG token. If the Monster has Attack Twice, the
-      second attack made on its activation may do more damage, since this Monster may
-      receive a +1 DMG token as a result of the first attack.
+    keyword: "BLUTRAUSCH"
+    description: Dieser Kollateraleffekt macht das Monster stärker. Wenn ein solches Monster die LP eines 
+      Charakters reduziert oder einen Charakter durch einen Angriff entfernt, erhält es danach einen Bonus von +1 SCHADEN. 
+      Legt das entsprechende Vorteilsplättchen auf das Monstertableau bzw. auf seine Karte. <br><br>
+      Wenn ein solches Monster mit DOPPELANGRIFF angreift und der erste Angriff diesen Bonus auslöst, erhält der zweite 
+      Angriff dann direkt diesen Bonusschaden.
   - id: entropy
     keyword: "ENTROPIE"
     description: "Das Ziel erhält 1 ENTROPIE-Plättchen und ENTROPIE ist eine stapelbare Ressource.<br><br> 
@@ -526,25 +519,28 @@ keyword:
       Dieser Bonus gilt trotzdem und der Effekttext dieser Fertigkeit lautet ab sofort:<br>
       WENN DU EINE FRUCHT DES LEBENS BENUTZT: ERHALTE +1 LP ZURÜCK."
   - id: fury
-    keyword: WUT
-    description: Wenn ein Held mit einem Zauber- oder Waffenangriff trifft, darf er
+    keyword: WUT X
+    description: Das Ziel erhält X WUT Plättchen und dies ist eine stapelbare Ressource.  
+      Wenn ein Held mit einem Zauber- oder Waffenangriff trifft, darf er
       1 WUT-Plättchen abwerfen, damit dieser Angriff +1 SCHADEN erhält. Pro Zug oder
-      Reaktion darf nur 1 WUT-Plättchen abgeworfen werden. WUT ist eine stapelbare Ressource.
+      Reaktion darf nur 1 WUT-Plättchen abgeworfen werden. 
+      <br><br>Änderung durch Erweiterungen „Apokalypse“ und „Erwachen“:<br><br>
+      Ihr dürft mehrere diese Plättchen im selben Zug abgeben. Aber nur 1 pro Angriff.
+      Wenn es sich um einen Angriff mit mehreren Zielen handelt wie z.B. Flächenschlag, 
+      erleiden alle Ziele +1 SCHADEN.
   - id: heal-x
     keyword: HEILEN X
     description: "Das Ziel erhält X LP zurück. Ein Charakter kann dabei niemals sein
       aktuelles Maximum überschreiten. Jede überschüssige Heilung geht verloren."
   - id: heavy-wield
-    keyword: "[Wave 2] HEAVY WIELD"
-    description: Aus Wave 2, Übersetzung folgt noch. <br><br> Weapons that have the
-      Heavy Wield property are harder to handle, but usually do more damage when they
-      hit. While you are equipped with a Weapon that has Heavy Wield, you can make only
-      a single Weapon Attack from each Weapon Attack action you take or receive. So,
-      you can't make two Weapon Attack from a single Cube Action (as you would with
-      the Twin Strike Skill, for example), Focus Ability, Class Ability, or Command
-      you take or receive while using these weapons. But you can, for example, make
-      a Weapon Attack through each of your two Cube Actions and a third through your
-      Focus Ability or by spending a KI token.
+    keyword: "SCHWERFÄLLIG"
+    description: Dieser Effekt tritt häufig bei flexiblen Waffen auf. Wenn ein Held mit 
+      einer schwerfälligen Waffe einen Mehrfachangriff ausführt, also einen 
+      Waffenangriff mit mehreren Angriffswürfen wie z. B. Lorelais Heldenfähigkeit Magischer Bolzen, 
+      darf er nur 1 dieser Angriffe ausführen, der Rest verfällt ersatzlos. Diese Einschränkung 
+      gilt unabhängig von der Quelle, die den Waffenangriff erlaubt. Es ist jedoch erlaubt, 
+      mit einer schwerfälligen Waffe mehrere Angriffe in einem Spielzug durchzuführen, z. B. durch mehrere 
+      Würfelaktionen. Die Einschränkung betrifft nur jeden einzelnen Waffenangriff.
   - id: idol
     keyword: "TOTEM (ANBETEN & RUFEN)"
     description: "Wenn ihr ein Totem RUFT, platziert ihr das zugehörige Plättchen in der Mitte eurer oder einer 
@@ -589,52 +585,49 @@ keyword:
       über eine direkte Anweisung ins Spiel gebracht, aber die meisten von ihnen werden
       auf dem Spielplan als Interaktionsplättchen zu finden sein.
   - id: interact-(stack-of-barrels)
-    keyword: "[Wave 2] INTERACT (STACK OF BARRELS)"
-    description: Aus Wave 2, Übersetzung folgt noch. <br><br> Dwarves and Halflings
-      (only those) can get inside barrels and use them as hiding places. To stop hiding,
-      the Hero will need to use another Minor Action.<br><br>- When a Hero enters a
-      barrel, remove their model from the board. While there, they won't be able to
-      target, or be targeted, by other Characters with any attack or effect. <br>- Monsters
-      know that the Heroes are there. However, they must destroy the barrel before attacking
-      them. Thus, when a Monster attacks a character inside the barrel, PREVENT all
-      damage that this attack would cause and remove the barrel from the board. Reposition
-      the Hero's model (the one that was hidden) in the square where the barrel was.
-      <br>- If a Large Monster steps on a barrel with a hidden Hero, break that barrel
-      and Shove the Hero aside. That Hero suffers 2 non-preventable damage.
+    keyword: "FÄSSER (Möbeleffekt)"
+    description: "Fässer sind bewegliche Hindernisse. Wenn ein Großes Monster seine Bewegung in einer 
+      Zone mit Fass beendet, zertrümmert es das Fass und ihr entfernt es vom Spielplan.<br><br>
+      Halblinge und Zwergen Helden dürfen sich mit einer kleinen Aktion in angrezenden Fässern „verstecken“. 
+      Pro Fass ist nur ein Held erlaubt. Die Miniatur wird vom Spielplan entfernt und der Held kann 
+      keine Fähigkeiten oder Aktionen auslösen. Einzigste Ausnahme, er velässt freiwillig das Fass mit einer kleinen Aktion. 
+      Ein versteckter Held darf sein „Versteck“ mit einer kleinen Aktion freiwillig verlassen.<br><br>
+      Effekte im Versteck: Der Held ist nicht verborgen: Monster kennen seinen Standort. Normale Angriffe zerstören das Fass, 
+      bringen den Helden zurück ins Spiel, verursachen aber keinen Schaden – auch keinen nicht-verhinderbaren.
+      Große Monster verursachen 2 nicht-verhinderbaren Schaden und verdrängen den Helden auf ein angrenzendes Feld."
   - id: interact-(bookshelf)
-    keyword: "[Wave 2] INTERACT (BOOKSHELF)"
-    description: Aus Wave 2, Übersetzung folgt noch. <br><br> When a Hero interacts
-      with a Bookshelf, they can search the Chest deck for a Scroll card and keep it
-      or immediately use it as a Free Action, as if they had just drawn it from the
-      Chest deck. Afterwards, remove the Bookshelf from the board.
+    keyword: "BÜCHERREGALE (Möbeleffekt)"
+    description: "Bücherregale sind bewegliche Hindernisse. Wenn ein Großes Monster seine Bewegung in einer Zone mit Bücherregal beendet, 
+      zertrümmert es das Bücherregal und ihr entfernt es vom Spielplan.<br><br>
+      Ein Held darf ein angrenzendes Bücherregal mit einer kleinen Aktion durchstöbern und sich eine Schriftrolle gezielt aus 
+      dem Truhenstapel nehmen. Diese kann sofort als freie Aktion genutzt oder eingelagert werden. Danach wird das Bücherregal vom Spielplan 
+      entfernt – es kann nur einmal verwendet werden."
   - id: interact-(chest)
-    keyword: "[Wave 2] INTERACT (CHEST)"
-    description: "Aus Wave 2, Übersetzung folgt noch. <br><br> When a Hero interacts
-      with a Chest: <br><br> - They draw a card from the top of the Chest deck. That
-      Hero can choose to consume that Item immediately as a Free Action or store it
-      in their bag (if there is room).<br> - Finally, when searching a Chest, the Hero
-      must roll the Trap Die and suffer the effect."
+    keyword: "TRUHE (Möbeleffekt)"
+    description: "Truhen sind bewegliche Hindernisse. Wenn ein Großes Monster seine Bewegung in einer Zone mit Truhe beendet, zertrümmert es die Truhe und
+      ihr entfernt sie vom Spielplan. Denkt daran, dass ihr für das große Monster den Fallenwürfel werfen müsst.<br><br>
+      Ein Held darf eine angrenzende Truhe mit einer kleinen Aktion durchsuchen. Dabei zieht er die oberste Karte vom Truhenstapel 
+      und wirft den Fallenwürfel. Die Truhe wird danach entfernt. Gezogene Verbrauchsgüter dürfen sofort als freie Aktion genutzt oder wie üblich eingelagert werden."
   - id: interact-(pile-of-crates)
-    keyword: "[Wave 2] INTERACT (PILE OF CRATES)"
-    description: Aus Wave 2, Übersetzung folgt noch. <br><br> Piles of Crates are not
-      good for anything in particular. They count as obstacles until they are destroyed
-      or thrown.
+    keyword: "KISTEN (Möbeleffekt)"
+    description: "Kisten sind bewegliche Hindernisse. Wenn ein Großes Monster seine Bewegung in einer Zone mit Kiste beendet, 
+      zertrümmert es die Kiste und ihr entfernt sie vom Spielplan. Kisten haben keinen Möbeleffekt."
   - id: interact-(stone-fountain)
-    keyword: "[Wave 2] INTERACT (STONE FOUNTAIN)"
-    description: "Aus Wave 2, Übersetzung folgt noch. <br><br> When a Hero interacts
-      with a fountain, they flip the Concoction token up, apply its effects, then discard
-      it. There are three possible effects:<br><br> **Fresh Water** (Blue): Nothing
-      tastes better to calm rampant emotions! The drinking Character Regains 2 Health
-      and gains CLEANSE 2.<br><br> **Empowerment Potion** (Orange): Search and you will
-      find! The drinking Character gains INSPIRE and EMPOWER, and they may also take
-      an additional Cube Action this turn. If they are a Large Monster, they just gain
-      a +4 DMG Boost during this turn instead. <br><br> **Toxic Inoculation** (Green):
-      The taste is even worse than the effect... The drinking Character suffers POISON
-      4."
+    keyword: "STEINBRUNNEN (Möbeleffekt)"
+    description: "Steinbrunnen sind unbewegliche Hindernisse und können nicht geworfen werden – auch nicht mit Telekinese. 
+      Beendet ein großes Monster seine Bewegung in einer Zone mit Steinbrunnen, wird dieser zerstört und der Effekt des enthaltenen 
+      Gebräus wird auf das Monster angewendet, als hätte es daraus getrunken.<br><br>
+      Steinbrunnen-Plättchen zeigen auf der Rückseite eines von drei Gebräuen. Die Plättchen werden verdeckt gemischt und beim Aufbau 
+      jeweils an einem Steinbrunnen platziert. Ein Held darf mit einer kleinen Aktion aus einem angrenzenden Steinbrunnen trinken.
+      Das Plättchen wird aufgedeckt, der Effekt tritt ein, und der Steinbrunnen wird entfernt. Es gibt drei unterschiedliche Gebräue mit 
+      jeweils eigenem Effekt: <br><br>
+      Trinkwasser: REINIGEN 2 + 2 LP wiederherstellen<br>
+      Verstärkungstrank: INSPIRATION + VERSTÄRKEN + 1 zusätzliche Würfelaktion in diesem Spielzug. Bei großen Monstern stattdessen: +4 Schaden für den Spielzug<br>
+      Giftmischung: GIFT 4"
   - id: interact-(stone-pillar)
-    keyword: "[Wave 2] INTERACT (STONE PILLAR)"
-    description: Aus Wave 2, Übersetzung folgt noch. <br><br> Stone Pillars are of no
-      use for anything in particular. They just represent a rigid obstacle.
+    keyword: "STEINSÄULEN (Möbeleffekt)"
+    description: "Steinsäulen sind unbewegliche Hindernisse und werden niemals zerstört! Große Monster dürfen sich zwar durch sie „hindurchbewegen“, aber ihre Bewegung nicht darauf beenden!
+      Steinsäulen haben keinen Möbeleffekt."
   - id: interrupt
     keyword: "Unterbrechung"
     description: "Ihr dürft diese Art von Fähigkeit nur einsetzen, wenn ein Angriff einen Charakter als 
@@ -708,13 +701,7 @@ keyword:
       zu Atem und  du erhältst alle LP bis zu deinem aktuellen Maximum zurück. Stelle
       die Miniatur wieder auf und beginne deinen Zug, wie üblich. Wenn dein Held direkt
       zu Beginn deines Zuges durch Zustände ohnmächtig wird, führst du die o. g. 5
-      Schritte durch und er kommt sofort wieder zu Atem.<br><br>Aus Wave 2, Übersetzung
-      folgt noch. <br><br>Some Skills will risk everything in exchange for victory.
-      When a Hero receives a Knock Out effect, they are immediately knocked out as if
-      they had their Health reduced to zero (they must lay their model down, take a
-      Trauma Cube, and everything else as described in the Rulebook on page 15). An
-      effect with Knock Out is final. That is, no effect can prevent you from being
-      Knocked Out in this way."
+      Schritte durch und er kommt sofort wieder zu Atem.
   - id: large-monster
     keyword: GROßES MONSTER
     description: "Große Monster haben eine Basis von 50 mm und belegen 1 ganze Zone.
@@ -946,18 +933,14 @@ keyword:
       Ebene oder das Ende des Spielplans. Das Ziel kann auf eine niedrigere Ebene fallen,
       Fallschaden erleiden und ist auf seinem Weg von gefährlichem Gelände betroffen.
   - id: pushback
-    keyword: "[Wave 2] PUSHBACK"
-    description: Aus Wave 2, Übersetzung folgt noch. <br><br> This effect is similar
-      to Push, but it is a version adapted to be used by Monsters. When a Character
-      undergoes Pushback, they must push their model 1 square back, that is, further
-      away from the source that pushed them. Effectively, they will have three squares
-      to which they can be pushed. A Character who has suffered Pushback must always
-      choose an unoccupied space where they can be pushed, even if it is a harmful terrain
-      or if they have to suffer fall damage because they were pushed from a dungeon
-      tray level 2 to 0. If all possible squares are occupied by Solid Objects, the
-      Character cannot be pushed.
+    keyword: "WEGSCHUBSEN"
+    description: Diese Fähigkeit ist dem Effekt SCHUBSEN X sehr ähnlich, aber die „Stärke“ von 
+      WEGSCHUBSEN ist immer 1. Das Ziel muss sich also 1 Feld weiter vom „ausführenden“ Monster 
+      wegbewegen. Das Ziel entscheidet selbst, auf welches der bis zu 3 Felder es weggeschubst 
+      wird und betritt das neue Feld. Es muss ein freies Feld dafür wählen, aber wenn alle 3 Felder 
+      mit Hindernissen belegt sind, bleibt das Ziel stehen.
   - id: raise-a-draugr
-    keyword: "[Wave 2] RAISE A DRAUGR"
+    keyword: "BESCHWÖRE EINEN DRAUGR "
     description: Nur die Heldenklasse Nekromant darf diese besonderen „untoten Begleittiere“ 
       verwenden. Sie zählen zwar als Begleittiere und verfügen über eine entsprechende Karte, aber nur die 
       spezifischen Effekte „→BEFEHLIGE EINEN DRAUGR“ und „BESCHWÖRE EINEN DRAUGR“ nehmen Einfluss auf sie 
@@ -1337,52 +1320,31 @@ keyword:
       Wenn es sich dabei um einen Angriff handelt, eröffnet dies die Möglichkeit für UNTERBRECHUNGEN. 
       Dies geschieht jedoch BEVOR die Bedrohung entsteht.
   - id: throw-(stack-of-barrels)
-    keyword: "[Wave 2] THROW (STACK OF BARRELS)"
-    description: Aus Wave 2, Übersetzung folgt noch. <br><br> When thrown at a Character,
-      a barrel deals 2 DMG and inflicts KNOCK DOWN to its target if it is a Small Character.
-      Large Monsters bodies are so powerful that barrels don't even bother them. <br><br>
-      - However, if a Hero was hidden inside the barrel, the throwing causes +2 DMG
-      and it can even target Large Monsters and inflict KNOCK DOWN to them (overcoming
-      their immunity thanks to the extra weight). <br>- Reposition the Hero that was
-      in the barrel in a square of their choice that is adjacent to the target against
-      which the barrel was thrown. *(Don't forget, thrown Furniture is broken and removed
-      from the board).*
+    keyword: "FÄSSER (Werfen)"
+    description: Mit einer kleinen Aktion kann ein Fass auf einen kleinen Charakter geworfen werden: 2 Schaden und NIEDERSCHLAGEN.
+      Große Monster sind immun gegen diesen Schaden und den verbundenen Effekt. Wird ein Fass mit einem versteckten Helden geworfen,
+      verursacht dieser 4 Schaden und NIEDERSCHLAGEN - auch gegen große Monster. Die Immunität gegen NIEDERSCHLAGEN wird ignoriert.<br>
+      Nach dem Wurf ist das Fass zerstört und der versteckte Held wird unversehrt neben dem Ziel platziert.
   - id: throw-(bookshelf)
-    keyword: "[Wave 2] THROW (BOOKSHELF)"
-    description: "Aus Wave 2, Übersetzung folgt noch. <br><br> Bookshelves are too heavy
-      to be thrown at a Character with a Minor Action. Instead, it is simply knocked
-      over, affecting a Character that is adjacent to it (chosen by the Hero who used
-      the Throw Furniture Minor Action). TELEKINESIS, on the other hand, can throw a
-      bookshelf normally. <br><br>- Regardless of the way it was thrown, a bookshelf
-      deals 2 DMG and inflicts STUN to its target (Don’t forget: Thrown Furniture is
-      always broken and removed from the board.)"
+    keyword: "BÜCHERREGAL (Werfen)"
+    description: "Mit einer kleinen Aktion kann ein Bücherregal auf ein angrenzendes Feld umgestoßen werden. Trifft es dabei einen Charakter, erleidet dieser 2 Schaden + Betäuben.
+      Das Regal wird dabei zerstört. Wird das Regal per Telekinese geworfen, darf es bis zur vollen Bewegungsreichweite versetzt werden – mit denselben Effekten und ebenfalls zerstört."
   - id: throw-(chest)
-    keyword: "[Wave 2] THROW (CHEST)"
-    description: "Aus Wave 2, Übersetzung folgt noch. <br><br> When thrown at a Character,
-      a Chest causes 2 DMG and you must roll the Trap Die: add the result to this damage
-      as a side effect. *(Don't forget, thrown Furniture is broken and removed from
-      the board.)*"
+    keyword: "TRUHE (Werfen)"
+    description: "Eine Truhe kann mit einer kleinen Aktion auf einen Charakter geworfen werden. Das Ziel erleidet 2 Schaden + den Effekt des Fallenwürfels. 
+      Die Truhe wird dabei zerstört."
   - id: throw-(piles-of-crates)
-    keyword: "[Wave 2] THROW (PILE OF CRATES)"
-    description: Aus Wave 2, Übersetzung folgt noch. <br><br> When thrown, the Pile
-      of Crate inflicts BRITTLE to its target if it is a Small Character. <br><br>-
-      Large Monsters bodies are so powerful that the crates don't even bother them.
-      (Don't forget, thrown Furniture is broken and removed from the board.)
+    keyword: "KISTEN (Werfen)"
+    description: "Mit einer kleinen Aktion darf ein Held eine angrenzende Kiste „gegen“ einen kleinen Charakter werfen und das Ziel erleidet dabei ZERBRECHLICH. Ein 
+    großes Monster ist immun gegen diesen Effekt. Wie bei allen geworfenen Möbelstücken wird die Kiste dabei zerstört."
   - id: throw-(stone-fountains)
-    keyword: "[Wave 2] THROW (STONE FOUNTAIN)"
-    description: Aus Wave 2, Übersetzung folgt noch. <br><br> Stone Fountains are attached
-      to the ground and therefore cannot be thrown at other Characters in any way *(but
-      they can still be destroyed by Large Monsters who end their movement by stepping
-      on them).*
+    keyword: "STEINBRUNNEN (Werfen)"
+    description: Steinbrunnen können nicht geworfen werden, auch nicht mit TELEKINESE.
   - id: throw-(stone-pillar)
-    keyword: "[Wave 2] THROW (STONE PILLAR)"
-    description: Aus Wave 2, Übersetzung folgt noch. <br><br> Stone Pillars are attached
-      to the floor and ceiling and therefore cannot be thrown at other characters in
-      any way. However, it is precisely because they are so firm that the opposite becomes
-      true:<br><br>- When a Character is thrown against a stone pillar (by effects like
-      TELEKINESIS or PUSH), they suffer 4 non-preventable damage and are repositioned
-      in a square adjacent to the pillar chosen by the Character who threw them. The
-      pillar is not removed from the board.
+    keyword: "STEINSÄULEN (Werfen)"
+    description: "Steinsäulen können nicht geworfen werden, auch nicht mit TELEKINESE. Sie haben jedoch eine andere Funktion, die kein anderes Möbelstück hat:
+      Wenn ein Charakter gegen eine Steinsäule „prallt“ (z. B. durch SCHUBSEN oder TELEKINESE), erleidet er 4 NICHT-VERHINDERBAREN SCHADEN. Zusätzlich 
+      darf der Charakter, der ihn dorthin befördert hat, entscheiden, wohin er „abprallt“. Er darf dafür 1 freies Feld angrenzend zur Steinsäule wählen. Die Steinsäule wird dabei nicht zerstört!"
   - id: trample-x
     keyword: STAMPFEN X
     description: STAMPFEN ist ein Zusatzeffekt einer Bewegung. Ein stampfender Charakter
@@ -1456,15 +1418,14 @@ keyword:
     keyword: GRAUSAM
     description: Die Angriffe dieses Monsters fügen nicht-verhinderbaren Schaden zu.
   - id: voodoo
-    keyword: "[Wave 2] VOODOO"
-    description: Aus Wave 2, Übersetzung folgt noch. <br><br> When a Monster has this
-      ability, it is able to remove its Stackable Conditions by inflicting them back
-      against the Heroes. Thus, at the beginning of these Monsters turn, when they are
-      to be affected by Stackable Conditions *(Burn, Bleed, and Intimidate are examples
-      of Stackable Conditions)*, if any of its enemies (Hero, Pet, Companion etc.) are
-      within Range 1 of that Monster, instead of it undergoing such effects, move them
-      to the strongest enemy among them. If the Monster cannot redirect such tokens,
-      only then does it suffers such effects.
+    keyword: "VOODOO"
+    description: Die Fähigkeit VOODOO ist Teil des Schritts „Zustände abhandeln“. Sie löst also früher als andere 
+      PINKE Fähigkeiten aus. Wenn ein solches Monster stapelbare Zustände besitzt (z. B. GIFT), darf es diese 
+      „abgeben“. Befindet sich in diesen Moment mindestens 1 Gegner (Held, Anhänger, Begleittier etc.) in Reichweite 1 
+      zu diesem Monster? Dann wählt das Monster den stärksten unter ihnen (mit den aktuell meisten LP) als 
+      Ziel und gibt dem Ziel alle seine stapelbaren Zustände, soweit möglich und wirft den Rest ab. Es erleidet keine 
+      Effekte dieser „abgegebenen Zustände“.<br><br> Befindet sich kein Gegner in Reichweite 1, erleidet es die Effekte der 
+      Zustände wie üblich und redundante Zustände dürfen niemals abgegeben werden.
   - id: war-cry
     keyword: "SCHLACHTRUF"
     description: Die Fähigkeit SCHLACHTRUF löst zu Beginn des Spielzugs des Monsters aus. Jedes andere 
