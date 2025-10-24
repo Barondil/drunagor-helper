@@ -222,16 +222,17 @@ keyword:
       seine Wirkung entfaltet! STÜRMEN tritt nur in Kraft, wenn der (nach den üblichen Regeln) bestimmte Weg 
       des Monsters die Voraussetzung „3+ Felder“ erfüllt."
   - id: charm
-    keyword: "[Wave 2] CHARM"
-    description: "Aus Wave 2, Übersetzung folgt noch. <br><br> By enchanting the simple-mindedness
-      of a Creature of Darkness, a Hero can force it to attack its own allies. When
-      a Monster is Charmed, the player who bewitched it immediately activates that Monster
-      and controls its turn. In this way, you can force it to attack its own allies,
-      move through harmful terrain, or position them in a disadvantageous or inefficient
-      way. However, while fighting to keep control of its own mind, a Monster is weaker:
-      its attack deals only half (round up) of the damage it would normally (collateral
-      damage is applied as normal). Darkness damage boost, as well as damage reducers
-      like Intimidate, are counted after this base value has been determined."
+    keyword: "VERZAUBERN"
+    description: "Das Ziel von VERZAUBERN darf nur ein kleines Monster sein. Der „verzaubernde“ Held 
+      übernimmt die Kontrolle über das Monster, als wäre es sein Begleittier und aktiviert es sofort – außer der Reihe. 
+      Für diesen Spielzug ist die Zuordnung VERBÜNDET/GEGNER genau umgedreht: Das Monster betrachtet euch als Verbündete 
+      und andere Monster als Gegner. Es zählt weiterhin als Monster und erhält z. B. den Bonus auf Dunkelheit.<br><br>
+      Ihr handelt zuerst die Zustände des Monsters ab und dann lösen etwaige Monsterfähigkeiten aus. Danach macht
+      es 1 Bewegungsaktion und der kontrollierende Held darf es z. B. durch gefährliches Gelände bewegen. 
+      Dann macht es 1 Angriffsaktion und darf dabei nur seine Gegner, also andere Monster angreifen. Das 
+      VERZAUBERTE Monster ist jedoch „geschwächt“ und sein aufgedruckter Angriffsschaden ist für diese Sonderaktivierung
+      halbiert (aufgerundet). Ein Bonus wie z. B. durch Dunkelheit oder ein Abzug wie EINSCHÜCHTERN wird nicht halbiert.<br><br>
+      Alle seine Fähigkeiten und Effekte, die sich nicht auf seine Gegner anwenden lassen, werden schlicht ignoriert."
   - id: claim
     keyword: "BANNER / BEANSPRUCHEN / EINFLUSSBEREICH"
     description: "Der Held darf den Aufsteller BANNER auf 1 angrenzendes freies Feld platzieren. 
@@ -426,15 +427,10 @@ keyword:
       aus. Kommandanten und Leutnants können ihre maximalen LP damit überschreiten
       und erhöhen."
   - id: empower
-    keyword: "[Wave 2] EMPOWER"
-    description: Aus Wave 2, Übersetzung folgt noch. <br><br> Concentrating your energy,
-      you prepare to deliver a powerful blow. When you Empower, the next single Weapon
-      Attack or Spell Attack you make this turn gains +4 DMG. Note that this effect
-      lasts only until the end of this turn or when you make your next Weapon Attack
-      or Spell Attack (even if you miss), whichever comes first. If an effect allows
-      you to make two or more separate Weapon Attack as part of the same Action, the
-      Empower effect is only applied to the first of them (Cleave is a single hit that
-      affects two or more targets, so this bonus applies to all of them).
+    keyword: "VERSTÄRKEN"
+    description: Der Effekt VERSTÄRKEN gibt einen Bonus von +4 SCHADEN auf den nächsten einzelnen Angriff (Waffenangriff 
+      oder Zauberangriff) in diesem Spielzug. Bei „Mehrfachangriffen“ gilt der Bonus nur für den ersten Angriffswurf, bei 
+      „Flächenangriffen“ wie z. B. SPALTEN gilt der Bonus für den ganzen Angriff, also gegen alle Ziele.
   - id: end-of-turn-(eot)
     keyword: "Ende des Zuges (EDZ)"
     description: "Diese Abkürzung für „Ende des Zuges“ wird einige Male verwendet, 
@@ -885,28 +881,43 @@ keyword:
     description: Beim Auslösen erleidet jeder Gegner in der Zone 2 nicht-verhinderbaren
       Schaden und GIFT 2.
   - id: polymorph
-    keyword: VERNIEDLICHEN / POLYMORPH
-    description: "There is nothing more satisfying than ridiculing a threat, turning
-      a once-powerful enemy into a defenseless capybara! In order to emulate this effect
-      with its proper glamour in the AoD System, you will need to follow some more preparation
-      steps. However, do not worry: once one understands the concept of this effect,
-      such steps become intuitive! When a Character suffers Polymorph, you must replace
-      their model with a capybara, facing the direction of your choice, and give them
-      a Polymorph Condition token. Take note that the direction these Characters face
-      is important: When manipulating these Characters again, do not change their facing
-      (unless it's specified to do so). The rulebook explains the conecpt fully."
+    keyword: "VERNIEDLICHEN / POLYMORPH"
+    description: "Wenn ein Charakter VERNIEDLICHEN erleidet, erhält er als Erstes das zugehörige Zustandsplättchen. 
+      VERNIEDLICHT ist ein redundanter Zustand und es darf immer nur 1 Charakter gleichzeitig davon betroffen sein.<br><br>
+      Dann nehmt ihr den Capybara-Aufsteller und ersetzt damit die Miniatur des VERNIEDLICHTEN Gegners. Die Basis des Aufstellers
+      gibt die „Blickrichtung“ in Form eines Pfeils an. Dreht den Aufsteller so, dass der Pfeil direkt auf eine „Kante“ seines 
+      Feldes zeigt, also nicht diagonal. Ihr dürft frei wählen, in welche der 4 möglichen Richtung der Aufsteller „initial“ blickt.<br><br>
+      Wenn ihr ihn aktiviert, handelt ihr zuerst seine Zustände ab. Dann zieht ihr die oberste Karte vom verdeckten Stapel UNBERECHENBAR 
+      und führt sie für das Capybara aus. Alle diese Karten haben einen schwarzen Bereich, der die Bewegung des Capybara vorgibt.<br><br>
+      Bei den meisten Karten dreht sich das Capybara zuerst und bewegt sich danach „geradeaus“ vorwärts. Sowohl für das Drehen, als auch 
+      die Bewegung ist die Blickrichtung entscheidend: Der Pfeil zeigt immer „geradeaus nach vorne“. Achtet deshalb darauf, dass ihr 
+      die Ausrichtung nur nach Anweisung ändert. Das Capybara bewegt sich dann immer genau 1 Feld in Blickrichtung. Falls diese Bewegung 
+      nicht möglich ist, enthält jede Karte eine alternative Anweisung. Es gibt 4 Karten, die dazu einen „hellen“ Bereich zeigen. 
+      Diesen führt ihr nach der etwaigen Bewegung aus und er beendet immer den Zustand VERNIEDLICHT. Zusätzlich haben die beiden Karten 
+      mit dem Untereffekt WUTAUSBRUCH! (in der Abbildung rechts) zwei weitere Konsequenzen:<br><br>
+      Der bis jetzt betroffene Charakter → ENTWICKELT sich und erhält die damit verbundenen Boni von +2 SCHADEN und +1 BEWEGUNG. 
+      Außerdem macht er sofort einen weiteren Spielzug. Ihr aktiviert ihn also direkt erneut und handelt seine Zustände ab. Da er nun nicht mehr 
+      VERNIEDLICHT ist, macht er dann einen „normalen“ Spielzug und profitiert dabei bereits von den soeben erhaltenen Boni.<br><br>
+      Achtung: Mitunter verwendet ihr die Karten UNBERECHENBAR auch für Charaktere, die nicht VERNIEDLICHT sind. In diesen Fällen führt ihr nur den 
+      schwarzen Bereich aus, um sie zu bewegen. Deshalb enthält der untere Bereich eine entsprechende Einschränkung und zeigt das Zustandsplättchen.<br><br>
+      Wenn der Zustand VERNIEDLICHT endet, legt ihr das Zustandsplättchen zurück in den Vorrat und tauscht den Aufsteller wieder gegen die Miniatur des 
+      Charakters aus.<br><br>
+      Der Zustand VERNIEDLICHT kann auf 4 Arten enden:<br>
+      1. Ihr zieht 1 der 4 Karten mit hellem Bereich.<br>
+      2. Der Zustand wird durch REINIGEN entfernt.<br>
+      3. Ein anderer Charakter wird Ziel eines neuen VERNIEDLICHEN-Effektes. Der bisher betroffene Charakter gibt das Zustandsplättchen dann ab.<br>
+      4. Wenn das Capybara von einem seiner Gegner als Ziel ausgewählt wird, endet der Zustand ebenfalls. Das gilt sowohl für Angriffe, als auch für andere 
+      Effekte. Wenn Verbündete des Capybaras es als Ziel wählen oder es z. B. durch Zustände oder gefährliches Gelände Schaden erleidet, beendet dies NICHT den Zustand.<br><br>
+      Beachtet, dass die Immunität von Großen Monstern erweitert wurde und nun auch VERNIEDLICHEN abdeckt."
   - id: polymorph-(simple)
-    keyword: "[Wave 2] POLYMORPH (SIMPLE)"
-    description: "Aus Wave 2, Übersetzung folgt noch. <br><br> If you have tried the
-      mechanics of Polymorph and still consider them to be too complicated, you can,
-      as a house rule, ignore the use of the Errant Behavior deck and the capybara model.
-      You can then establish that the Polymorphed Character simply can’t take actions
-      during their turn. Instead, at the beginning of each of their activations, they
-      must roll the d20 to see what happens that turn: <br> - If they roll 11+, they
-      break free from the Polymorph, but do not act this turn. <br>- Otherwise, if they
-      roll 10-, they remain Polymorphed. <br><br> Regardless of your choice to proceed
-      either withStandard Polymorph or with Simple Polymorph, the other rules to end
-      this Condition early or to become immune to it remain the same."
+    keyword: "VERNIEDLICHEN / POLYMORPH (VEREINFACHT)"
+    description: "Ihr könnt die folgende Vereinfachung als Hausregel für VERNIEDLICHEN einführen: Wenn ein Charakter VERNIEDLICHEN erleidet, erhält er 
+      das zugehörige Zustandsplättchen. VERNIEDLICHT ist ein redundanter Zustand und es darf immer nur 1 Charakter gleichzeitig davon betroffen sein.
+      Solange ein Charakter VERNIEDLICHT ist, handelt ihr bei seiner Aktivierung zuerst seine Zustände ab, wie üblich. Dann werft ihr 1-mal den W20:<br><br>
+      11+: Der Zustand VERNIEDLICHT wird sofort entfernt und der aktuelle Spielzug endet.<br>
+      1–10: Der Charakter bleibt VERNIEDLICHT und der aktuelle Spielzug endet.<br>
+      VERNIEDLICHT endet außerdem, wenn dieser Zustand durch REINIGEN entfernt wird, der Charakter von einem seiner Gegner als Ziel ausgewählt wird oder ein anderer 
+      Charakter das Ziel eines VERNIEDLICHEN-Effektes wird."
   - id: prevent-x
     keyword: VERHINDERN X
     description: Das Ziel ignoriert sofort bis zu X Schaden. Das Ziel, also der Charakter,
@@ -1514,12 +1525,10 @@ keyword:
       stapelbar und du erhältst darum trotzdem nur 4 SCHILD-Plättchen. HEILEN 4 stellt
       hingegen eine Verbesserung dar."
   - id: wounded
-    keyword: "[Wave 2] WOUNDED"
-    description: "Aus Wave 2, Übersetzung folgt noch. <br><br> Wounded is a rare term
-      that was created to condense a bigger effect into a single word: A Wounded Character
-      is one who currently has half or less of their maximum Health (round down). A
-      Character may be considered both Wounded and Fine when it has exactly half its
-      maximum Health."
+    keyword: "VERWUNDET"
+    description: "Ein Charakter ist VERWUNDET, wenn seine aktuellen LP bei der Hälfte seiner 
+    maximalen LP oder darunter liegen. Liegen die aktuellen LP bei genau der Hälfte, ist der 
+    Charakter gleichzeitig GESUND."
   - id: x
     keyword: X
     description: Einige Monster haben – statt einer Zahl – ein „X“ in der Beschreibung
