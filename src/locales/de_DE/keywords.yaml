@@ -124,7 +124,7 @@ keyword:
   - id: bear-trap
     keyword: BÄRENFALLE
     description: Beim Auslösen erleidet jeder Gegner in dieser Zone 2 nicht-verhinderbaren
-      Schaden und BLUTEN 2
+      Schaden und BLUTEN 2.
   - id: beginning-of-turn-(bot)
     keyword: "Beginn des Zuges (BDZ)"
     description: Die Abkürzung BDZ für „Beginn des Zuges“ wird aus Platzgründen eingesetzt. 
@@ -176,12 +176,9 @@ keyword:
       dennoch „stattgefunden“ und die Angriffsaktion eines Monsters bleibt auch bei einem ABBRUCH „ausgeführt“. <br>
       Achtung: Sind zuvor bereits andere UNTERBRECHUNGEN von euch eingesetzt worden, werden diese nicht „rückgängig“ gemacht."
   - id: cast
-    keyword: "[Wave 2] CAST"
-    description: Aus Wave 2, Übersetzung folgt noch. <br><br> This term is used to define
-      the moment when an effect is applied in the game, often related to the Character
-      responsible for causing it. So, when your Hero spends one of their Action Cubes
-      to use a Battle Focus Skill, for example, that Hero is casting a FOCUS 1 AND CLEANSE
-      1 effect.
+    keyword: "WIRKEN"
+    description: Dieser Begriff wird verwendet, umden Moment zu definieren, in dem ein Effekt im Spiel angewendet wird, oft in Verbindung mit dem Charakter,
+      der diesen auslöst. Wenn dein Held beispielsweise einen seiner Aktionswürfel einsetzt, um die Fähigkeit Kampffokus zu nutzen, wirkt dieser Held FOKUS 1 UND REINIGEN 1.
   - id: catalyze
     keyword: "INTENSIVIEREN"
     description: Der ausführende Held  behandelt den nächsten AW, den er in diesem Spielzug einsetzt, als JOKERWÜRFEL.
@@ -563,15 +560,16 @@ keyword:
       VERBORGEN ignoriert. Außerdem erleidet der immune Charakter keinen DOPPELSCHADEN
       durch einen Überraschungsangriff.
   - id: inflict
-    keyword: "[Wave 2] INFLICT"
-    description: Aus Wave 2, Übersetzung folgt noch. <br><br>This is the term used to
-      designate an effect (usually Conditions) applied by a casting Character against
-      a target Character without giving them a chance to defend themselves, similar
-      to what non-preventable damage would do. Thus, an Inflicted effect does not generate
-      any Attack or Threat (even if it comes from an Attack card, for example), not
-      allowing Characters to use their Interrupts and Reactions to defend themselves.
-      Remember, if a Character is immune to a Condition, naturally, such Condition does
-      not affect it when it is Inflicted on it.
+    keyword: "ZUFÜGEN"
+    description: Dies ist der Begriff, der verwendet wird, um einen Effekt (in der Regel Zustände) zu bezeichnen, der von einem 
+      zaubernden Charakter gegen einen Zielcharakter angewendet wird, ohne diesem die Möglichkeit zu geben, sich zu verteidigen, ähnlich
+      wie es bei nicht verhinderbaren Schaden der Fall wäre. Ein „Inflicted”-Effekt erzeugt also keinen Angriff oder keine Bedrohung 
+      (selbst wenn er beispielsweise von einer Angriffskarte stammt), sodass Charaktere ihre Unterbrechungen und Reaktionen nicht zur 
+      Verteidigung einsetzen können.<br><br>
+      Denken Sie daran: Wenn ein Charakter gegen einen Zustand immun ist, wirkt sich dieser Zustand natürlich
+      nicht auf ihn aus, wenn er ihm zugefügt wird.
+
+Übersetzt mit DeepL.com (kostenlose Version)
   - id: inspire
     keyword: "INSPIRATION"
     description: Das Ziel erhält 1 INSPIRATIONS-Plättchen. Ein Held darf 1 eigenes INSPIRATIONS-Plättchen nach 
