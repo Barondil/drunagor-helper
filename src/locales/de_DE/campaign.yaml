@@ -52,7 +52,7 @@ outcome:
     campaign:
       - id: bitten
         name: Gebissen
-        effect: : Immer wenn du eine Rastaktion ausführst, egal ob freiwillig oder unfreiwillig, erleidest du danach BETÄUBEN. Dieser Effekt durchbricht jede Form von Immunität.
+        effect: Immer wenn du eine Rastaktion ausführst, egal ob freiwillig oder unfreiwillig, erleidest du danach BETÄUBEN. Dieser Effekt durchbricht jede Form von Immunität.
       - id: deep-wound
         name: Tiefe Wunde
         effect: Die Anzahl der TW, die du besitzen darfst, ist um 1 reduziert.
