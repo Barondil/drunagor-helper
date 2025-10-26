@@ -297,7 +297,7 @@ auras:
     campaign:
       - id: brute-force
         name: Rohe Gewalt
-        effect: Du hast eine weitere kleine Aktion zur Wahl, bei der du 1 AW VERBRAUCHEN darfst für: SELBST, VERSTÄRKEN. 
+        effect: "Du hast eine weitere kleine Aktion zur Wahl, bei der du 1 AW VERBRAUCHEN darfst für: SELBST, VERSTÄRKEN." 
       - id: burden-of-guilt
         name: Bürde der Schuld
         effect: Immer wenn du eine Rastaktion ausführst, egal ob freiwillig oder unfreiwillig, erleidest du danach EINSCHÜCHTERN 4. Dieser Effekt durchbricht jede Form von Immunität. 
