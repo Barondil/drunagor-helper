@@ -26,33 +26,33 @@ keyword:
       dein Maximum."
   - id: x-dmg
     keyword: "+X SCHADEN"
-    description: Steht dieser Bonus hinter einen Waffenangriff, erhöht er den Schaden
+    description: "Steht dieser Bonus hinter einen Waffenangriff, erhöht er den Schaden
       dieses Angriffes. Ist er zusammen mit dem Symbol für Waffen- oder Zauberangriffe
       vorhanden, erhöht er alle entsprechenden Angriffe. Kritische Treffer und DOPPELSCHADEN
-      verdoppeln jeweils auch +X Schaden.
+      verdoppeln jeweils auch +X Schaden."
   - id: x-hit
     keyword: "+X TRF oder -X TRF"
-    description: Kennzeichnet den Angriffswurf eines Waffenangriffs und den damit verbundenen
+    description: "Kennzeichnet den Angriffswurf eines Waffenangriffs und den damit verbundenen
       Modifikator. Dieser Modifikator X wird auf das Würfelergebnis angewendet, aber er zählt nur für die 
       Genauigkeit der Waffe und hat keinen Einfluss auf das Erreichen eines kritischen Treffers. <br>
       Bei Mehrfachangriffen sind diese mit einem Strich | voneinander getrennt.
-      Für jeden dieser Waffenangriffe ist ein eigener Angriffswurf erforderlich.
+      Für jeden dieser Waffenangriffe ist ein eigener Angriffswurf erforderlich."
   - id: x-to-hit
     keyword: "+X ZU TRF"
-    description: Dieser Effekt verändert das Würfelergebnis des Angriffswurfs. Nach
+    description: "Dieser Effekt verändert das Würfelergebnis des Angriffswurfs. Nach
       dem W20-Wurf wird der Wert X zum Würfelergebnis hinzugezählt. „+X ZU TRF“ ist
       selbst KEIN Waffenangriff, sondern verändert ihn nur. Beachte, dass dieser Bonus
       nur das Ergebnis der Genauigkeit eines Waffenangriffs beeinflusst, nicht aber,
-      ob du einen kritischen Treffer erzielst.
+      ob du einen kritischen Treffer erzielst."
   - id: x-movement
     keyword: "+X BEWEGUNG"
-    description: Wenn der Charakter den Effekt BEWEGUNG erhält, erhält er X zusätzliche
+    description: "Wenn der Charakter den Effekt BEWEGUNG erhält, erhält er X zusätzliche
       Bewegungspunkte. Ihr könnt dafür ein passendes Vorteilsplättchen verwenden, um
-      diesen Bonus anzuzeigen.
+      diesen Bonus anzuzeigen."
   - id: action-cubes-(ac)
-    keyword: AKTIONSWÜRFEL (AW)
+    keyword: "AKTIONSWÜRFEL (AW)"
     description: "Aktionswürfel (abgekürzt: AW) gibt es in 4 Farben: Gelb (Nahkampf),
-      Rot (Fernkampf), Grün (Gewandtheit) und Blau (Weisheit). "
+      Rot (Fernkampf), Grün (Gewandtheit) und Blau (Weisheit)."
   - id: activate
     keyword: "AKTIVIEREN (BEGLEITTIER)"
     description: "Beschwört das genannte Begleittier auf einem angrenzenden Feld. Befindet 
@@ -60,17 +60,17 @@ keyword:
       „zusätzlichen“ Spielzug. Ist kein Begleittier benannt („1 deiner Begleittiere“), kann 1 der verfügbaren 6 
       Begleittiere gewählt werden. <br> Wichtig: Ein beschworenes Beggleittier wird in einem benachbarten, freien Feld angrenzend seinem Meister platziert."
   - id: adj-or-adjacent
-    keyword: ANGRENZEND
-    description: Felder und Zonen sind angrenzend, wenn sie eine gemeinsame Ecke oder
+    keyword: "ANGRENZEND"
+    description: "Felder und Zonen sind angrenzend, wenn sie eine gemeinsame Ecke oder
       Kante haben. Wenn dieser Begriff als Angabe direkt vor dem eigentlichen Effekt
       einer Fähigkeit steht, kann der Effekt nur Ziele betreffen, die sich angrenzend
-      zum ausführenden Charakter befinden.
+      zum ausführenden Charakter befinden."
   - id: area
-    keyword: Zone
-    description: Zonen sind in blaue Quadrate auf allen Geländepläne unterteilt und
-      bestehen dabei aus 4 kleinen Feldern mit weißen Linien.
+    keyword: "Zone"
+    description: "Zonen sind in blaue Quadrate auf allen Geländepläne unterteilt und
+      bestehen dabei aus 4 kleinen Feldern mit weißen Linien."
   - id: all
-    keyword: ALLEN SCHADEN (BIS AUF 1) VERHINDERN
+    keyword: "ALLEN SCHADEN (BIS AUF 1) VERHINDERN"
     description: "Das Ziel des Effekts verhindert den erhaltenen Schaden aus einer Quelle
       vollständig (bzw. reduziert ihn auf 1). Besitzt das Ziel SCHILD-Plättchen, müssen
       diese wie üblich zuvor eingesetzt werden. <br>Dieser Effekt betrifft immer den angegriffenen
@@ -80,61 +80,61 @@ keyword:
       Hat der ausführende Held einen Bonus auf VERHINDERN? Dann wird dieser zusätzlich hinzugezählt. 
       „ALLEN SCHADEN BIS AUF 1“ wird damit zu „ALLEN SCHADEN“."
   - id: ambush
-    keyword: HINTERHALT
-    description: Wenn ihr ein Monster mit HINTERHALT aktiviert, entfernt ihr es kurzzeitig
+    keyword: "HINTERHALT"
+    description: "Wenn ihr ein Monster mit HINTERHALT aktiviert, entfernt ihr es kurzzeitig
       vom Spielplan und bestimmt das Ziel in unbegrenzter Reichweite. Dann wählt derjenige
       von euch, dessen Held (oder dessen Gefährte/Begleittier) das Ziel des Monsters
       ist, ein zum Ziel angrenzendes freies Feld. Dort wird das Monster sofort platziert.
-      Dieses „Versetzen“ gilt als SPRUNG.
+      Dieses „Versetzen“ gilt als SPRUNG."
   - id: attack-twice
-    keyword: DOPPELANGRIFF
-    description: Ein Monster mit diesem Effekt bewegt sich zuerst und greift danach 2x an. Die Angriffe 
+    keyword: "DOPPELANGRIFF"
+    description: "Ein Monster mit diesem Effekt bewegt sich zuerst und greift danach 2x an. Die Angriffe 
       finden einzeln statt und zählen als eigene Bedrohung für REAKTIONEN und UNTERBRECHUNGEN. <br>
       Bewegt sich das Ziel nach dem 1. Angriff außer Reichweite, wählt das Monster ein neues primäres Ziel 
-      für seinen 2. Angriff. Es kann sich jedoch nicht bewegen.
+      für seinen 2. Angriff. Es kann sich jedoch nicht bewegen."
   - id: aura
-    keyword: AURA
-    description: Eine Aura ist die Konsequenz einer Interaktion oder eines Ereignisses,
+    keyword: "AURA"
+    description: "Eine Aura ist die Konsequenz einer Interaktion oder eines Ereignisses,
       die ein Held in seinem Kampagnen-Logbuch notiert. In der Regel ist damit ein bestimmter
       Effekt verbunden, der so lange gilt, wie die Aura besteht. Ein Held kann nur 1
       Aura gleichzeitig haben. Sie wird entfernt, wenn der Held eine neue Aura erhält
-      (sie ersetzt die alte) oder der Held 1 TW erhält.
+      (sie ersetzt die alte) oder der Held 1 TW erhält."
   - id: aura-(token)
     keyword: "AURA (PLÄTTCHEN)"
-    description: AURA-Plättchen dienen als Merker, dass ihr eine Aura erhalten habt. 
-      Ihr könnte diese als Erinnerung euren Heldentableus platzieren. 
+    description: "AURA-Plättchen dienen als Merker, dass ihr eine Aura erhalten habt. 
+      Ihr könnte diese als Erinnerung euren Heldentableus platzieren."
   - id: available
-    keyword: VERFÜGBAR
-    description: Verfügbare AW liegen auf euren Heldentableaus und können verbraucht oder benutzt 
-      werden.  Eine Fähigkeit ist „verfügbar“, wenn sie erlernt ist und mindestens 1 ihrer „Felder“ frei ist. 
-      Bei Interaktionsszenen können Auflösungen wiederum dafür sorgen, dass bestimmte Optionen NICHT MEHR VERFÜGBAR sind.
+    keyword: "VERFÜGBAR"
+    description: "Verfügbare AW liegen auf euren Heldentableaus und können verbraucht oder benutzt 
+      werden. Eine Fähigkeit ist „verfügbar“, wenn sie erlernt ist und mindestens 1 ihrer „Felder“ frei ist. 
+      Bei Interaktionsszenen können Auflösungen wiederum dafür sorgen, dass bestimmte Optionen NICHT MEHR VERFÜGBAR sind."
   - id: avoid
-    keyword: IGNORIEREN
-    description: Neben VERHINDERN, das als Effekt direkt mit SCHADEN interagiert, gibt es noch weitere 
+    keyword: "IGNORIEREN"
+    description: "Neben VERHINDERN, das als Effekt direkt mit SCHADEN interagiert, gibt es noch weitere 
       Möglichkeiten, um Effekten „aus dem Weg“ zu gehen. Um dies anzuzeigen, verwenden wir zumeist das Wort 
       „ignorieren“, es ist jedoch kein Schlüsselwort, mit dem bestimmte Regeln verbunden sind. Es bedeutet schlicht, 
-      dass etwas ignoriert wird und nicht zum Tragen kommt.
+      dass etwas ignoriert wird und nicht zum Tragen kommt."
   - id: bash
     keyword: "PRÜGELN [EFFEKT]"
-    description: PRÜGELN ist an den Held Andreas (aus der Erweiterung Erwachen) gekoppelt und wird 
+    description: "PRÜGELN ist an den Held Andreas (aus der Erweiterung Erwachen) gekoppelt und wird 
       immer von einem weiteren [EFFEKT] in eckigen Klammern begleitet. Dieser „eingeklammerte“ Zusatzeffekt 
       wird nur dann angewendet, wenn der Held Andreas in diesem Moment 2 eigene SCHILD-Plättchen abwirft. 
       Verzichtet er darauf oder hat er nicht genug SCHILD-Plättchen, finden nur die restlichen Effekte statt 
-      und der [EFFEKT] entfällt.
+      und der [EFFEKT] entfällt."
   - id: bear-trap
-    keyword: BÄRENFALLE
-    description: Beim Auslösen erleidet jeder Gegner in dieser Zone 2 nicht-verhinderbaren
-      Schaden und BLUTEN 2.
+    keyword: "BÄRENFALLE"
+    description: "Beim Auslösen erleidet jeder Gegner in dieser Zone 2 nicht-verhinderbaren
+      Schaden und BLUTEN 2."
   - id: beginning-of-turn-(bot)
     keyword: "Beginn des Zuges (BDZ)"
-    description: Die Abkürzung BDZ für „Beginn des Zuges“ wird aus Platzgründen eingesetzt. 
+    description: "Die Abkürzung BDZ für „Beginn des Zuges“ wird aus Platzgründen eingesetzt. 
       Ein Spielzug beginnt immer damit, dass zuerst die Zustände abgehandelt werden, erst 
-      danach folgen etwaige Effekte zu BDZ.
+      danach folgen etwaige Effekte zu BDZ."
   - id: bleed-x
-    keyword: BLUTEN X
-    description: Das Ziel erhält X BLUTEN-Plättchen. Zu Beginn seines nächsten Zuges
+    keyword: "BLUTEN X"
+    description: "Das Ziel erhält X BLUTEN-Plättchen. Zu Beginn seines nächsten Zuges
       erleidet es 1 nicht-verhinderbaren Schaden für jedes dieser Plättchen. Danach
-      entfernt ihr alle diese BLUTEN-Plättchen. BLUTEN ist ein stapelbarer Zustand.
+      entfernt ihr alle diese BLUTEN-Plättchen. BLUTEN ist ein stapelbarer Zustand."
   - id: blindness
     keyword: "BLENDEN"
     description: "Das Ziel erhält 1 GEBLENDET-Plättchen. Solange ein Charakter geblendet ist, 
@@ -145,28 +145,28 @@ keyword:
       Achtung: GEBLENDET bleibt so lange bestehen, bis der Zustand durch REINIGEN entfernt wird oder der 
       betroffene Charakter eine Rastaktion durchführt."
   - id: bloodseeker
-    keyword: BLUTSUCHER
-    description: Dieses Monster wählt den schwächsten Helden (mit den aktuell wenigsten
+    keyword: "BLUTSUCHER"
+    description: "Dieses Monster wählt den schwächsten Helden (mit den aktuell wenigsten
       LP) als primäres Ziel. Bei Gleichstand den beteiligten Held, der zuletzt in der
-      Runde drankommt.
+      Runde drankommt."
   - id: bounty
     keyword: "ERBEUTEN"
-    description: Wenn ein Charakter mit diesem Kollateraleffekt ein Monster besiegt, lässt dieses 1 BEUTE-Plättchen fallen.
+    description: "Wenn ein Charakter mit diesem Kollateraleffekt ein Monster besiegt, lässt dieses 1 BEUTE-Plättchen fallen."
   - id: brittle
     keyword: "ZERBRECHLICH"
-    description: Das Ziel erhält 1 ZERBRECHLICH-Plättchen und dies ist ein redundanter Zustand.
+    description: "Das Ziel erhält 1 ZERBRECHLICH-Plättchen und dies ist ein redundanter Zustand.
       Wenn ein Held oder einer eurer Verbündeten (Begleittiere, Anhänger, Kohorten) von ZERBRECHLICH 
       betroffen ist und Schaden erleidet (unabhängig von der Quelle des Schadens), wird der „tatsächlich“ 
       erlittene Schaden (nach allen VERHINDERN-Effekten und etwaigen SCHILD-Plättchen) verdoppelt. Zusätzlich wird 
       das ZERBRECHLICH-Plättchen entfernt.<br><br> 
       Wenn ein Monster von ZERBRECHLICH betroffen ist, wird der nächste Waffenangriff 
       oder Zauberangriff, der es trifft, zu einem kritischen Treffer und das ZERBRECHLICH-Plättchen entfernt. Ein misslungener 
-      Waffenangriff entfernt das Plättchen nicht.
+      Waffenangriff entfernt das Plättchen nicht."
   - id: burn-x
-    keyword: BRENNEN X
-    description: Das Ziel erhält X BRENNEN-Plättchen. Zu Beginn seines nächsten Zuges
+    keyword: "BRENNEN X"
+    description: "Das Ziel erhält X BRENNEN-Plättchen. Zu Beginn seines nächsten Zuges
       erleidet es 1 nicht-verhinderbaren Schaden für jedes dieser Plättchen. Danach
-      entfernt ihr 1 dieser BRENNEN -Plättchen. BRENNEN ist ein stapelbarer Zustand.
+      entfernt ihr 1 dieser BRENNEN -Plättchen. BRENNEN ist ein stapelbarer Zustand."
   - id: cancel
     keyword: "Abbrechen/Abbruch"
     description: "ABBRECHEN/ABBRUCH: Dieser Effekt tritt im Zusammenhang mit UNTERBRECHUNGEN auf. 
@@ -181,17 +181,17 @@ keyword:
       der diesen auslöst. Wenn dein Held beispielsweise einen seiner Aktionswürfel einsetzt, um die Fähigkeit Kampffokus zu nutzen, wirkt dieser Held FOKUS 1 UND REINIGEN 1.
   - id: catalyze
     keyword: "INTENSIVIEREN"
-    description: Der ausführende Held  behandelt den nächsten AW, den er in diesem Spielzug einsetzt, als JOKERWÜRFEL.
+    description: "Der ausführende Held behandelt den nächsten AW, den er in diesem Spielzug einsetzt, als JOKERWÜRFEL."
   - id: chain-up
     keyword: "EINFANGEN"
-    description: Diese Monsterfähigkeit löst zu Beginn des Zugs aus, direkt nachdem 
+    description: "Diese Monsterfähigkeit löst zu Beginn des Zugs aus, direkt nachdem 
       ihr die Zustände des Monsters abgehandelt habt. Das Monster wählt den stärksten 
       Helden (mit den aktuell meisten LP) in Reichweite 1 als Ziel dieser Fähigkeit. 
       Das Ziel erleidet 2 NICHT-VERHINDERBAREN Schaden und wird außerdem an das Monster 
       „herangezogen“. Das Ziel muss seine Miniatur auf ein zum Monster angrenzendes freies 
       Feld stellen und betritt dieses Feld damit. Die Felder „auf dem Weg dorthin“ werden 
       nicht betreten. Gibt es kein zum Monster angrenzendes freies Feld? Dann bleibt das Ziel 
-      an seinem Platz stehen und erleidet stattdessen 4 NICHT-VERHINDERBAREN Schaden.
+      an seinem Platz stehen und erleidet stattdessen 4 NICHT-VERHINDERBAREN Schaden."
   - id: channel
     keyword: "KANALISIEREN"
     description: "Fähigkeiten mit diesem Effekt haben eine besondere Funktionsweise und ähneln passiven 
@@ -202,11 +202,11 @@ keyword:
       Sie werden jedoch nur mit AW „aktiviert“! Sind sie mit einem TW oder FW belegt, sind sie einfach blockiert, so 
       wie jede andere Fähigkeit."
   - id: character
-    keyword: CHARAKTER
-    description: Helden und ihre Verbündeten (z. B. Begleittiere), NSC-Plättchen und Monster gelten 
+    keyword: "CHARAKTER"
+    description: "Helden und ihre Verbündeten (z. B. Begleittiere), NSC-Plättchen und Monster gelten 
       als Charaktere. Alle Charaktere können das Ziel von Soforteffekten wie z. B. VERHINDERN sein, 
       aber nur Charaktere mit Karten oder Tableaus können Zustands- oder Ressourcenplättchen erhalten!
-      Wenn nicht anders angegeben, zählen Charaktere als bewegliche Hindernisse (Ausnahme GROẞES MONSTER).
+      Wenn nicht anders angegeben, zählen Charaktere als bewegliche Hindernisse (Ausnahme GROẞES MONSTER)."
   - id: charge
     keyword: "STÜRMEN"
     description: "Diese Monsterfähigkeit „verbindet“ die Bewegung und den Angriff des Monsters. Wenn ein 
@@ -240,7 +240,7 @@ keyword:
       als Möbelstück. Große Monster zertrümmern sie und ihr könnt BANNER, wie andere Möbelstücke, mit 
       einer kleinen Aktion „auf“ 1 Charakter werfen. Dabei verursachen sie 2 SCHADEN UND BLUTEN 2."
   - id: cleanse-x
-    keyword: REINIGEN X
+    keyword: "REINIGEN X"
     description: "Das Ziel entfernt bis zu X seiner FW. Zusätzlich entfernt es alle
       eigenen GIFT-Plättchen. REINIGEN kann keine TW oder anderen Zustände entfernen.
       <br><br>Änderung durch Erweiterungen „Apokalypse“ und „Erwachen“:<br><br>
@@ -249,13 +249,13 @@ keyword:
       B) alle eigenen Plättchen von 1 Zustand entfernen.<br>
       REINIGEN kann nur FW und Zustände, aber keine TW entfernen!"
   - id: cleave-x
-    keyword: SPALTEN X
-    description: Dieser Angriff kann bis zu X Gegner zum Ziel haben. Alle Ziele müssen unterschiedlich und
+    keyword: "SPALTEN X"
+    description: "Dieser Angriff kann bis zu X Gegner zum Ziel haben. Alle Ziele müssen unterschiedlich und
       angrenzend zum Angreifer sein (sie müssen aber nicht angrenzend zueinander sein).
       Helden führen dabei nur 1 Angriffswurf durch und wenden das Ergebnis auf alle
-      Ziele an (Höhenunterschiede für jedes Ziel einzeln beachten!).
+      Ziele an (Höhenunterschiede für jedes Ziel einzeln beachten!)."
   - id: command
-    keyword: BEFEHLIGEN
+    keyword: "BEFEHLIGEN"
     description: "Dieses Monster aktiviert sofort 1 anderes Monster. Es wählt dafür
       das stärkste andere Monster (außer sich selbst) und das aktivierte Monster führt
       seinen Zug sofort „außer der Reihe“ aus, mit allen Konsequenzen. Das Initiativeplättchen
@@ -266,7 +266,7 @@ keyword:
       Wenn Helden BEFEHLIGEN, ist davor immer das direkte Ziel angegeben: DRAUGR (BEFEHLIGEN); BEGLEITTIER (BEFEHLIGEN)."
   - id: command-a-draugr
     keyword: "BEFEHLIGE EINEN DRAUGR"
-    description: Nur die Heldenklasse Nekromant darf diese besonderen „untoten Begleittiere“ verwenden. 
+    description: "Nur die Heldenklasse Nekromant darf diese besonderen „untoten Begleittiere“ verwenden. 
       Sie zählen zwar als Begleittiere und verfügen über eine entsprechende Karte, aber nur die spezifischen 
       Effekte „BEFEHLIGE EINEN DRAUGR“ und „BESCHWÖRE EINEN DRAUGR“ nehmen Einfluss auf sie und beide Effekte 
       sind voneinander getrennt.<br> 
@@ -274,7 +274,7 @@ keyword:
       Spielzug ausführt, wie bei AKTIVIERE BEGLEITTIER. BEFEHLIGEN darf jedoch keinen Draugr neu beschwören, 
       sondern nur einen bereits im Spiel befindlichen Draugr „aktivieren“.<br>
       Falls ein Held mehrmals BEFEHLIGT, darf er jedes Mal 
-      denselben Draugr wählen, wenn gewünscht.
+      denselben Draugr wählen, wenn gewünscht."
   - id: command-a-pet
     keyword: "BEFEHLIGE BEGLEITTIER"
     description: "Dieser Effekt erlaubt es 1 eigenes Begleittier zu wählen, das sofort einen 
@@ -285,8 +285,8 @@ keyword:
       eines Begleittiers (z. B. BESTE FREUNDE auf Mayas Heldentableau) erlaubt? Dann kann das Begleittier 
       zuerst aktiviert (beschworen) und danach direkt befehligt werden."
   - id: companions
-    keyword: GEFÄHRTEN
-    description: Gefährten besitzen eine eigene Karte und können Plättchen (z. B. Schild
+    keyword: "GEFÄHRTEN"
+    description: "Gefährten besitzen eine eigene Karte und können Plättchen (z. B. Schild
       oder Zustände) erhalten und das Ziel von VERHINDERN-Effekten sein. Auf dem Spielplan
       werden sie durch NSC-Plättchen repräsentiert und immer von 1 Helden kontrolliert.
       Der Held aktiviert seine Gefährten direkt nach seinem eigenen Zug. Kontrolliert
@@ -298,9 +298,9 @@ keyword:
       Gefährten werden nur dann angegriffen, wenn das Monster keinen Helden angreifen
       kann. Wenn ein Monster entweder ein Begleittier oder einen Gefährten angreifen
       könnte, wählt der Anführer der Gruppe das Ziel. In der Lagerphase verlassen Gefährten
-      eure Gruppe.
+      eure Gruppe."
   - id: copy-effect
-    keyword: KOPIEREN
+    keyword: "KOPIEREN"
     description: "Diese Fähigkeit kopiert alle Werte und Effekte der gewählten Fähigkeit. Wenn nicht anders 
     angegeben, können nur Heldenfähigkeiten (sowohl vom Tableau als auch auf Karten) kopiert werden, auch 
     die eigenen. Es ist normalerweise nicht möglich Reaktionen oder Unterbrechungen zu kopieren. Die 
@@ -314,29 +314,29 @@ keyword:
       WIEDERHOLUNGEN eintreten und findet auch statt, wenn der ursprüngliche Angreifer selbst nicht angrenzend ist."
   - id: cover
     keyword: "ABSICHERN"
-    description: Ein Charakter kann diesen Effekt nur dann anwenden, wenn das Ziel angegriffen wird. Der 
+    description: "Ein Charakter kann diesen Effekt nur dann anwenden, wenn das Ziel angegriffen wird. Der 
       „absichernde Charakter“ wird damit zum Ziel des Angriffs anstelle des ursprünglichen Ziels. ABSICHERN 
       funktioniert auch bei Angriffen wie z. B. SPALTEN, aber falls der absichernde Charakter bereits Ziel desselben 
-      Angriffs ist, wird er damit „2-mal“ zum Ziel mit allen Konsequenzen, dies zählt jedoch nur als 1 Bedrohung.
+      Angriffs ist, wird er damit „2-mal“ zum Ziel mit allen Konsequenzen, dies zählt jedoch nur als 1 Bedrohung."
   - id: covetous
-    keyword: HABGIERIG
-    description: Dieses Monster wählt den Helden als primäres Ziel, der aktuell insgesamt
+    keyword: "HABGIERIG"
+    description: "Dieses Monster wählt den Helden als primäres Ziel, der aktuell insgesamt
       die meisten Ressourcenplättchen (z. B. FOKUS, SCHILD oder KI) besitzt. Bei Gleichstand
-      ist der Held das Ziel, der in der Runde zuerst drankommt.
+      ist der Held das Ziel, der in der Runde zuerst drankommt."
   - id: crit-x
-    keyword: KRITISCH BEI X
-    description: Verändert das notwendige Würfelergebnis für einen kritischen Treffer.
+    keyword: "KRITISCH BEI X"
+    description: "Verändert das notwendige Würfelergebnis für einen kritischen Treffer.
       Zeigt der Angriffswurf X oder mehr (ohne etwaige Modifikatoren), ist es ein kritischer
       Treffer. Überlagern sich mehrere „KRITISCH BEI X+“, gilt nur die kleinere zu übertreffende
-      Zahl.
+      Zahl."
   - id: cube-action-(ca)
-    keyword: WÜRFELAKTION
-    description: " Ein Held darf in seinem Zug bis zu 2 Würfelaktionen ausführen.
+    keyword: "WÜRFELAKTION"
+    description: "Ein Held darf in seinem Zug bis zu 2 Würfelaktionen ausführen.
       Dazu zählen Fähigkeiten, auf denen AW platziert oder für die AW verbraucht werden
       und solche, die explizit als Würfelaktion beschrieben sind. Reaktionen sind keine
       Würfelaktionen, auch nicht im eigenen Spielzug."
   - id: cube-range-(cr)
-    keyword: WÜRFELREICHWEITE (WR)
+    keyword: "WÜRFELREICHWEITE (WR)"
     description: "Die Farbe des eingesetzten AW bestimmt die Reichweite. <br><br>Nahkampf
       (gelb): Eine Fähigkeit, die mit einem gelben AW ausgeführt wird, ist eine Nahkampffähigkeit.
       Damit kann diese Fähigkeit nur den Helden selbst oder Ziele betreffen, die direkt
@@ -350,21 +350,21 @@ keyword:
       AW ausgeführt wird, ist eine Weisheitsfähigkeit und hat unbegrenzte Reichweite.
       Damit kann diese Fähigkeit jedes Ziel auf dem Spielplan betreffen."
   - id: curse-cubes-(cc)
-    keyword: FLUCHWÜRFEL (FW)
-    description: Werden mit den schwarzen Würfeln dargestellt. Wenn ein Held einen
+    keyword: "FLUCHWÜRFEL (FW)"
+    description: "Werden mit den schwarzen Würfeln dargestellt. Wenn ein Held einen
       FW erhält, muss er ihn sofort einer eigenen freien Helden- oder Kampfrollenfähigkeit
       zuordnen. Solange der FW dort liegt, ist diese Fähigkeit blockiert und kann nicht
       benutzen werden. FW können nicht auf Ausrüstung, Fokustechniken oder Klassenfertigkeiten
       platziert werden.<br><br> Erhält ein Held seinen 6. FW, ist er besiegt und ihr
       habt das Abenteuer verloren. FW werden bei einer Rastaktion nicht entfernt, können
       jedoch auf anderem Weg, z. B. durch REINIGEN entfernt werden. Es gibt Fähig- und
-      Fertigkeiten, die dieses Limit erhöhen.
+      Fertigkeiten, die dieses Limit erhöhen."
   - id: curse-x
-    keyword: FLUCH X
-    description: Das Ziel erhält X Fluchwürfel. Helden können gegen diesen Effekt IMMUN
-      sein.
-  - id: darkness-behavior
-    keyword: AUSBREITUNG DER DUNKELHEIT
+    keyword: "FLUCH X"
+    description: "Das Ziel erhält X Fluchwürfel. Helden können gegen diesen Effekt IMMUN
+      sein."
+  - id: "darkness-behavior"
+    keyword: "AUSBREITUNG DER DUNKELHEIT"
     description: 'Die Dunkelheit versucht den stärksten Helden zu erreichen, der nicht
       auf Dunkelheit steht.<br><br>"Dunkelheit aufbrechen": Dunkelheit bricht auf, wenn:
       <br> 1. Das Dunkelheitsplättchen passt mit dieser Form überhaupt nicht auf den
@@ -375,17 +375,17 @@ keyword:
       gelegt, allerdings wird kein Dunkelheitsplättchen platziert. Alle Helden erleiden
       stattdessen Y nicht-verhinderbaren Schaden. (Y = Spielerzahl)'
   - id: darkness-effect-(standing-on-it)
-    keyword: EFFEKTE DER DUNKELHEIT
-    description: Helden und ihre Verbündeten, die die Dunkelheit betreten, von ihr
+    keyword: "EFFEKTE DER DUNKELHEIT"
+    description: "Helden und ihre Verbündeten, die die Dunkelheit betreten, von ihr
       erreicht werden oder ihren eigenen Zug darauf beenden, erleiden in diesem Moment
       2 nicht-verhinderbaren Schaden, aber insgesamt nur 1x pro Zug.<br> Helden, die
       auf Dunkelheit stehen, erleiden -2 ZU TRF auf ihre Angriffswürfe.<br> Monster,
-      die auf Dunkelheit stehen, erhalten +2 SCHADEN auf alle ihre Angriffe.
+      die auf Dunkelheit stehen, erhalten +2 SCHADEN auf alle ihre Angriffe."
   - id: defiant
-    keyword: TROTZIG
-    description: Dieses Monster wählt den eifrigsten Helden (mit aktuell den meisten
+    keyword: "TROTZIG"
+    description: "Dieses Monster wählt den eifrigsten Helden (mit aktuell den meisten
       AW) als primäres Ziel. Bei Gleichstand den beteiligten Held, der zuerst in der
-      Runde drankommt.
+      Runde drankommt."
   - id: devourer
     keyword: "VERZEHRER"
     description: "Dieses Monster startet den Kampf auf STUFE 1 und wählt als primäres Ziel immer ein 
@@ -396,33 +396,33 @@ keyword:
       vollen neuen LP und kann seine Maximalen LP dabei überschreiten. Sollte kein mögliches Ziel vorhanden sein, 
       wählt er sein primäres Ziel wie ein STANDARD-Monster."
   - id: difficult-terrain
-    keyword: SCHWIERIGES GELÄNDE
-    description: Ein Charakter, der schwieriges Gelände (wie z. B. Wasser) betritt,
+    keyword: "SCHWIERIGES GELÄNDE"
+    description: "Ein Charakter, der schwieriges Gelände (wie z. B. Wasser) betritt,
       verliert 1 Bewegungspunkt der aktuellen Bewegung, jedoch nur 1x pro Zug. Es ist
       erlaubt mit dem letzten Bewegungspunkt das Gelände zu betreten und den Verlust
-      dann zu ignorieren.
+      dann zu ignorieren."
   - id: disarm
-    keyword: ENTWAFFNEN
-    description: " Das Ziel muss sofort alle verfügbaren Nah- und Fernkampfwürfel
+    keyword: "ENTWAFFNEN"
+    description: "Das Ziel muss sofort alle verfügbaren Nah- und Fernkampfwürfel
       ungenutzt VERBRAUCHEN. ENTWAFFNEN zählt als besondere Art von ERSCHÖPFEN und folgt
       denselben Regeln, nur ist die Farbe der AW vorgegeben. Helden die immun gegen
       ERSCHÖPFEN sind, sind auch immun gegen ENTWAFFNEN. ENTWAFFNEN kann außerdem nur
       etwas auslösen, das auch von ERSCHÖPFEN ausgelöst wird."
   - id: discard
-    keyword: ABWERFEN
-    description: Das Abgeworfene kommt zurück an die Stelle, wo es herkommt. Gegenstände
-      aus Truhen werden immer auf den Ablagestapel geworfen.
+    keyword: "ABWERFEN"
+    description: "Das Abgeworfene kommt zurück an die Stelle, wo es herkommt. Gegenstände
+      aus Truhen werden immer auf den Ablagestapel geworfen."
   - id: drain-health
-    keyword: LP ENTZIEHEN X
+    keyword: "LP ENTZIEHEN X"
     description: " Das Ziel verliert X Lebenspunkte, der ausführende Charakter erhält
       die dabei verlorenen LP. Dies zählt nicht als Schaden, und löst z. B. keine Reaktionen
       aus. Kommandanten und Leutnants können ihre maximalen LP damit überschreiten
       und erhöhen."
   - id: empower
     keyword: "VERSTÄRKEN"
-    description: Der Effekt VERSTÄRKEN gibt einen Bonus von +4 SCHADEN auf den nächsten einzelnen Angriff (Waffenangriff 
+    description: "Der Effekt VERSTÄRKEN gibt einen Bonus von +4 SCHADEN auf den nächsten einzelnen Angriff (Waffenangriff 
       oder Zauberangriff) in diesem Spielzug. Bei „Mehrfachangriffen“ gilt der Bonus nur für den ersten Angriffswurf, bei 
-      „Flächenangriffen“ wie z. B. SPALTEN gilt der Bonus für den ganzen Angriff, also gegen alle Ziele.
+      „Flächenangriffen“ wie z. B. SPALTEN gilt der Bonus für den ganzen Angriff, also gegen alle Ziele."
   - id: end-of-turn-(eot)
     keyword: "Ende des Zuges (EDZ)"
     description: "Diese Abkürzung für „Ende des Zuges“ wird einige Male verwendet, 
@@ -433,22 +433,22 @@ keyword:
       Nach dieser Rastaktion und allen verbundenen Effekten bzw. nach der Entscheidung keine Rastaktion 
       durchzuführen, kommt es zu den Effekten, die am EDZ stattfinden."
   - id: enemy
-    keyword: GEGNER
-    description: Monster betrachten Helden und ihre Verbündeten als Gegner, ihr betrachtet
-      Monster als Gegner.
+    keyword: "GEGNER"
+    description: "Monster betrachten Helden und ihre Verbündeten als Gegner, ihr betrachtet
+      Monster als Gegner."
   - id: engaged
-    keyword: GEBUNDEN
-    description: Ein Charakter ist (im Kampf) gebunden, wenn sich auf einem angrenzenden
+    keyword: "GEBUNDEN"
+    description: "Ein Charakter ist (im Kampf) gebunden, wenn sich auf einem angrenzenden
       Feld ein Gegner befindet. Ein gebundener Charakter kann keine Waffenangriffe im
       Fernkampf ausführen. Gebundene Helden können als kleine Aktion nur Fokustechniken
-      oder Verbrauchsgüter benutzen.
+      oder Verbrauchsgüter benutzen."
   - id: enrage
     keyword: "BLUTRAUSCH"
-    description: Dieser Kollateraleffekt macht das Monster stärker. Wenn ein solches Monster die LP eines 
+    description: "Dieser Kollateraleffekt macht das Monster stärker. Wenn ein solches Monster die LP eines 
       Charakters reduziert oder einen Charakter durch einen Angriff entfernt, erhält es danach einen Bonus von +1 SCHADEN. 
       Legt das entsprechende Vorteilsplättchen auf das Monstertableau bzw. auf seine Karte. <br><br>
       Wenn ein solches Monster mit DOPPELANGRIFF angreift und der erste Angriff diesen Bonus auslöst, erhält der zweite 
-      Angriff dann direkt diesen Bonusschaden.
+      Angriff dann direkt diesen Bonusschaden."
   - id: entropy
     keyword: "ENTROPIE"
     description: "Das Ziel erhält 1 ENTROPIE-Plättchen und ENTROPIE ist eine stapelbare Ressource.<br><br> 
@@ -457,52 +457,52 @@ keyword:
       Alternativ darf ein Held auch alle 4 auf einmal abwerfen, damit er gegen dieselbe Bedrohung eine weitere Reaktion (³) durchführen darf,
       also entweder „2 Reaktionen“ oder „Unterbrechung + Reaktion“."
   - id: evolve
-    keyword: ENTWICKELN
-    description: Das Monster wird stärker und erhält +2 SCHADEN und +1 BEWEGUNG. Legt
+    keyword: "ENTWICKELN"
+    description: "Das Monster wird stärker und erhält +2 SCHADEN und +1 BEWEGUNG. Legt
       die entsprechenden Vorteilsplättchen auf das Monstertableau. Die Anzahl der Plättchen
-      ist unbegrenzt.
+      ist unbegrenzt."
   - id: expend
-    keyword: VERBRAUCHEN
-    description: Ein Held verbraucht 1 verfügbaren AW, indem er ihn auf das Feld für
+    keyword: "VERBRAUCHEN"
+    description: "Ein Held verbraucht 1 verfügbaren AW, indem er ihn auf das Feld für
       verbrauchte AW des Heldentableaus legt. Dort ist Platz für beliebig viele AW.
       Verbrauchen ist in der Regel eine Würfelaktion oder das Resultat eines erlittenen
-      Effektes, z. B. ERSCHÖPFEN.
+      Effektes, z. B. ERSCHÖPFEN."
   - id: falling-damage
-    keyword: FALLSCHADEN
+    keyword: "FALLSCHADEN"
     description: "Immer dann, wenn sich ein Charakter direkt von Ebene 2 auf Ebene 0
       bewegt, erleidet dieser Charakter Fallschaden und muss 2 nicht-verhinderbaren
       Schaden erleiden. Fallschaden entsteht sowohl bei einer „freiwilligen“ Bewegung
       als auch bei anderen Effekten, die einen Charakter zwingen seine Position zu verändern
       (wie SCHUBSEN, TELEKINESE oder Verdrängen)."
   - id: fatigue-x
-    keyword: ERSCHÖPFEN X
-    description: Das Ziel muss sofort X seiner verfügbaren Aktionswürfel ungenutzt
+    keyword: "ERSCHÖPFEN X"
+    description: "Das Ziel muss sofort X seiner verfügbaren Aktionswürfel ungenutzt
       VERBRAUCHEN, das Ziel bestimmt selbst welche. Hat das Ziel nicht genug AW, verbraucht
       es alle und führt danach eine unfreiwillige Rastaktion durch. Die „noch fehlenden“
-      AW werden nach der Rastaktion nicht verbraucht.
+      AW werden nach der Rastaktion nicht verbraucht."
   - id: fine
     keyword: "GESUND"
     description: "Ein Charakter gilt als GESUND, wenn seine aktuellen LP bei der Hälfte 
     seiner maximalen LP oder darüber liegen. Liegen die aktuellen LP bei genau der Hälfte,
-    ist der Charakter gleichzeitig auch VERWUNDET. "
+    ist der Charakter gleichzeitig auch VERWUNDET."
   - id: fire-trap
-    keyword: BRANDFALLE
-    description: " Beim Auslösen erleidet jeder Gegner in der Zone 2 nicht-verhinderbaren
+    keyword: "BRANDFALLE"
+    description: "Beim Auslösen erleidet jeder Gegner in der Zone 2 nicht-verhinderbaren
       Schaden und BRENNEN 4."
   - id: flyby
-    keyword: RÜCKKEHR
-    description: Das Begleittier bewegt sich nach seinem Angriff direkt auf ein freies
+    keyword: "RÜCKKEHR"
+    description: "Das Begleittier bewegt sich nach seinem Angriff direkt auf ein freies
       Feld, das angrenzend zum kontrollierenden Helden ist. Diese „Bewegung“ zählt als
-      SPRUNG mit unbegrenzter Reichweite und ist verpflichtend.
+      SPRUNG mit unbegrenzter Reichweite und ist verpflichtend."
   - id: focus-x
-    keyword: FOKUS X
-    description: Das Ziel erhält X FOKUS-Plättchen. FOKUS ist eine stapelbare Ressource.
+    keyword: "FOKUS X"
+    description: "Das Ziel erhält X FOKUS-Plättchen. FOKUS ist eine stapelbare Ressource."
   - id: free-recall-action
-    keyword: KOSTENLOSE RASTAKTION
-    description: Bei einer kostenlosen Rastaktion (z. B. bei Ohnmacht) erhält ein Held
-      keine FW als Strafe. Er erhält trotzdem alle AW zurück.
+    keyword: "KOSTENLOSE RASTAKTION"
+    description: "Bei einer kostenlosen Rastaktion (z. B. bei Ohnmacht) erhält ein Held
+      keine FW als Strafe. Er erhält trotzdem alle AW zurück."
   - id: fruit-of-life
-    keyword: FRUCHT DES LEBENS
+    keyword: "FRUCHT DES LEBENS"
     description: "Das Plättchen FRUCHT DES LEBENS ist eine stapelbare Ressource und
       wird auf dem Heldentableau platziert. Gleichzeitig zählt sie aber als Verbrauchsgut.
       Mit der kleinen Aktion „Verbrauchsgut benutzen“ kann sie für diesen Effekt abgeworfen
@@ -516,28 +516,28 @@ keyword:
       Dieser Bonus gilt trotzdem und der Effekttext dieser Fertigkeit lautet ab sofort:<br>
       WENN DU EINE FRUCHT DES LEBENS BENUTZT: ERHALTE +1 LP ZURÜCK."
   - id: fury
-    keyword: WUT X
-    description: Das Ziel erhält X WUT Plättchen und dies ist eine stapelbare Ressource.  
+    keyword: "WUT X"
+    description: "Das Ziel erhält X WUT Plättchen und dies ist eine stapelbare Ressource.  
       Wenn ein Held mit einem Zauber- oder Waffenangriff trifft, darf er
       1 WUT-Plättchen abwerfen, damit dieser Angriff +1 SCHADEN erhält. Pro Zug oder
       Reaktion darf nur 1 WUT-Plättchen abgeworfen werden. 
       <br><br>Änderung durch Erweiterungen „Apokalypse“ und „Erwachen“:<br><br>
       Ihr dürft mehrere diese Plättchen im selben Zug abgeben. Aber nur 1 pro Angriff.
       Wenn es sich um einen Angriff mit mehreren Zielen handelt wie z.B. Flächenschlag, 
-      erleiden alle Ziele +1 SCHADEN.
+      erleiden alle Ziele +1 SCHADEN."
   - id: heal-x
-    keyword: HEILEN X
+    keyword: "HEILEN X"
     description: "Das Ziel erhält X LP zurück. Ein Charakter kann dabei niemals sein
       aktuelles Maximum überschreiten. Jede überschüssige Heilung geht verloren."
   - id: heavy-wield
     keyword: "SCHWERFÄLLIG"
-    description: Dieser Effekt tritt häufig bei flexiblen Waffen auf. Wenn ein Held mit 
+    description: "Dieser Effekt tritt häufig bei flexiblen Waffen auf. Wenn ein Held mit 
       einer schwerfälligen Waffe einen Mehrfachangriff ausführt, also einen 
       Waffenangriff mit mehreren Angriffswürfen wie z. B. Lorelais Heldenfähigkeit Magischer Bolzen, 
       darf er nur 1 dieser Angriffe ausführen, der Rest verfällt ersatzlos. Diese Einschränkung 
       gilt unabhängig von der Quelle, die den Waffenangriff erlaubt. Es ist jedoch erlaubt, 
       mit einer schwerfälligen Waffe mehrere Angriffe in einem Spielzug durchzuführen, z. B. durch mehrere 
-      Würfelaktionen. Die Einschränkung betrifft nur jeden einzelnen Waffenangriff.
+      Würfelaktionen. Die Einschränkung betrifft nur jeden einzelnen Waffenangriff."
   - id: idol
     keyword: "TOTEM (ANBETEN & RUFEN)"
     description: "Wenn ihr ein Totem RUFT, platziert ihr das zugehörige Plättchen in der Mitte eurer oder einer 
@@ -552,36 +552,36 @@ keyword:
       Totem des Sturms (Dunkelblau): ZAUBERANGRIFF REICHWEITE 1, 2 SCHADEN <br>
       Totem der Ruhe (Hellblau): SELBST, REINIGEN 1"
   - id: immunity
-    keyword: IMMUN (IMMUNITÄT)
-    description: Der Charakter kann den angegebenen Zustand oder Eﬀekt ignorieren. Das
+    keyword: "IMMUN (IMMUNITÄT)"
+    description: "Der Charakter kann den angegebenen Zustand oder Eﬀekt ignorieren. Das
       bedeutet, dass er die Folgen (wie z. B. das zugehörige Zustandsplättchen zu erhalten)
       nicht anwendet. Immunität gegen VERBORGEN bedeutet, dass dieser Charakter auch
       verborgene Charaktere wie gewohnt als Ziel auswählen kann, weil er den Zustand
       VERBORGEN ignoriert. Außerdem erleidet der immune Charakter keinen DOPPELSCHADEN
-      durch einen Überraschungsangriff.
+      durch einen Überraschungsangriff."
   - id: inflict
     keyword: "ZUFÜGEN"
-    description: Dies ist der Begriff, der verwendet wird, um einen Effekt (in der Regel Zustände) zu bezeichnen, der von einem 
+    description: "Dies ist der Begriff, der verwendet wird, um einen Effekt (in der Regel Zustände) zu bezeichnen, der von einem 
       zaubernden Charakter gegen einen Zielcharakter angewendet wird, ohne diesem die Möglichkeit zu geben, sich zu verteidigen, ähnlich
       wie es bei nicht verhinderbaren Schaden der Fall wäre. Ein „Inflicted”-Effekt erzeugt also keinen Angriff oder keine Bedrohung 
       (selbst wenn er beispielsweise von einer Angriffskarte stammt), sodass Charaktere ihre Unterbrechungen und Reaktionen nicht zur 
       Verteidigung einsetzen können.<br><br>
       Denken Sie daran: Wenn ein Charakter gegen einen Zustand immun ist, wirkt sich dieser Zustand natürlich
-      nicht auf ihn aus, wenn er ihm zugefügt wird.
+      nicht auf ihn aus, wenn er ihm zugefügt wird."
 
 Übersetzt mit DeepL.com (kostenlose Version)
   - id: inspire
     keyword: "INSPIRATION"
-    description: Das Ziel erhält 1 INSPIRATIONS-Plättchen. Ein Held darf 1 eigenes INSPIRATIONS-Plättchen nach 
+    description: "Das Ziel erhält 1 INSPIRATIONS-Plättchen. Ein Held darf 1 eigenes INSPIRATIONS-Plättchen nach 
       einem Wurf mit dem W20 abwerfen, um diesen Wurf zu WIEDERHOLEN. Dies ist auch möglich, wenn der 
       Wurf kein MISSERFOLG war, aber das neue Ergebnis zählt, auch wenn es niedriger ist. INSPIRATION ist eine 
-      redundante Ressource.
+      redundante Ressource."
   - id: interact
-    keyword: INTERAKTION
-    description: Interaktionen sind Situationen, die während eines Abenteuers passieren
+    keyword: "INTERAKTION"
+    description: "Interaktionen sind Situationen, die während eines Abenteuers passieren
       und in die dein Held eingreifen kann (oder sollte). Einige Interaktionen werden
       über eine direkte Anweisung ins Spiel gebracht, aber die meisten von ihnen werden
-      auf dem Spielplan als Interaktionsplättchen zu finden sein.
+      auf dem Spielplan als Interaktionsplättchen zu finden sein."
   - id: interact-(stack-of-barrels)
     keyword: "FÄSSER (Möbeleffekt)"
     description: "Fässer sind bewegliche Hindernisse. Wenn ein Großes Monster seine Bewegung in einer 
@@ -639,7 +639,7 @@ keyword:
       Allerdings gibt es eine direkte Wechselwirkung: <br>
       Helden, die Unterbrechungen einsetzen, dürfen für Bedrohungen aus diesem Angriff KEINE Reaktion mehr ausführen!"
   - id: intimidate-x
-    keyword: EINSCHÜCHTERN X
+    keyword: "EINSCHÜCHTERN X"
     description: "Das Ziel erhält X EINSCHÜCHTERN-Plättchen. Ein Charakter mit mindestens
       1 EINSCHÜCHTERN-Plättchen erleidet bei seinem nächsten eigenen Angriff diesen
       Effekt (bei Mehrfachangriffen nur beim ersten Angriff): Für jedes EINSCHÜCHTERN-Plättchen
@@ -647,8 +647,8 @@ keyword:
       EINSCHÜCHTERN-Plättchen abgeworfen, auch wenn der Angriff nicht trifft. EINSCHÜCHTERN
       ist ein stapelbarer Zustand."
   - id: jump-x
-    keyword: SPRUNG X
-    description: Das Ziel ist grundsätzlich der Ausführende Charakter. SPRUNG ist eine
+    keyword: "SPRUNG X"
+    description: "Das Ziel ist grundsätzlich der Ausführende Charakter. SPRUNG ist eine
       besondere Art der Bewegung und ignoriert das Gelände und die Dunkelheitsplättchen
       auf dem Weg zum Ziel. Nur das Feld, auf dem der Charakter seine SPRUNG-Bewegung
       beendet, oder für eine kleine Aktion unterbricht, wird tatsächlich betreten und
@@ -656,20 +656,20 @@ keyword:
       bei BEWEGUNG mit „Punkten“ (X). Es ist möglich „über“ Hindernisse und Gegner
       hinwegzuspringen, jedoch nicht darauf zu enden. Ein springender Charakter erleidet
       zwar keinen Fallschaden, aber die direkte Bewegung von Ebene 0 auf 2 verbraucht
-      2 „Punkte“.
+      2 „Punkte“."
   - id: ki
-    keyword: KI X
-    description: Du erhältst X KI-Plättchen, KI ist eine stapelbare Ressource. Du darfst
+    keyword: "KI X"
+    description: "Du erhältst X KI-Plättchen, KI ist eine stapelbare Ressource. Du darfst
       in deinem Zug als kleine Aktion 1 KI-Plättchen abwerfen, um sofort 1 Waffenangriff
       mit +0 TRF auszuführen. Ein Held darf pro Spielzug höchstens 1 KI-Plättchen ausgeben,
       niemals mehr und diese kleine Aktion ist auch möglich, wenn dein Held im Kampf
-      gebunden ist.
+      gebunden ist."
   - id: killing-blow
     keyword: "TODESSCHLAG"
-    description: Dieser Begriff bezeichnet den Angriff, der das Ziel besiegt und damit aus dem Spiel entfernt, 
+    description: "Dieser Begriff bezeichnet den Angriff, der das Ziel besiegt und damit aus dem Spiel entfernt, 
       gewissermaßen der „tödliche Treffer“. Wenn ein Effekt wie MEUCHELN einen Gegner direkt besiegt, zählt 
       auch dies als TODESSCHLAG. Andererseits können z. B. Zustände niemals einen TODESSCHLAG darstellen, 
-      selbst wenn ein Gegner durch sie besiegt wird.
+      selbst wenn ein Gegner durch sie besiegt wird."
   - id: keen
     keyword: "BEGABT"
     description: "Dieser Effekt ersetzt „KRITISCH BEI 16+“ und verändert das notwendige Würfelergebnis 
@@ -677,15 +677,15 @@ keyword:
       Wenn ein Zauberangriff BEGABT erhält, werft ihr ebenfalls den W20 bei diesem Angriff. Auch dann führt 16+ zu einem 
       kritischen Treffer und verdoppelt den gesamten Schaden des Angriffs. Es handelt sich jedoch nicht um einen Angriffswurf 
       und der Zauberangriff trifft immer.<br>
-      Hinweis: Diese Anpassung sorgt dafür, dass ein JOKERWÜRFEL den zugrunde liegenden Effekt nicht mehr „verschlechtert“. "
+      Hinweis: Diese Anpassung sorgt dafür, dass ein JOKERWÜRFEL den zugrunde liegenden Effekt nicht mehr „verschlechtert“."
   - id: knock-down
-    keyword: NIEDERSCHLAGEN
-    description: Das Ziel erhält 1 NIEDERSCHLAGEN-Plättchen und das Plättchen bleibt
+    keyword: "NIEDERSCHLAGEN"
+    description: "Das Ziel erhält 1 NIEDERSCHLAGEN-Plättchen und das Plättchen bleibt
       liegen, bis es entfernt wird. Erhält der betroffene Charakter das nächste Mal
       einen Bewegungseffekt, darf er sich nicht bewegen. Stattdessen wirft er sein NIEDERSCHLAGEN-Plättchen
-      ab. NIEDERSCHLAGEN ist ein redundanter Zustand.
+      ab. NIEDERSCHLAGEN ist ein redundanter Zustand."
   - id: knock-out
-    keyword: OHNMÄCHTIG
+    keyword: "OHNMÄCHTIG"
     description: "Sobald dein Held auf oder unter 0 LP fällt, wird er ohnmächtig. Du
       musst sofort die folgenden Schritte durchführen: <br><br>1. Lege seine Miniatur
       an Ort und Stelle hin. <br>2. Entferne alle seine Zustandsplättchen, aber behalte
@@ -699,9 +699,9 @@ keyword:
       zu Atem und  du erhältst alle LP bis zu deinem aktuellen Maximum zurück. Stelle
       die Miniatur wieder auf und beginne deinen Zug, wie üblich. Wenn dein Held direkt
       zu Beginn deines Zuges durch Zustände ohnmächtig wird, führst du die o. g. 5
-      Schritte durch und er kommt sofort wieder zu Atem.
+      Schritte durch und er kommt sofort wieder zu Atem."
   - id: large-monster
-    keyword: GROßES MONSTER
+    keyword: "GROßES MONSTER"
     description: "Große Monster haben eine Basis von 50 mm und belegen 1 ganze Zone.
       Ein großes Monster ist immun gegen NIEDERSCHLAGEN, SCHUBSEN, BETÄUBEN und TELEKINESE.
       Es bewegt sich von Zone zu Zone und kann kleine Monster VERDRÄNGEN und Truhen
@@ -711,22 +711,12 @@ keyword:
       Zusätzlich ist ein großes Monster immun gegen VERNIEDLICHEN und kann Möbel ZERTRÜMMERN. 
       Auch sind Große Monster unbewegliche Hindernisse."
   - id: learn
-    keyword: "[Wave 2] LEARN"
-    description: Aus Wave 2, Übersetzung folgt noch. <br><br> During the Campaign, the
-      terms used to represent your Hero's progression by acquiring a new Skill or Class
-      Ability was “Learns and Unlocks”. From now on, this term has been simplified to
-      just “Learn”, but its purpose is the same. So, when your Hero learns a Hero or
-      Role Skill Level 1, they must choose a Level 1 Skill from their Hero or Role,
-      take its respective card and Action Cube, and add them to their Hero Board. <br
-      /><br /> **NOTE:** It is important to remember that a Hero cannot Learn a Hero
-      or Role Skill of Level 2 if they have not learned a Level 1 Skill belonging to
-      that same Skill Tree or Dungeon Role, as already mentioned in the Corebox Rulebook.
-      When a Hero learns a Class Ability, they take the matching card—if it is the Level
-      1 Ability for that Class Tree—and a White Cube. They place the card beside their
-      board and the cube on the appropriate space to mark the Class Ability they have
-      learned. <br /><br /> **NOTE:** Likewise, it is important to remember that a Hero
-      cannot Learn a Class Ability of Level 2 or 3 if they have not learned a Class
-      Ability of Level 1 or 2 (respectively) belonging to that same Class Tree.
+    keyword: "ERLERNEN"
+    description: "Erlernt eine Heldenfähigkeit der angegebenen Stufe und nehmt euch 1 farblich zur Karte passenden neuen AW (auch bei passiven Fähigkeiten).
+      Anstatt einer Heldenfähigkeit könnt ihr immer 1 Kampfrollenfähigkeit lernen. In diesem Fall bestimmt ihr die Farbe des neuen AW selbst. In beiden Fällen könnt ihr Stufe 2 
+      nur erlernen, wenn ihr bereits Stufe 1 dieser Fähigkeit erlernt habt!<br><br>
+      Bei Erlernen einer neuen Klassenfertigkeit wählt ihr entweder einen neuen Klassenbaum und erlernt davon Stufe 1, oder ihr lernt von einem eurer Klassenbäume die „nächste“ 
+      Stufe. Für Klassenfertigkeiten erhaltet ihr keinen neuen AW."
   - id: loot-(tokens)
     keyword: "BEUTE-PLÄTTCHEN"
     description: "Diese neuen Plättchen sind bewegliche Bodenobjekte. Eure Helden können sie 
@@ -735,28 +725,28 @@ keyword:
       sofort die oberste Karte vom Truhenstapel. Wie bei einer „sicheren Truhe“ müsst ihr dabei nicht den Fallenwürfel 
       werfen. Wie bei Truhen könnt ihr ein gezogenes Verbrauchsgut sofort benutzen."
   - id: loot
-    keyword: PLÜNDERN (vormals BEUTE)
-    description: Wenn ein Gefährte mit diesem Effekt ein Monster besiegt, ersetzt ihr
+    keyword: "PLÜNDERN (vormals BEUTE)"
+    description: "Wenn ein Gefährte mit diesem Effekt ein Monster besiegt, ersetzt ihr
       die Miniatur des besiegten Monsters durch ein Truhenplättchen. Diese besondere
       Truhe ist kein Hindernis und ihr müsst nicht den Fallenwürfel werfen, wenn ihr
-      sie durchsucht oder diese von einem großen Monster zertrümmert wird.
+      sie durchsucht oder diese von einem großen Monster zertrümmert wird."
   - id: maelstrom
-    keyword: MAHLSTROM
-    description: " Alle Leutnants (und manche Kommandanten) besitzen diese Fähigkeit.
+    keyword: "MAHLSTROM"
+    description: "Alle Leutnants (und manche Kommandanten) besitzen diese Fähigkeit.
       Zu Beginn des Zuges mischt der Effekt MAHLSTROM die Angriffskarten zurück in
       den Stapel und ihr zieht danach neue Angriffskarten (1 pro Spieler)."
   - id: manifest
-    keyword: MANIFESTIEREN
-    description: Ihr nehmt zufällig 1 Rune aus dem Beutel. Dies gilt nicht als „Rune
+    keyword: "MANIFESTIEREN"
+    description: "Ihr nehmt zufällig 1 Rune aus dem Beutel. Dies gilt nicht als „Rune
       ziehen“ und löst keine der üblichen Folgen aus (z. B. Dunkelheitsplättchen platzieren).
       Die manifestierte Rune löst dann einen speziellen Effekt aus, der durch die Farbe
       der Rune bestimmt wird. Legt die manifestierte Rune danach zurück in den Beutel,
-      sie wird nicht auf die Initiativeleiste gelegt
+      sie wird nicht auf die Initiativeleiste gelegt."
   - id: mending-x
     keyword: "LINDERN X"
-    description: Das Monster wählt das schwächste andere Monster in Reichweite 1 als Ziel. 
+    description: "Das Monster wählt das schwächste andere Monster in Reichweite 1 als Ziel. 
       Dieses Monster erhält X LP.  Bei Gleichstand das beteiligte Monster, das in der Reihenfolge 
-      der Monstertableaus „höher“ steht, also „zuerst“ an die Reihe kommt.
+      der Monstertableaus „höher“ steht, also „zuerst“ an die Reihe kommt."
   - id: mindlock
     keyword: "GEDANKENSPERRE"
     description: "Monster mit dieser passiven Fähigkeit schränken eure Helden ein. Solange sich 
@@ -764,40 +754,40 @@ keyword:
       blauen Weisheitswürfel verwenden, um Fähigkeiten zu aktivieren. Ihr dürft sie weiterhin VERBRAUCHEN, 
       z. B. für eine weitere kleine Aktion (→ S. 23) oder eine zusätzliche Bewegung."
   - id: most-corrupted-hero
-    keyword: DER VERDORBENSTE HELD
-    description: Der Held mit den aktuell meisten FW. Bei Gleichstand der beteiligte
-      Held, der zuerst in der Runde drankommt.
-  - id: most-tired-hero
-    keyword: DER ERSCHÖPFTESTE HELD
-    description: Der Held mit den aktuell wenigsten verfügbaren AW. Bei Gleichstand
-      der beteiligte Held, der zuletzt in der Runde drankommt.
+    keyword: "DER VERDORBENSTE HELD"
+    description: "Der Held mit den aktuell meisten FW. Bei Gleichstand der beteiligte
+      Held, der zuerst in der Runde drankommt."
+  - id: "most-tired-hero"
+    keyword: "DER ERSCHÖPFTESTE HELD"
+    description: "Der Held mit den aktuell wenigsten verfügbaren AW. Bei Gleichstand
+      der beteiligte Held, der zuletzt in der Runde drankommt."
   - id: most-vigorous-hero
-    keyword: DER EIFRIGSTE HELD
-    description: Der Held mit den aktuell meisten verfügbaren AW. Bei Gleichstand der
-      beteiligte Held, der zuerst in der Runde drankommt.
+    keyword: "DER EIFRIGSTE HELD"
+    description: "Der Held mit den aktuell meisten verfügbaren AW. Bei Gleichstand der
+      beteiligte Held, der zuerst in der Runde drankommt."
   - id: move-x
-    keyword: BEWEGUNG X
-    description: Das Ziel darf sich bis zu X Felder weit bewegen. Wenn nicht anders
-      angegeben, betrifft der Effekt immer den ausführenden Charakter.
+    keyword: "BEWEGUNG X"
+    description: "Das Ziel darf sich bis zu X Felder weit bewegen. Wenn nicht anders
+      angegeben, betrifft der Effekt immer den ausführenden Charakter."
   - id: multishot-x
-    keyword: MEHRFACHSCHUSS X
-    description: Ein Fernkampfangriff mit bis zu X verschiedenen Zielen in Reichweite.
+    keyword: "MEHRFACHSCHUSS X"
+    description: "Ein Fernkampfangriff mit bis zu X verschiedenen Zielen in Reichweite.
       Helden führen nur 1 Angriffswurf durch und wenden das Ergebnis auf alle Ziele
-      an (Höhenunterschiede für jedes Ziel einzeln beachten!).
+      an (Höhenunterschiede für jedes Ziel einzeln beachten!)."
   - id: non-preventable
-    keyword: NON-PREVENTABLE
-    description: ": Dieser Schaden kann nicht reduziert werden, weder durch SCHILD-Plättchen
+    keyword: "NICHT-VERHINDERBAR"
+    description: "Dieser Schaden kann nicht reduziert werden, weder durch SCHILD-Plättchen
       noch durch VERHINDERN-Effekte. Nicht-verhinderbarer Schaden ist keine Bedrohung
       und löst keine Reaktionen aus."
   - id: npc
-    keyword: NSC (PLÄTTCHEN)
-    description: NSC (Nicht-Spieler-Charaktere) sind meistens Unbeteiligte in bestimmten
+    keyword: "NSC (PLÄTTCHEN)"
+    description: "NSC (Nicht-Spieler-Charaktere) sind meistens Unbeteiligte in bestimmten
       Abenteuern, aber ihr verwendet diese Plättchen auch, um Gefährten darzustellen.
       Ein NSC-Plättchen ist immer ein Hindernis. Monster betrachten zwar Gefährten als
-      Gegner, aber normalerweise keine anderen NSC-Plättchen.
+      Gegner, aber normalerweise keine anderen NSC-Plättchen."
   - id: object
-    keyword: OBJEKT
-    description: Alles, was keine Karte, kein Tableau und kein Geländeplan bzw. -bauteil
+    keyword: "OBJEKT"
+    description: "Alles, was keine Karte, kein Tableau und kein Geländeplan bzw. -bauteil
       ist, gilt als Objekt. Grundsätzlich sind alle Objekte HINDERNISSE, außer sie sind
       explizit davon ausgenommen wie z. B. Fallen oder Dunkelheitsplättchen. Charaktere
       können durch Objekte, die nicht als Hindernis gelten, hindurchgehen und ihre Bewegung
@@ -808,7 +798,7 @@ keyword:
       sind keine Objekte.<br><br>
       Bei Objekten lassen sich BODENOBJEKTE und HINDERNISSE unterscheiden, die man zusätzlich in 
       beweglich und unbeweglich differenziert. Bewegliche Hindernisse (wie z. B. die meisten Charaktere 
-      und Möbelstücke) kommen dabei am häufigsten vor. 
+      und Möbelstücke) kommen dabei am häufigsten vor."
   - id: overpressure
     keyword: "ERDRÜCKEND"
     description: "Monster mit dieser passiven Fähigkeit schränken die kleinen Aktionen eurer Helden ein. 
@@ -817,7 +807,7 @@ keyword:
       wenn es sich dabei um einen „Trank“ handelt! Alle anderen kleinen Aktionen (inkl. andere Verbrauchsgüter 
       zu nutzen) stehen euch nicht zur Verfügung."
   - id: outcome
-    keyword: AUSWIRKUNG
+    keyword: "AUSWIRKUNG"
     description: "Eine Auswirkung ist die Konsequenz einer Interaktion oder eines Ereignisses,
       die ein Held in seinem Kampagnen-Logbuch notiert. In der Regel ist damit kein
       Effekt verbunden, aber sie wirken sich auf spätere Entscheidungen aus und werden
@@ -827,21 +817,21 @@ keyword:
       Die Anweisung gibt vor, ob ihr sie „für eure Gruppe“ in der Chronik oder 
       „für einen Helden“ in dessen Kampagnen-Logbuch notieren sollt."
   - id: passive
-    keyword: PASSIV
-    description: Passive Fähigkeit sind „grau“ und zeigen ein „P“. Nur, wenn sie von
+    keyword: "PASSIV"
+    description: "Passive Fähigkeit sind „grau“ und zeigen ein „P“. Nur, wenn sie von
       einem Fluch- oder Traumawürfel blockiert sind, gelten sie nicht. Ansonsten gelten
-      sie immer und können statische Vorteile bieten oder durch etwas ausgelöst werden.
+      sie immer und können statische Vorteile bieten oder durch etwas ausgelöst werden."
   - id: pay-x-life
-    keyword: BEZAHLE X LEBEN
-    description: Um die weiteren Effekte zu erhalten, muss der ausführende Held zuerst
+    keyword: "BEZAHLE X LEBEN"
+    description: "Um die weiteren Effekte zu erhalten, muss der ausführende Held zuerst
       X Lebenspunkte verlieren. Dies gilt als nicht-verhinderbarer Schaden. Würde der
-      Held dadurch ohnmächtig werden, darf er die Fähigkeit nicht benutzen.
+      Held dadurch ohnmächtig werden, darf er die Fähigkeit nicht benutzen."
   - id: penitence
-    keyword: REUE
-    description: Das Ziel erleidet als Kollateraleffekt 1 nicht-verhinderbaren Schaden
-      pro eigenem FW.
+    keyword: "REUE"
+    description: "Das Ziel erleidet als Kollateraleffekt 1 nicht-verhinderbaren Schaden
+      pro eigenem FW."
   - id: pet
-    keyword: BEGLEITTIER
+    keyword: "BEGLEITTIER"
     description: "Begleittiere besitzen eine eigene Karte und können SCHILD-Plättchen
       und Zustände erhalten sowie das Ziel von VERHINDERN-Effekten sein. Auf dem Spielplan
       werden sie durch ein eigenes Plättchen, das ihre Abbildung zeigt, repräsentiert
@@ -854,17 +844,17 @@ keyword:
       erneut beschworen werden.<br><br>Begleittiere werden nur dann angegriffen, wenn
       das Monster keinen Helden angreifen kann. Wenn ein Monster ein Begleittier oder
       einen Gefährten angreifen könnte, wählt der Anführer der Gruppe das Ziel. <br><br>Begleittiere
-      verschwinden nach jedem Abenteuer, auch wenn keine Lagerphase stattfindet. "
+      verschwinden nach jedem Abenteuer, auch wenn keine Lagerphase stattfindet."
   - id: poison
-    keyword: GIFT
-    description: " Das Ziel erhält X GIFT-Plättchen. Zu Beginn des nächsten Zuges erleidet
+    keyword: "GIFT"
+    description: "Das Ziel erhält X GIFT-Plättchen. Zu Beginn des nächsten Zuges erleidet
       es 1 nicht-verhinderbaren Schaden pro GIFT-Plättchen. Die GIFT-Plättchen bleiben
       danach liegen, aber der Effekt REINIGEN kann diesen Zustand entfernen. GIFT ist
       ein stapelbarer Zustand."
   - id: poison-trap
-    keyword: GIFTFALLE
-    description: Beim Auslösen erleidet jeder Gegner in der Zone 2 nicht-verhinderbaren
-      Schaden und GIFT 2.
+    keyword: "GIFTFALLE"
+    description: "Beim Auslösen erleidet jeder Gegner in der Zone 2 nicht-verhinderbaren
+      Schaden und GIFT 2."
   - id: polymorph
     keyword: "VERNIEDLICHEN / POLYMORPH"
     description: "Wenn ein Charakter VERNIEDLICHEN erleidet, erhält er als Erstes das zugehörige Zustandsplättchen. 
@@ -904,42 +894,42 @@ keyword:
       VERNIEDLICHT endet außerdem, wenn dieser Zustand durch REINIGEN entfernt wird, der Charakter von einem seiner Gegner als Ziel ausgewählt wird oder ein anderer 
       Charakter das Ziel eines VERNIEDLICHEN-Effektes wird."
   - id: prevent-x
-    keyword: VERHINDERN X
-    description: Das Ziel ignoriert sofort bis zu X Schaden. Das Ziel, also der Charakter,
+    keyword: "VERHINDERN X"
+    description: "Das Ziel ignoriert sofort bis zu X Schaden. Das Ziel, also der Charakter,
       der den Schaden erhält und verhindern soll, muss sich in Reichweite befinden.
-      Denkt daran, dass das Ziel zuerst alle eigenen SCHILD-Plättchen einsetzen muss.
+      Denkt daran, dass das Ziel zuerst alle eigenen SCHILD-Plättchen einsetzen muss."
   - id: primary-target
-    keyword: PRIMÄRES ZIEL
-    description: In seinem Zug will ein Monster immer möglichst viele Gegner angreifen
+    keyword: "PRIMÄRES ZIEL"
+    description: "In seinem Zug will ein Monster immer möglichst viele Gegner angreifen
       und dabei auch sein primäres Ziel angreifen. Wenn nicht anders vorgegeben, ist
-      das primäre Ziel der stärkste Held (der Held mit den meisten LP).
+      das primäre Ziel der stärkste Held (der Held mit den meisten LP)."
   - id: protect
-    keyword: BESCHÜTZEN
-    description: Ein Charakter kann diesen Effekt nur dann anwenden, wenn sich ein Verbündeter
+    keyword: "BESCHÜTZEN"
+    description: "Ein Charakter kann diesen Effekt nur dann anwenden, wenn sich ein Verbündeter
       angrenzend zu ihm befindet und das Ziel eines Angriffes ist. Der „beschützende
       Charakter“ wird damit zum Ziel des Angriffs anstelle des ursprünglichen Ziels.
       BESCHÜTZEN funktioniert auch bei Angriffen wie z. B. SPALTEN, aber nur, wenn der
-      ausführende Charakter nicht bereits Ziel des Angriffs ist.
+      ausführende Charakter nicht bereits Ziel des Angriffs ist."
   - id: push-x
-    keyword: SCHUBSEN X
-    description: Der Charakter „bewegt“ das Ziel in gerader Linie (auch diagonal) X
+    keyword: "SCHUBSEN X"
+    description: "Der Charakter „bewegt“ das Ziel in gerader Linie (auch diagonal) X
       Felder weit von sich weg. Das Ziel muss sich mit jedem „Schritt“ weiter vom Charakter
       entfernen. Sofern nicht anders angegeben, kann ein kleiner Charakter keinen großen
       Charakter schubsen, alles andere ist erlaubt. <br><br>Das Ziel wird so weit geschubst,
       bis der Effekt vollständig ausgeführt wurde oder sich ein Hindernis im Weg befindet.
       Ein Hindernis ist dabei auch die Seite eines Geländebauteils auf einer höheren
       Ebene oder das Ende des Spielplans. Das Ziel kann auf eine niedrigere Ebene fallen,
-      Fallschaden erleiden und ist auf seinem Weg von gefährlichem Gelände betroffen.
+      Fallschaden erleiden und ist auf seinem Weg von gefährlichem Gelände betroffen."
   - id: pushback
     keyword: "WEGSCHUBSEN"
-    description: Diese Fähigkeit ist dem Effekt SCHUBSEN X sehr ähnlich, aber die „Stärke“ von 
+    description: "Diese Fähigkeit ist dem Effekt SCHUBSEN X sehr ähnlich, aber die „Stärke“ von 
       WEGSCHUBSEN ist immer 1. Das Ziel muss sich also 1 Feld weiter vom „ausführenden“ Monster 
       wegbewegen. Das Ziel entscheidet selbst, auf welches der bis zu 3 Felder es weggeschubst 
       wird und betritt das neue Feld. Es muss ein freies Feld dafür wählen, aber wenn alle 3 Felder 
-      mit Hindernissen belegt sind, bleibt das Ziel stehen.
+      mit Hindernissen belegt sind, bleibt das Ziel stehen."
   - id: raise-a-draugr
     keyword: "BESCHWÖRE EINEN DRAUGR "
-    description: Nur die Heldenklasse Nekromant darf diese besonderen „untoten Begleittiere“ 
+    description: "Nur die Heldenklasse Nekromant darf diese besonderen „untoten Begleittiere“ 
       verwenden. Sie zählen zwar als Begleittiere und verfügen über eine entsprechende Karte, aber nur die 
       spezifischen Effekte „→BEFEHLIGE EINEN DRAUGR“ und „BESCHWÖRE EINEN DRAUGR“ nehmen Einfluss auf sie 
       und beide Effekte sind voneinander getrennt.<br><br>
@@ -951,20 +941,20 @@ keyword:
       sondern erst in der nächsten Runde. Als NICHT-LEBENDE Wesen sind Draugr sehr „instabil“ und verschwinden 
       nach einer gewissen Zeit von alleine. Diese „Eigenschaft“ löst immer zu Beginn des Zugs des kontrollierenden 
       Nekromanten aus. Dieser muss für jeden seiner Draugr im Spiel entscheiden, ob er ihn „behält“, in dem er 1 FW 
-      nimmt oder, ob er ihn entlässt und damit verschwinden lässt. Der Nekromant darf dabei jedoch höchstens 2 Draugr behalten.
+      nimmt oder, ob er ihn entlässt und damit verschwinden lässt. Der Nekromant darf dabei jedoch höchstens 2 Draugr behalten."
   - id: range-x
     keyword: "REICHWEITE X"
-    description: Die Reichweite wird immer anhand von Zonen (blaue Quadrate) angegeben.
+    description: "Die Reichweite wird immer anhand von Zonen (blaue Quadrate) angegeben.
       Reichweite 1 z. B. sind alle Felder, die höchstens 1 blaue Zone weit entfernt
-      sind.
+      sind."
   - id: rangers-mark
-    keyword: MARKIEREN
-    description: Das Ziel erhält 1 Plättchen MARKIERT. Alle Waffenangriffe und Zauberangriffe,
+    keyword: "MARKIEREN"
+    description: "Das Ziel erhält 1 Plättchen MARKIERT. Alle Waffenangriffe und Zauberangriffe,
       die der Jäger (der Charakter, der die Markierung hinzugefügt hat) gegen das von
       ihm markierte Ziel ausführt, verursachen +1 SCHADEN. MARKIERT ist ein redundanter
-      Zustand.
+      Zustand."
   - id: reaction
-    keyword: REAKTION
+    keyword: "REAKTION"
     description: "Du darfst diese Art von Fähigkeit nur als Reaktion auf eine „Bedrohung“
       einsetzen. Eine Bedrohung ist jede Art von Angriff, Ereignis oder Effekt, bei
       dem dein Held oder ein Verbündeter verhinderbaren Schaden erleiden würde.<br><br>
@@ -977,21 +967,21 @@ keyword:
       Ergänzung aus Erweiterungen „Apokalypse“ und „Erwachen“:<br>
       Achtung: Wenn sich das Ziel eines Angriffs dabei außer Reichweite bewegt, bleibt es trotzdem ein Ziel!"
   - id: recall-x
-    keyword: ZURÜCKHOLEN X
+    keyword: "ZURÜCKHOLEN X"
     description: "Der Held nimmt bis zu X platzierte oder verbrauchte AW zurück. Sie
       sind ab sofort wieder verfügbar. Hinweis: Fähigkeiten können einschränken oder
       verändern, welche „Art“ von Würfel der Held zurückholen darf."
   - id: redirect
     keyword: "UMLENKEN"
-    description: Das Ziel ist ein Charakter, der in diesem Moment selbst das Ziel eines Angriffes ist. Durch 
+    description: "Das Ziel ist ein Charakter, der in diesem Moment selbst das Ziel eines Angriffes ist. Durch 
       UMLENKEN wird ein anderer Charakter stattdessen das Ziel dieses Angriffs. UMLENKEN funktioniert auch bei 
       Angriffen wie z. B. SPALTEN, aber falls der Charakter, auf den UMGELENKT wird, bereits Ziel desselben Angriffs ist, 
-      wird er damit „2-mal“ zum Ziel mit allen Konsequenzen, aber es handelt sich dabei nur um eine Bedrohung.
+      wird er damit „2-mal“ zum Ziel mit allen Konsequenzen, aber es handelt sich dabei nur um eine Bedrohung."
   - id: reckoner
-    keyword: BERECHNEND
-    description: Dieses Monster wählt den verdorbensten Helden (mit aktuell den meisten
+    keyword: "BERECHNEND"
+    description: "Dieses Monster wählt den verdorbensten Helden (mit aktuell den meisten
       FW) als primäres Ziel. Bei Gleichstand den beteiligten Held, der zuerst in der
-      Runde drankommt.
+      Runde drankommt."
   - id: regain-x-health
     keyword: "LP (ZURÜCK) ERHALTEN X"
     description: "Das Ziel „gewinnt“ X Lebenspunkte hinzu. Dieser Effekt folgt denselben Regeln wie 
@@ -999,39 +989,35 @@ keyword:
       Stärke mit X angeben etc.<br><br>
       Achtung: LP ERHALTEN zählt nicht als HEILEN und profitiert darum nicht von entsprechenden Boni."
   - id: regain-your-breath
-    keyword: WIEDER ZU ATEM KOMMEN
-    description: Ein Held der ohnmächtig ist, kommt zu Beginn seines Zuges wieder zu
+    keyword: "WIEDER ZU ATEM KOMMEN"
+    description: "Ein Held der ohnmächtig ist, kommt zu Beginn seines Zuges wieder zu
       Atem und erhält alle seine LP zurück. Wird ein Held zu Beginn seines Zuges aufgrund
-      von Zuständen ohnmächtig, kommt er direkt wieder zu Atem.
+      von Zuständen ohnmächtig, kommt er direkt wieder zu Atem."
   - id: redundant
-    keyword: REDUNDANT
+    keyword: "REDUNDANT"
     description: " Ein Charakter kann nur 1 Plättchen dieses speziellen Effekts besitzen.
       Weitere Plättchen werden ignoriert und haben keinen Effekt."
   - id: regeneration-x
-    keyword: REGENERATION X
+    keyword: "REGENERATION X"
     description: "Zu Beginn seines Zuges erhält der Charakter X Lebenspunkte zurück.
       Er kann seine maximalen LP dabei nicht überschreiten (Ausnahme: Kommandanten
       und Leutnants)."
   - id: relearn
-    keyword: "[Wave 2] RELEARN"
-    description: Aus Wave 2, Übersetzung folgt noch. <br><br> Relearn is a term associated
-      with character progression. It can refer to a Hero or Dungeon Role Skill Level
-      1 or 2, a Skill Upgrade, or the choice of a Dungeon Role, for example. Relearning
-      something means to replace a choice you made regarding that element. So, Relearn
-      a Dungeon Role is a simple process of “swapping” the cards in your Dungeon Role
-      *(keeping your chosen progressions the same as normal)* while Relearn a Skill
-      would be to forget *(remove the progression from)* a Skill you have and choose
-      another in its place *(remember, when Relearning a Hero or Dungeon Role Skill,
-      you will need to adjust your Action Cubes accordingly and may be forced to Relearn
-      the Level 2 Skill associated with that Skill Tree as well).*
+    keyword: "UMLERNEN"
+    description: "UMLERNEN ist ein Begriff, der sich auf die Charakterentwicklung bezieht. Es kann sich beispielsweise auf das 
+      Umlernen eine Helden- oder Kampfrollenfähigkeit, eine Klassenfertigkeit oder der Wechsel einer Kampfrolle beziehen. <br><br>
+      Das erneute Erlernen einer Kampfrolle ist ein einfacher Vorgang des „Tauschens“ der Karten deiner aktuellen Rolle (wobei deine gewählten Fortschritte wie 
+      gewohnt beibehalten werden), während das erneute Erlernen einer Fähigkeit bedeutet, dass du eine Fähigkeit vergisst (den Fortschritt entfernst) und stattdessen eine andere wählst.
+      (Denk daran: Wenn du eine Helden- oder Kampfrollenhähigkeit erneut erlernst, musst du deine Aktionswürfel entsprechend anpassen und wirst möglicherweise gezwungen,
+      auch die zugehörige Stufe-2-Fertigkeit dieses Fertigkeitenbaums erneut zu erlernen)."
   - id: relentless
-    keyword: UNNACHGIEBIG
+    keyword: "UNNACHGIEBIG"
     description: " Dieses Monster wählt den erschöpftesten Helden (mit aktuell den wenigsten
       AW) als primäres Ziel. Bei Gleichstand den beteiligten Held, der zuletzt in der
       Runde drankommt."
   - id: reroll
-    keyword: WIEDERHOLUNG/WIEDERHOLEN
-    description: " Wenn der Waffenangriff misslingt und nicht trifft, darf dieser Angriffswurf
+    keyword: "WIEDERHOLUNG/WIEDERHOLEN"
+    description: "Wenn der Waffenangriff misslingt und nicht trifft, darf dieser Angriffswurf
       1x neu gewürfelt werden. Handelt es sich um mehrere Waffenangriffe, kann davon
       nur 1 Angriffswuf wiederholt werden."
   - id: resolved
@@ -1116,11 +1102,11 @@ keyword:
       Charakter betritt dabei das neue Feld und ist dem Gelände ausgesetzt.
   - id: silence
     keyword: STILLE
-    description: Das Ziel muss sofort alle verfügbaren Gewandtheits- und Weisheitswürfel
+    description: "Das Ziel muss sofort alle verfügbaren Gewandtheits- und Weisheitswürfel
       ungenutzt VERBRAUCHEN. STILLE zählt als besondere Art von ERSCHÖPFEN und folgt
       denselben Regeln, nur ist die Farbe der AW vorgegeben. Helden, die immun gegen
       ERSCHÖPFEN sind, sind auch immun gegen STILLE. STILLE kann nur etwas auslösen,
-      das auch von ERSCHÖPFEN ausgelöst wird.
+      das auch von ERSCHÖPFEN ausgelöst wird."
   - id: skull-cracker
     keyword: "SCHÄDELBRECHER"
     description: "Diese Monster sind z. B. besonders gefährlich für Gefährten, Anhänger und Kohorten. Alle 
@@ -1130,8 +1116,7 @@ keyword:
       oder eine Kohorte den Angriff überlebt."
   - id: slaughter
     keyword: NIEDERMETZELN
-    description: Dieses Monster wählt NSC-Plättchen, die keine Gefährten oder Begleittiere sind, als primäres
-      Ziel.
+    description: Dieses Monster wählt NSC-Plättchen, die keine Gefährten oder Begleittiere sind, als primäres Ziel.
   - id: slayer
     keyword: "MÖRDER"
     description: Diese Monster wählen als primäres Ziel zuerst die sogenannten „verletzten NSCs“, 
@@ -1184,15 +1169,10 @@ keyword:
       du einen +1 HEILEN-Bonus und führst „HEILEN 4, AUFTEILEN“ aus, kannst du den
       Effekt HEILEN 5 auf mehrere Ziele in Reichweite verteilen."
   - id: spread
-    keyword: SPREAD
-    description: Some attacks scatter around the victim. Whenever a Hero is hit by SPREAD,
-      they reflect the same amount of damage they have suffered (damage suffered is
-      the damage that has been taken and has not been mitigated or PREVENTED) on each
-      other Hero that is Adjacent to them. This reflected damage is dealt as non-preventable
-      damage. For example, Vorn has taken 6 damage with SPREAD. After mitigating 2 damage
-      with his 2 SHIELD tokens and PREVENTing 2 damage with a Skill, in the end, he
-      suffered 2 damage. Then, each other Hero that is Adjacent to him takes 2 non-preventable
-      damage.
+    keyword: ÜBERSCHUSS
+    description: Wenn ein Held durch diesen Angriff Schaden erleidet (nach VERHINDERN), wird dieser 
+      tatsächlich erlittene Schaden zusätzlich auf alle zu ihm angrenzenden Helden „übertragen“. 
+      Sie erleiden dieselbe Menge als NICHT-VERHINDERBAREN SCHADEN.
   - id: spell-attack
     keyword: ZAUBERANGRIFF
     description: Diese Fähigkeit ist ein Angriff ohne Waffe. Ein Zauberangriff trifft
@@ -1304,19 +1284,19 @@ keyword:
       and thus, this effect can't be avoided even if the Character is Immune to Curse.
   - id: telekinesis-x
     keyword: TELEKINESE X
-    description: Der Charakter „bewegt“ das Ziel um bis zu X Felder. Das Ziel kann nur
+    description: "Der Charakter „bewegt“ das Ziel um bis zu X Felder. Das Ziel kann nur
       1 kleiner Charakter oder 1 kleines Objekt sein (Fallen, Truhen, Möbel
       oder kleine Dunkelheitsplättchen). Interaktionsplättchen sind immun gegen Telekinese.
       Das Ziel ignoriert auf seinem Weg gefährliches Gelände, ist aber von Gelände betroffen,
-      auf dem es landet. So bewegte Charaktere können auf ihrem Weg Fallschaden erleiden.
+      auf dem es landet. So bewegte Charaktere können auf ihrem Weg Fallschaden erleiden."
   - id: threat
     keyword: "BEDROHUNG"
-    description: Eine Bedrohung ist jeder Moment, in dem ein Held bzw. Verbündeter LP verlieren könnte 
+    description: "Eine Bedrohung ist jeder Moment, in dem ein Held bzw. Verbündeter LP verlieren könnte 
       und der euch erlaubt darauf zu „reagieren“. NICHT-VERHINDERBARER Schaden und auch andere Effekte wie 
       z. B. Zustände stellen keine Bedrohung dar.<br>
       Die Bedrohung ist das Zeitfenster, in dem eure Helden REAKTIONEN ausführen dürfen.<br>
       Wenn es sich dabei um einen Angriff handelt, eröffnet dies die Möglichkeit für UNTERBRECHUNGEN. 
-      Dies geschieht jedoch BEVOR die Bedrohung entsteht.
+      Dies geschieht jedoch BEVOR die Bedrohung entsteht."
   - id: throw-(stack-of-barrels)
     keyword: "FÄSSER (Werfen)"
     description: Mit einer kleinen Aktion kann ein Fass auf einen kleinen Charakter geworfen werden: 2 Schaden und NIEDERSCHLAGEN.
