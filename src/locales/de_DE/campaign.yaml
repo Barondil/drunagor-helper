@@ -309,7 +309,7 @@ auras:
         effect:  Immer wenn du eine Rastaktion ausführst, egal ob freiwillig oder unfreiwillig, erleidest du danach BLUTEN 4. Dieser Effekt durchbricht jede Form von Immunität.
       - id: helpful
         name: Hilfsbereit
-        effect: Immer wenn du ein Monster besiegst, also den TODESSCHLAG ausführst: INSPIRATION.
+        effect: "Immer wenn du ein Monster besiegst, also den TODESSCHLAG ausführst: INSPIRATION."
       - id: inobtrusive
         name: Unaufdringlich
         effect: Monster dürfen dich nur dann angreifen, wenn sie bereits das Ziel von dir oder einem von dir kontrollierten Charakter (z. B. ein Begleittier) wurden; dazu zählen Angriffe und jede Art von Effekt, der sie auf irgendeine Weise betrifft.
@@ -318,13 +318,13 @@ auras:
         effect: Immer wenn ein Held eine Rastaktion durchführt, egal ob freiwillig oder unfreiwillig, darf dieser Held danach wählen, ob er zusätzlich entweder FOKUS 1 ODER REINIGEN 1 erhält.
       - id: last-stand
         name: Es endet hier
-        effect: Immer wenn du ohnmächtig werden würdest, machst du eine Stärkeprobe mit Schwierigkeitsgrad 11+. Jeder gelbe Nahkampfwürfel, den dein Held besitzt, gibt einen Bonus von +2 auf den Wurf. ACHTUNG: Für jeden Status Bemühung (s. u.), den du in deinem Kampagnen-Logbuch notiert hat, musst einen Malus von -5 auf diesen Wurf anrechnen. ERFOLG: Setze deine LP stattdessen auf 1 und notiere den Status Bemühung in deinem Kampagnen-Logbuch. Erhältst du ihn erneut, kannst du z. B. „x 2“ dazuschreiben. MISSERFOLG: Du wirst ohnmächtig und verlierst damit diese Aura sofort.
+        effect: "Immer wenn du ohnmächtig werden würdest, machst du eine Stärkeprobe mit Schwierigkeitsgrad 11+. Jeder gelbe Nahkampfwürfel, den dein Held besitzt, gibt einen Bonus von +2 auf den Wurf. ACHTUNG: Für jeden Status Bemühung (s. u.), den du in deinem Kampagnen-Logbuch notiert hat, musst einen Malus von -5 auf diesen Wurf anrechnen. ERFOLG: Setze deine LP stattdessen auf 1 und notiere den Status Bemühung in deinem Kampagnen-Logbuch. Erhältst du ihn erneut, kannst du z. B. „x 2“ dazuschreiben. MISSERFOLG: Du wirst ohnmächtig und verlierst damit diese Aura sofort."
       - id: like-water
         name: Flexibel wie Wasser
-        effect: Du hast eine weitere kleine Aktion zur Wahl, bei der du 1 AW VERBRAUCHEN darfst für: SELBST, SCHILD 4. 
+        effect: "Du hast eine weitere kleine Aktion zur Wahl, bei der du 1 AW VERBRAUCHEN darfst für: SELBST, SCHILD 4." 
       - id: overwhelming-power
         name: Überwältigende Macht
-        effect: Du hast eine weitere kleine Aktion zur Wahl, bei der du 1 AW VERBRAUCHEN darfst für: Zauberangriff mit 1 Ziel in Reichweite 1, 4 SCHADEN.
+        effect: "Du hast eine weitere kleine Aktion zur Wahl, bei der du 1 AW VERBRAUCHEN darfst für: Zauberangriff mit 1 Ziel in Reichweite 1, 4 SCHADEN."
       - id: peace-broker
         name: Friedensvermittler
         effect:  Immer wenn ein Held eine Rastaktion durchführt, erhält dieser Held danach zusätzlich SCHILD 4.
@@ -375,7 +375,7 @@ auras:
         effect:  Immer wenn du eine Truhe „durchsuchst“ oder ein BEUTE-Plättchen „aufsammelst“, ziehst du 2 Karten und wählst 1 davon, die andere wirfst du ab.
       - id: heroic-resolution
         name: Helden unter sich
-        effect: Immer wenn ein Held durch den Schaden eines Angriffs ohnmächtig werden würdet, macht er eine Stärkeprobe mit Schwierigkeitsgrad 13+. Jeder gelbe Nahkampfwürfel, den dein Held besitzt, gibt einen Bonus von +2 auf den Wurf. MISSERFOLG: Der Held wird ohnmächtig. ERFOLG: Der Held setzt seine LP stattdessen auf 1.
+        effect: "Immer wenn ein Held durch den Schaden eines Angriffs ohnmächtig werden würdet, macht er eine Stärkeprobe mit Schwierigkeitsgrad 13+. Jeder gelbe Nahkampfwürfel, den dein Held besitzt, gibt einen Bonus von +2 auf den Wurf. MISSERFOLG: Der Held wird ohnmächtig. ERFOLG: Der Held setzt seine LP stattdessen auf 1."
       - id: hurry-up
         name: Platz da
         effect:  Die zusätzliche Bewegung eurer Heldentableaus erhält +1 BEWEGUNG UND STAMPFEN 2.
@@ -390,13 +390,13 @@ auras:
         effect: Immer wenn du einen AW verbrauchst, um die „zusätzliche Bewegung“ deines Heldentableaus auszuführen, erhältst du FOKUS 2. Andere Bewegungseffekte und auch deine freie Bewegung zählen hierfür nicht. 
       - id: lone-wolf
         name: Einsamer Wolf
-        effect:  Immer wenn du eine UNTERBRECHUNG oder eine REAKTION ausführst, um auf den Angriff (bzw. die Bedrohung) eines Monsters zu „reagieren“: Falls sich in diesem Moment kein Verbündeter angrenzend zu dir befindet, erleidet dieses Monster 2 NICHT-VERHINDERBAREN SCHADEN. 
+        effect:  "Immer wenn du eine UNTERBRECHUNG oder eine REAKTION ausführst, um auf den Angriff (bzw. die Bedrohung) eines Monsters zu „reagieren“: Falls sich in diesem Moment kein Verbündeter angrenzend zu dir befindet, erleidet dieses Monster 2 NICHT-VERHINDERBAREN SCHADEN."
       - id: moves-like-jagger
         name: Schlangenlinie
-        effect: Immer wenn du deine Reaktion ausführst, darfst du 1 anderen Helden wählen, der INSPIRATION erhält. 
+        effect: "Immer wenn du deine Reaktion ausführst, darfst du 1 anderen Helden wählen, der INSPIRATION erhält." 
       - id: obscure-lore
         name: Verworrene Erinnerung 
-        effect: Wenn du einen Effekt FOKUS X auslöst, erhält dieser FOKUS-Effekt einen Bonus von +1, unabhängig davon, wer die FOKUS-Plättchen erhält. Du verlierst diese Aura, wenn du einen TW oder eine andere Aura erhältst.
+        effect: "Wenn du einen Effekt FOKUS X auslöst, erhält dieser FOKUS-Effekt einen Bonus von +1, unabhängig davon, wer die FOKUS-Plättchen erhält. Du verlierst diese Aura, wenn du einen TW oder eine andere Aura erhältst."
       - id: prohibition
         name: Prohibition
         effect:  Jeder Held darf 1-mal pro Zug 1 FW nehmen, um 1 Wurf mit dem W20 zu WIEDERHOLEN.
@@ -408,16 +408,16 @@ auras:
         effect:  Immer wenn du 1+ LP verlierst, z. B. durch erlittenen Schaden, erhältst du FOKUS 1. 
       - id: sentinel
         name: Wächter
-        effect:  Immer wenn ein Verbündeter angrenzend zu dir angegriffen wird, darfst du als UNTERBRECHUNG 1 AW VERBRAUCHEN für: MACHE Waffenangriff +0 TRF gegen den Angreifer (es gilt deine Waffenreichweite). Wenn der Angreifer durch diesen Angriff besiegt wird, ABBRUCH. 
+        effect:  "Immer wenn ein Verbündeter angrenzend zu dir angegriffen wird, darfst du als UNTERBRECHUNG 1 AW VERBRAUCHEN für: MACHE Waffenangriff +0 TRF gegen den Angreifer (es gilt deine Waffenreichweite). Wenn der Angreifer durch diesen Angriff besiegt wird, ABBRUCH." 
       - id: setting-sun-s-blessing
         name: Gesegnetes Abendrot
-        effect: Immer wenn ein Held bei einem Angriffswurf oder einer Probe eine „1“ als Ergebnis würfelt, zählt dies automatisch als Treffer bzw. als Erfolg. Außerdem würfeln eure Helden auch bei Zauberangriffen mit dem W20. Zauberangriffe treffen weiterhin immer, aber bei einem Würfelergebnis von 16+ zählt ein Zauberangriff (¹) als kritischer Treffer und verdoppelt den Schaden.
+        effect: "Immer wenn ein Held bei einem Angriffswurf oder einer Probe eine „1“ als Ergebnis würfelt, zählt dies automatisch als Treffer bzw. als Erfolg. Außerdem würfeln eure Helden auch bei Zauberangriffen mit dem W20. Zauberangriffe treffen weiterhin immer, aber bei einem Würfelergebnis von 16+ zählt ein Zauberangriff (¹) als kritischer Treffer und verdoppelt den Schaden."
       - id: sisters-bond
         name: Schwesternbindung
-        effect: Immer wenn ein anderer Held in Reichweite 1 Schaden erleidet oder einen Fluchwürfel nehmen muss, darfst du entscheiden, dass du stattdessen diesen Schaden zu erleiden oder den Fluchwürfel zu nehmen. Wenn du das tust, erhältst du INSPIRATION. 
+        effect: "Immer wenn ein anderer Held in Reichweite 1 Schaden erleidet oder einen Fluchwürfel nehmen muss, darfst du entscheiden, dass du stattdessen diesen Schaden zu erleiden oder den Fluchwürfel zu nehmen. Wenn du das tust, erhältst du INSPIRATION." 
       - id: taunt
         name: Abgelenkt
-        effect:  Immer wenn ein Verbündeter von dir in Reichweite 1 angegriffen wird, darfst du ERSCHÖPFEN 1 erleiden, um den angegriffenen Verbünden ABZUSICHERN. Werden dabei mehrere Verbündete gleichzeitig angegriffen, darfst du nur 1 davon wählen und ABSICHERN. Dies geschieht zwar im „Zeitfenster“ für UNTERBRECHUNGEN, aber zählt selbst nicht als UNTERBRECHUNG. 
+        effect:  "Immer wenn ein Verbündeter von dir in Reichweite 1 angegriffen wird, darfst du ERSCHÖPFEN 1 erleiden, um den angegriffenen Verbünden ABZUSICHERN. Werden dabei mehrere Verbündete gleichzeitig angegriffen, darfst du nur 1 davon wählen und ABSICHERN. Dies geschieht zwar im „Zeitfenster“ für UNTERBRECHUNGEN, aber zählt selbst nicht als UNTERBRECHUNG." 
       - id: throat-slitter
         name: Kehlenschlitzer
         effect:  Immer wenn du den TODESSCHLAG ausführst, erhältst du FOKUS 1, jedoch maximal 1-mal pro Spielzug. 
@@ -426,7 +426,7 @@ auras:
         effect:  Immer wenn du eine Rastaktion ausführst, musst du nur 1 FW als Strafe nehmen.
       - id: uncertain-readings
         name: Unsichere Lesung
-        effect:Eure Helden dürfen einmal pro Spielzug 1 FW nehmen UND ZERBRECHLICH erleiden, um einen Misserfolg bei einer Probe als Erfolg zu zählen.
+        effect: Eure Helden dürfen einmal pro Spielzug 1 FW nehmen UND ZERBRECHLICH erleiden, um einen Misserfolg bei einer Probe als Erfolg zu zählen.
       - id: valorous-party
         name: Tapfere Truppe
         effect:  Immer wenn ein Held einen kritischen Treffer landet, erhält er nach seiner Wahl entweder FOKUS 1 oder REINIGEN 1. 
@@ -731,7 +731,7 @@ statuses:
         effect: Immer wenn du einen kritischen Treffer landest, erhältst du 1 INSPIRATIONS-Plättchen.
       - id: chaotic-wheel
         name: Chaosrad
-        effect: Immer wenn du einen Zauberangriff ausführst, musst du mit dem W20 würfeln. Ist das Ergebnis eine grade Zahl, erhält dieses Angriff DOPPELSCHADEN; bei einem ungeraden Ergebnis misslingt der Angriff. Dies zählt nicht als Angriffswurf.
+        effect: "Immer wenn du einen Zauberangriff ausführst, musst du mit dem W20 würfeln. Ist das Ergebnis eine grade Zahl, erhält dieses Angriff DOPPELSCHADEN; bei einem ungeraden Ergebnis misslingt der Angriff. Dies zählt nicht als Angriffswurf."
       - id: crystal-clear
         name: Kristallklar
         effect: Immer wenn du eine Karte vom Truhenstapel ziehst, darfst du stattdessen den Stapel gezielt nach einer Karte durchsuchen und diese nehmen. Danach mischst du den Truhenstapel.
@@ -767,7 +767,7 @@ statuses:
         effect: Solange ein Held ihn hat (ihr entfernt diesen Status in der nächsten Lagerphase): Dieser Held darf 1 weiteren TW erhalten, bevor er besiegt wird.
       - id: possession
         name: Besessen
-        effect: Immer wenn du im selben Zug bewegst, musst du eine Gewandtheitsprobe mit Schwierigkeitsgrad 11+ machen. Jeder grüne Gewandtheitswürfel, den dein Held besitzt, gibt einen Bonus von +2 auf den Wurf. MISSERFOLG: Du erleidest NIEDERSCHLAGEN. ERFOLG: Du erhältst VERSTÄRKEN.
+        effect: "Immer wenn du im selben Zug bewegst, musst du eine Gewandtheitsprobe mit Schwierigkeitsgrad 11+ machen. Jeder grüne Gewandtheitswürfel, den dein Held besitzt, gibt einen Bonus von +2 auf den Wurf. MISSERFOLG: Du erleidest NIEDERSCHLAGEN. ERFOLG: Du erhältst VERSTÄRKEN."
       - id: queen-slayer
         name: Mörder der Königin 
         effect: Immer wenn du eine unfreiwillige Rastaktion ausführst, erfordert dein nächster Waffenangriff in diesem Zug keinen Angriffswurf und zählt automatisch als kritischer Treffer.
@@ -810,7 +810,7 @@ statuses:
         effect: Immer wenn ein Held Schaden durch eine Angriffskarte erleidet, erhält dieser Held INSPIRATION.
       - id: angered-entrepreneur
         name: Erboste Unternehmerin
-        effect: Für jeden Helden gilt „WÜRFELST DU 16+: AKTIVIERE sofort Carmilla Reinard“. Dies darf nur 1-mal pro Spielzug ausgelöst werden.
+        effect: "Für jeden Helden gilt „WÜRFELST DU 16+: AKTIVIERE sofort Carmilla Reinard“. Dies darf nur 1-mal pro Spielzug ausgelöst werden."
       - id: back-to-back
         name: Rückendeckung
         effect: Alle eure Helden erhalten das Merkmal Aufseher mit allen verbunden Effekten.
@@ -885,7 +885,7 @@ statuses:
         effect: In jeder Runde lässt das 1. Monster, das ihr besiegt, 1 BEUTE-Plättchen auf seinem Feld zurück. 
       - id: head-start
         name: Vorsprung
-        effect: Eure Helden habeneine zusätzliche Fähigkeit: „\n“ EINEN SCHRITT VORAUS SEIN: (Reaktion) „\n“ VERBRAUCHE 1 AW FÜR: SELBST, VERHINDERE ALLEN SCHADEN UND ERSCHÖPFEN X „\n“ (X= ANZAHL DER ZEITPLÄTTCHEN AUF DEM BOSSTABLEAU)
+        effect: "Eure Helden habeneine zusätzliche Fähigkeit: EINEN SCHRITT VORAUS SEIN: (Reaktion) VERBRAUCHE 1 AW FÜR: SELBST, VERHINDERE ALLEN SCHADEN UND ERSCHÖPFEN X (X= ANZAHL DER ZEITPLÄTTCHEN AUF DEM BOSSTABLEAU)"
       - id: healed-wound
         name: Geheilte Wunde
         effect: ""
@@ -1074,10 +1074,10 @@ statuses:
         effect: ""
       - id: salamander-s-sweat
         name: Salamanderschweiß
-        effect: Immer wenn ein Held bei einem Waffenangriff  16+ würfelt oder einen Zauberangriff ausführt: Dieser Angriff erhält BRENNEN 2.
+        effect: "Immer wenn ein Held bei einem Waffenangriff 16+ würfelt oder einen Zauberangriff ausführt: Dieser Angriff erhält BRENNEN 2."
       - id: sea-fighter
         name: Seebeine
-        effect: Nachdem ihr die Runenkarte abgehandelt habt, aber bevor ihr das Initiativeplättchen weiterbewegt, darf jeder Held einen SCHRITT ZUR SEITE machen. Dabei erhält jeder Held BEWEGUNG 1. Diese „Sonder-Bewegung“ profitiert nicht von etwaigen Boni zu BEWEGUNG, aber unterliegt auch keinen Abzügen. Das heißt z. B., dass auch Helden, die von LANGSAM oder NIEDERSCHLAGEN betroffen sind, diese Sonder-Bewegung benutzen dürfen, aber diese „Bewegung“ hat keinen Einfluss auf diese Zustände.
+        effect: "Nachdem ihr die Runenkarte abgehandelt habt, aber bevor ihr das Initiativeplättchen weiterbewegt, darf jeder Held einen SCHRITT ZUR SEITE machen. Dabei erhält jeder Held BEWEGUNG 1. Diese „Sonder-Bewegung“ profitiert nicht von etwaigen Boni zu BEWEGUNG, aber unterliegt auch keinen Abzügen. Das heißt z. B., dass auch Helden, die von LANGSAM oder NIEDERSCHLAGEN betroffen sind, diese Sonder-Bewegung benutzen dürfen, aber diese „Bewegung“ hat keinen Einfluss auf diese Zustände."
       - id: search-party
         name: Suchtrupp
         effect: Immer wenn einer eurer Helden dafür sorgt, dass ihr eine Eradren-Karte zieht und ausführt, erhält dieser Held FOKUS 2.
