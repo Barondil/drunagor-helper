@@ -1021,25 +1021,9 @@ keyword:
       1x neu gewürfelt werden. Handelt es sich um mehrere Waffenangriffe, kann davon
       nur 1 Angriffswuf wiederholt werden."
   - id: resolved
-    keyword: "[Wave 2] RESOLVED"
-    description: "Aus Wave 2, Übersetzung folgt noch. <br><br> “Resolved” is the term
-      used to denote the end of some game situation. So, when it is mentioned with an
-      effect, it means right after that effect is applied. For example, analyze the
-      following statement about a basic rule regarding Collateral damage: <br><br> *“Collateral
-      effects are applied after the damage is resolved.”* So, if a character Reacts
-      with a Tumble Skill against a Shadow Knight’s attack, they will move before being
-      Knocked Down, since the Tumble Skill (and its Jump 2) must be fully resolved before
-      any Collateral damage applies (if it is applied at all). <br><br> This term can
-      also be found referring to an Interaction or Resolution. When this is the case,
-      you should know which of these two elements it is connected to. This is the key
-      to understanding its meaning. <br><br> *“Until Interaction... is resolved”* means
-      that the Interaction must be done in full; that is, until the Interaction token
-      is removed from the board. This might be because it has run out of charges or
-      an effect has stipulated that it should be removed before that. <br><br> The sentence
-      *“...this Resolution is resolved”* only applies to the Resolution you are reading
-      at that moment. Even if a Resolution is abruptly resolved by its own command,
-      it will still remove 1 charge from the Interaction token (unless it is a Recurring
-      Interaction or the effect itself specifies otherwise, of course)."
+    keyword: "Abgeschlossen (Resolved)"
+    description: "Eintrag nur in der Englischen Anleitung:<br><br>
+      Abgeschlossen bzw. „Resolved“ ist ein Begriff, der das Ende einer Spielsituation bezeichnet. Wenn er im Zusammenhang mit einem Effekt genannt wird, bedeutet das: direkt nachdem dieser Effekt angewendet wurde." 
   - id: restrain
     keyword: "FESTHALTEN"
     description: "Das Ziel erhält 1 FESTHALTEN-Plättchen. Solange ein Charakter ein solches Plättchen besitzt, 
@@ -1048,43 +1032,43 @@ keyword:
       Ausnahme: Ein FESTGEHALTENER Charakter darf den PLATZ mit einem anderen Charakter TAUSCHEN. In diesem Fall 
       bleibt das FESTHALTEN-Plättchen auf dem Feld und wird sozusagen „mitgetauscht“. Es hält ab sofort den „anderen“ Charakter fest."
   - id: retaliate-x
-    keyword: ZURÜCKSCHLAGEN X
-    description: Fügt dem Ziel (dem Angreifer) sofort X Schaden zu. Ein Held kann nur
+    keyword: "ZURÜCKSCHLAGEN X"
+    description: "Fügt dem Ziel (dem Angreifer) sofort X Schaden zu. Ein Held kann nur
       gegen einen Angreifer ZURÜCKSCHLAGEN, der diesen Helden gerade angreift. <br><br>Alle
       ZURÜCKSCHLAGEN-Effekte, die durch AW ausgelöst werden, können zudem nur Angreifer
       in Reichweite treffen, wie üblich. <br><br>ZURÜCKSCHLAGEN-Effekte, die durch
       Fokus oder andere Quellen erzeugt werden, können dagegen Angreifer in unbegrenzter
       Reichweite treffen. Im Gegensatz zu VERHINDERN, dessen Ziel der Charakter ist,
-      der den Schaden erleidet, zielt ZURÜCKSCHLAGEN nur direkt auf den Angreifer selbst.
+      der den Schaden erleidet, zielt ZURÜCKSCHLAGEN nur direkt auf den Angreifer selbst."
   - id: roll-x
-    keyword: WÜRFELST DU X+
-    description: Der nachfolgende Effekt wird ausgelöst, wenn das Würfelergebnis der
+    keyword: "WÜRFELST DU X+"
+    description: "Der nachfolgende Effekt wird ausgelöst, wenn das Würfelergebnis der
       Probe oder des Angriffswurf die Zahl X erreicht oder übersteigt. Der Effekt verstärkt
       den aktuellen Angriff oder löst in manchen Fällen besondere zusätzliche Effekte
       aus. In diesem Fall ist die Reichweite dieser zusätzlichen Effekte unbegrenzt,
       es sei denn, es ist etwas anderes angegeben. Wie bei kritischen Treffern zählt
-      nur die tatsächlich gewürfelte Zahl, ohne etwaige Modifikatoren.
+      nur die tatsächlich gewürfelte Zahl, ohne etwaige Modifikatoren."
   - id: round
     keyword: "RUNDE"
-    description:  Eine Runde beginnt mit der Aktivierung der 1. Karte auf der Initiativeleiste 
+    description:  "Eine Runde beginnt mit der Aktivierung der 1. Karte auf der Initiativeleiste 
       (wenn einer von euch die Kampfrolle Verteidiger innehat, ist seine Karte die „1.“) und endet, 
       nachdem die letzte Karte (in der Regel die Runenkarte) abgehandelt wurde. In diesem Moment 
-      endet die Runde und eine neue beginnt.
+      endet die Runde und eine neue beginnt."
   - id: self
-    keyword: SELBST
+    keyword: "SELBST"
     description: "Fähigkeiten mit dem Schlüsselwort SELBST betreffen nur den ausführenden
       Charakter. Reaktionen mit SELBST lösen nur aus, wenn der Charakter selbst bedroht
       wird.<br><br> Beispiel: Eine Reaktion mit „SELBST, VERHINDERN 3“ bedeutet, dass der Charakter
       nur 3 Schaden gegen sich selbst verhindern kann."
   - id: shadow-aura
-    keyword: SCHATTENAURA
-    description: " Legt ein kleines Dunkelheitsplättchen (Größe: 1 Feld) auf das Feld,
+    keyword: "SCHATTENAURA"
+    description: "Legt ein kleines Dunkelheitsplättchen (Größe: 1 Feld) auf das Feld,
       auf dem das Ziel steht. Das Ziel wird danach auf das Plättchen gestellt und erleidet
       die Effekte der Dunkelheit. Dunkelheitsplättchen können nicht auf Dunkelheit gelegt
       werden. Falls das Ziel ein großes Monster ist, bestimmt euer Anführer dafür 1 der 
       Felder, die das Ziel belegt."
   - id: shield-x
-    keyword: SCHILD X
+    keyword: "SCHILD X"
     description: "Das Ziel erhält X SCHILD-Plättchen. Jedes abgegebene SCHILD-Plättchen
       reduziert den erlittenen Schaden um 1. Ein Charakter muss alle seine SCHILD-Plättchen
       verbrauchen, solange dadurch weiterer Schaden reduziert werden kann. Überzählige
@@ -1094,14 +1078,14 @@ keyword:
       Ergänzung aus Erweiterungen „Apokalypse“ und „Erwachen“:<br>
       UNTERBRECHUNGEN finden jedoch statt, bevor SCHILD-Plättchen zum Einsatz kommen müssen."
   - id: shove
-    keyword: VERDRÄNGEN
-    description: Wenn ein großes Monster sich „auf“ ein kleines Monster bewegt, wird
+    keyword: "VERDRÄNGEN"
+    description: "Wenn ein großes Monster sich „auf“ ein kleines Monster bewegt, wird
       das kleine Monster verdrängt. Der Anführer der Gruppe sucht sofort ein freies
       Feld aus, das angrenzend zur Zone ist, aus der es verdrängt wurde. Wird ein Held
       verdrängt, entscheidet er selbst auf welches angrenzende Feld. Der verdrängte
-      Charakter betritt dabei das neue Feld und ist dem Gelände ausgesetzt.
+      Charakter betritt dabei das neue Feld und ist dem Gelände ausgesetzt."
   - id: silence
-    keyword: STILLE
+    keyword: "STILLE"
     description: "Das Ziel muss sofort alle verfügbaren Gewandtheits- und Weisheitswürfel
       ungenutzt VERBRAUCHEN. STILLE zählt als besondere Art von ERSCHÖPFEN und folgt
       denselben Regeln, nur ist die Farbe der AW vorgegeben. Helden, die immun gegen
@@ -1115,23 +1099,23 @@ keyword:
       Fall wie gewohnt und eine Reduktion des Schadens auf 0 bedeutet, dass ein angegriffener Gefährte, Anhänger 
       oder eine Kohorte den Angriff überlebt."
   - id: slaughter
-    keyword: NIEDERMETZELN
-    description: Dieses Monster wählt NSC-Plättchen, die keine Gefährten oder Begleittiere sind, als primäres Ziel.
+    keyword: "NIEDERMETZELN"
+    description: "Dieses Monster wählt NSC-Plättchen, die keine Gefährten oder Begleittiere sind, als primäres Ziel."
   - id: slayer
     keyword: "MÖRDER"
-    description: Diese Monster wählen als primäres Ziel zuerst die sogenannten „verletzten NSCs“, 
+    description: "Diese Monster wählen als primäres Ziel zuerst die sogenannten „verletzten NSCs“, 
       die in einigen Abenteuern vorkommen. „Dahinter“ folgen Kohorten und dann Anhänger, in 
       dieser Reihenfolge. Gibt es mehrere gleichwertige Ziele entscheidet euer Anführer. 
       Nur wenn sich kein einziges dieser Ziele im Spiel befindet oder das Monster keins dieser 
       Ziele angreifen darf, wechselt es für diesen Spielzug sein Verhalten auf STANDARD und wählt
-      – wie üblich – den stärksten Helden als neues primäres Ziel. 
+      – wie üblich – den stärksten Helden als neues primäres Ziel." 
   - id: slow
-    keyword: LANGSAM
-    description: Das Ziel erhält 1 LANGSAM-Plättchen. Wenn das Ziel später eine Bewegung
+    keyword: "LANGSAM"
+    description: "Das Ziel erhält 1 LANGSAM-Plättchen. Wenn das Ziel später eine Bewegung
       erhält, wird das Plättchen automatisch entfernt und das Ziel verliert 2 Bewegungspunkte
-      der aktuellen Bewegung. LANGSAM ist ein redundanter Zustand.
+      der aktuellen Bewegung. LANGSAM ist ein redundanter Zustand."
   - id: solid-objects
-    keyword: HINDERNISSE
+    keyword: "HINDERNISSE"
     description: "Hindernisse blockieren, wie schon ihr Name vermuten lässt, das bzw. die Felder, die sie belegen. 
       Das bedeutet gleichzeitig, dass nicht 2 (oder mehr) Hindernisse dasselbe Feld belegen dürfen.<br><br>
       Die einzige Ausnahme ist eine „temporäre“ Situation, wie z. B. ein Charakter, der sich durch einen Verbündeten 
@@ -1150,58 +1134,55 @@ keyword:
       Ihr müsst das Plättchen vor einem etwaigen Angriffswurf abwerfen und wenn dieser misslingt, ist das Plättchen 
       damit trotzdem „ausgegeben“.
   - id: special-mechanic-tokens
-    keyword: "[Wave 2] SPECIAL MECHANIC TOKENS"
-    description: Aus Wave 2, Übersetzung folgt noch. <br><br> These board elements are
-      used as visual milestones for the function of any Special Mechanic established
-      for an Adventure. Special Mechanic tokens are Immovable Ground Objects.
+    keyword: "Spezialmechanik-Plättchen"
+    description: "Spezialmechanik-Plättchen sind unbewegbare Bodenobjekte, die für bestimmte Mechaniken in den jeweiligen Abenteuern verwendet werden."
   - id: spent
-    keyword: "[Wave 2] SPENT"
-    description: Aus Wave 2, Übersetzung folgt noch. <br><br> Spent is not properly
-      a Keyword, however, it is a term that is worth clarifying. An Action Cube is considered
-      spent when it is allocated to a Skill slot. Curse Cubes and Trauma Cubes are not
-      considered Action Cubes even when they are spent as Action Cubes. They are treated
-      as normal wounds once they become allocated to a slot.
+    keyword: "VERWENDEN (AKTIONSWÜRFEL)"
+    description: "Eintrag nur in der Englischen Anleitung:<br><br>
+      VERWENDEN ist zwar kein offizielles Schlüsselwort, aber ein Begriff, der eine Klärung verdient. 
+      Ein Aktionswürfel gilt als „verwendet“ oder eingesetzt, wenn er einem Fertigkeitsslot zugewiesen wird. Fluchwürfel und Traumawürfel 
+      gelten nicht als Aktionswürfel, selbst wenn sie wie Aktionswürfel verwendet werden. Sobald sie einem Slot zugewiesen sind, gelten sie weiterhin als Fluch- bzw. Traumawürfel."
   - id: split
-    keyword: AUFTEILEN
+    keyword: "AUFTEILEN"
     description: "Der verbundene Effekt darf auf eine beliebige Anzahl von Zielen (innerhalb
       der Reichweite) verteilt werden. Ein Bonus auf den verbundenen Effekt wird nur
       1x auf die Gesamtsumme angerechnet, nicht auf jedes einzelne Ziel. <br> Beispiel: Hast
       du einen +1 HEILEN-Bonus und führst „HEILEN 4, AUFTEILEN“ aus, kannst du den
       Effekt HEILEN 5 auf mehrere Ziele in Reichweite verteilen."
   - id: spread
-    keyword: ÜBERSCHUSS
-    description: Wenn ein Held durch diesen Angriff Schaden erleidet (nach VERHINDERN), wird dieser 
+    keyword: "ÜBERSCHUSS"
+    description: "Wenn ein Held durch diesen Angriff Schaden erleidet (nach VERHINDERN), wird dieser 
       tatsächlich erlittene Schaden zusätzlich auf alle zu ihm angrenzenden Helden „übertragen“. 
-      Sie erleiden dieselbe Menge als NICHT-VERHINDERBAREN SCHADEN.
+      Sie erleiden dieselbe Menge als NICHT-VERHINDERBAREN SCHADEN."
   - id: spell-attack
-    keyword: ZAUBERANGRIFF
-    description: Diese Fähigkeit ist ein Angriff ohne Waffe. Ein Zauberangriff trifft
+    keyword: "ZAUBERANGRIFF"
+    description: "Diese Fähigkeit ist ein Angriff ohne Waffe. Ein Zauberangriff trifft
       immer, so dass kein Angriffswurf nötig ist – das Ziel erleidet den Schaden und
       alle verbundenen Effekte. Ein BONUS auf deine Zauberangriffe erhöht immer den
-      Schaden des Angriffs, keine verbundenen Effekte.
+      Schaden des Angriffs, keine verbundenen Effekte."
   - id: stackable
-    keyword: STAPELBAR
+    keyword: "STAPELBAR"
     description: " Ein Charakter kann höchstens 4 Plättchen desselben stapelbaren Zustands
       bzw. derselben stapelbaren Ressource besitzen. Sollte ein Charakter ein 5. Plättchen
       desselben stapelbaren Effekts erhalten, verfällt es ersatzlos."
   - id: stalker-(trait)
     keyword: "VERFOLGER (MERKMAL)"
-    description:  Ein Held mit diesem MERKMAL hat eine besondere Eigenschaft: Der Zustand 
+    description:  "Ein Held mit diesem MERKMAL hat eine besondere Eigenschaft: Der Zustand 
       VERBORGEN endet erst am ENDE des nächsten Spielzugs, nicht zu Beginn wie üblich. Er 
       behält ihn also für 2 Runden. Er endet jedoch weiterhin vorzeitig, wenn der VERFOLGER 
       einen „Überraschungsangriff“ macht. Wenn die entsprechende Fähigkeit mit einem TW oder 
       FW blockiert wird, verliert der Held das Merkmal.<br><br>
       Hinweis: Der Verfolger darf in dem Spielzug, an dessen Ende VERBORGEN automatisch „ausläuft“, 
-      erneut VERBORGEN erhalten und behält ihn dann erneut bis zum Ende des nächsten Spielzugs.
+      erneut VERBORGEN erhalten und behält ihn dann erneut bis zum Ende des nächsten Spielzugs."
   - id: status
-    keyword: STATUS
-    description: Ein Status ist eine Konsequenz einer Interaktion oder eines Ereignisses,
+    keyword: "STATUS"
+    description: "Ein Status ist eine Konsequenz einer Interaktion oder eines Ereignisses,
       die ein Held in seinem Kampagnen-Logbuch einträgt. In der Regel ist damit ein
       bestimmter Effekt verbunden, der so lange gilt, wie der Status besteht. Ein Held
       kann unbegrenzt viele Status gleichzeitig haben, aber sie werden alle in der nächsten
-      Lagerphase gelöscht.
+      Lagerphase gelöscht."
   - id: stealth
-    keyword: VERBORGEN
+    keyword: "VERBORGEN"
     description: "Das Ziel erhält 1 VERBORGEN-Plättchen und ist bis zum Beginn des nächsten
       eigenen Spielzuges für alle seine Gegner „unsichtbar“. Verborgene Charaktere
       sind deshalb nicht im Kampf gebunden und ihre Gegner können einen verborgenen
@@ -1218,10 +1199,10 @@ keyword:
       gegen VERBORGEN immun sind, können nicht überrascht werden.<br><br>Hinweis: DOPPELSCHADEN
       kann nur 1-mal eintreten. "
   - id: square
-    keyword: FELDER
-    description: Bezieht sich auf die weiß umrandeten Quadrate auf den Geländeplänen.
+    keyword: "FELDER"
+    description: "Bezieht sich auf die weiß umrandeten Quadrate auf den Geländeplänen."
   - id: strike-x
-    keyword: FLÄCHENSCHLAG X
+    keyword: "FLÄCHENSCHLAG X"
     description: "FLÄCHENSCHLAG verändert das Ziel eines Angriffes oder Effektes: Das
       Ziel sind alle Charaktere in X unterschiedlichen ganzen Zonen (blaue Quadrate).<br><br>FLÄCHENSCHLAG
       im Nahkampf bedeutet, dass mindestens 1 Feld der gewählten Zone direkt angrenzend
@@ -1231,11 +1212,11 @@ keyword:
       werden. <br><br>Ein positiver Effekt betrifft nur Verbündete und ein negativer
       Effekt (inklusive Angriffen) wird nur auf Gegner angewendet."
   - id: strongest-hero
-    keyword: DER STÄRKSTE HELD
-    description: Der Held mit den aktuell meisten LP. Bei Gleichstand der beteiligte
-      Held, der zuerst in der Runde drankommt.
+    keyword: "DER STÄRKSTE HELD"
+    description: "Der Held mit den aktuell meisten LP. Bei Gleichstand der beteiligte
+      Held, der zuerst in der Runde drankommt."
   - id: stun
-    keyword: BETÄUBEN
+    keyword: "BETÄUBEN"
     description: "Das Ziel erhält 1 BETÄUBEN-Plättchen. Dieser Zustand funktioniert
       bei Helden und Monstern unterschiedlich: <br><br>Ein Monster verliert zu Beginn
       seines Zuges seine Angriffsaktion für diesen Zug, es kann sich jedoch bewegen.
@@ -1243,21 +1224,19 @@ keyword:
       zu Beginn seines Zuges 1 Würfelaktion für diesen Zug. <br> In beiden Fällen
       werft ihr das Plättchen danach ab. BETÄUBEN ist ein redundanter Zustand."
   - id: sturdiness
-    keyword: ROBUSTHEIT
-    description: Gefährten haben keine LP, sondern den Wert Robustheit. Ein Charakter
+    keyword: "ROBUSTHEIT"
+    description: "Gefährten haben keine LP, sondern den Wert Robustheit. Ein Charakter
       mit Robustheit gilt sofort als besiegt, wenn er auf einmal Schaden erhält, der
       seine Robustheit übersteigt. Jeder andere Schaden, der nur maximal die Robustheit
-      erreicht, wird komplett ignoriert (auch nicht-verhinderbarer Schaden).
+      erreicht, wird komplett ignoriert (auch nicht-verhinderbarer Schaden)."
   - id: suffer
-    keyword: "[Wave 2] SUFFER"
-    description: Aus Wave 2, Übersetzung folgt noch. <br><br>Suffer is not properly
-      a Keyword, however, it is a term that is worth clarifying. Suffer is used to define
-      something that “hits” a Character after they have tried to protect themselves
-      against it. So, “suffer damage” means to lose Health due to damage after you tried
-      (if you could, naturally) to mitigate it through Prevent, Shield tokens, and so
-      on.
+    keyword: "ERLEIDEN"
+    description: "Eintrag nur in der Englischen Anleitung:<br><br>
+      ERLEIDEN ist zwar kein offizielles Schlüsselwort, aber ein Begriff, der eine Klärung verdient. ERLEIDEN wird verwendet, um etwas zu beschreiben, 
+      das einen Charakter trifft, nachdem dieser versucht hat, sich dagegen zu schützen. Das heißt: „Schaden erleiden“ bedeutet, Lebenspunkte zu verlieren, 
+      nachdem man versucht hat (sofern möglich), den Schaden durch Verhindern, Schildmarker oder ähnliche Mechanismen abzschwächen."
   - id: swap
-    keyword: TAUSCHE DEN PLATZ
+    keyword: "TAUSCHE DEN PLATZ"
     description: "Der ausführende Charakter tauscht mit einem anderen Objekt den Platz.
       Der Eﬀekt benennt als Ziel die Art von Objekt, die gewählt werden darf. Die beiden
       getauschten Objekte „betreten“ dabei ihre neuen Felder und sind von gefährlichem
@@ -1272,18 +1251,16 @@ keyword:
         und reduziert den Schaden damit auf 3. Dies wird jetzt halbiert und dann aufgerundet. Das Monster erleidet 
         also im Endeffekt nur 2 Schaden. Hier noch einmal die Rechnung: 6 - 2 - 1 = 3; 3 ÷ 2 = 1.5 ≈ 2."
   - id: take
-    keyword: "[Wave 2] TAKE"
-    description: Aus Wave 2, Übersetzung folgt noch. <br><br>Take is not properly a
-      Keyword, however, it is a term that is worth clarifying. Take is used to describe
-      something that is given to a Character. Whenever that is damage, they have the
-      opportunity to mitigate it through Shield tokens or Prevent effects (unless, of
-      course, the damage is non-preventable). If it is a Condition (such as Bleed) or
-      an Effect (such as Telekinesis), that Character can’t use Reactions or Interrupts
-      to avoid it, but if they are Immune to the said effects, they simply won't take
-      them. Taking a Curse Cube, on the other hand, is different from suffering Curse
-      and thus, this effect can't be avoided even if the Character is Immune to Curse.
+    keyword: "ERHALTEN"
+    description: "Eintrag nur in der Englischen Anleitung:<br><br>
+      ERHALTEN ist zwar kein offizielles Schlüsselwort, aber ein Begriff, der eine Klärung verdient. 
+      ERHALTEN wird verwendet, um etwas zu beschreiben, das einem Charakter zugewiesen oder „gegeben“ wird.<br><br>
+      Wenn es sich dabei um Schaden handelt, hat der Charakter die Möglichkeit, diesen durch Schildmarker oder Verhindern-Effekte abzumildern (es sei denn, der Schaden ist nicht verhinderbar).<br><br>
+      Handelt es sich um einen Zustand (wie „Bluten“) oder einen Effekt (wie „Telekinese“), kann der Charakter keine Reaktionen oder Unterbrechungen einsetzen, um ihn zu vermeiden. 
+      Ist der Charakter jedoch immun gegen den jeweiligen Effekt, erhält er ihn einfach nicht.<br><br>
+      Das Erhalten eines Fluchwürfels hingegen unterscheidet sich vom Erleiden eines Fluchs. Dieser Effekt kann nicht vermieden werden – selbst dann nicht, wenn der Charakter gegen Fluch immun ist."
   - id: telekinesis-x
-    keyword: TELEKINESE X
+    keyword: "TELEKINESE X"
     description: "Der Charakter „bewegt“ das Ziel um bis zu X Felder. Das Ziel kann nur
       1 kleiner Charakter oder 1 kleines Objekt sein (Fallen, Truhen, Möbel
       oder kleine Dunkelheitsplättchen). Interaktionsplättchen sind immun gegen Telekinese.
@@ -1299,10 +1276,10 @@ keyword:
       Dies geschieht jedoch BEVOR die Bedrohung entsteht."
   - id: throw-(stack-of-barrels)
     keyword: "FÄSSER (Werfen)"
-    description: Mit einer kleinen Aktion kann ein Fass auf einen kleinen Charakter geworfen werden: 2 Schaden und NIEDERSCHLAGEN.
+    description: "Mit einer kleinen Aktion kann ein Fass auf einen kleinen Charakter geworfen werden: 2 Schaden und NIEDERSCHLAGEN.
       Große Monster sind immun gegen diesen Schaden und den verbundenen Effekt. Wird ein Fass mit einem versteckten Helden geworfen,
       verursacht dieser 4 Schaden und NIEDERSCHLAGEN - auch gegen große Monster. Die Immunität gegen NIEDERSCHLAGEN wird ignoriert.<br>
-      Nach dem Wurf ist das Fass zerstört und der versteckte Held wird unversehrt neben dem Ziel platziert.
+      Nach dem Wurf ist das Fass zerstört und der versteckte Held wird unversehrt neben dem Ziel platziert."
   - id: throw-(bookshelf)
     keyword: "BÜCHERREGAL (Werfen)"
     description: "Mit einer kleinen Aktion kann ein Bücherregal auf ein angrenzendes Feld umgestoßen werden. Trifft es dabei einen Charakter, erleidet dieser 2 Schaden + Betäuben.
@@ -1317,21 +1294,21 @@ keyword:
     großes Monster ist immun gegen diesen Effekt. Wie bei allen geworfenen Möbelstücken wird die Kiste dabei zerstört."
   - id: throw-(stone-fountains)
     keyword: "STEINBRUNNEN (Werfen)"
-    description: Steinbrunnen können nicht geworfen werden, auch nicht mit TELEKINESE.
+    description: "Steinbrunnen können nicht geworfen werden, auch nicht mit TELEKINESE."
   - id: throw-(stone-pillar)
     keyword: "STEINSÄULEN (Werfen)"
     description: "Steinsäulen können nicht geworfen werden, auch nicht mit TELEKINESE. Sie haben jedoch eine andere Funktion, die kein anderes Möbelstück hat:
       Wenn ein Charakter gegen eine Steinsäule „prallt“ (z. B. durch SCHUBSEN oder TELEKINESE), erleidet er 4 NICHT-VERHINDERBAREN SCHADEN. Zusätzlich 
       darf der Charakter, der ihn dorthin befördert hat, entscheiden, wohin er „abprallt“. Er darf dafür 1 freies Feld angrenzend zur Steinsäule wählen. Die Steinsäule wird dabei nicht zerstört!"
   - id: trample-x
-    keyword: STAMPFEN X
-    description: STAMPFEN ist ein Zusatzeffekt einer Bewegung. Ein stampfender Charakter
+    keyword: "STAMPFEN X"
+    description: "STAMPFEN ist ein Zusatzeffekt einer Bewegung. Ein stampfender Charakter
       darf sich durch Felder bewegen, die von Gegnern besetzt sind und fügt ihnen dabei
       X nicht-verhinderbaren Schaden zu. Er darf seine Bewegung jedoch nicht „auf“ einem
       Gegner beenden und er kann nicht mehrmals in einer Bewegung auf denselben Charakter
-      stampfen.
+      stampfen."
   - id: trap
-    keyword: FALLE
+    keyword: "FALLE"
     description: "Platziert ein Fallenplättchen in die Mitte der angegebenen Zone. Beginnt
       ein Gegner seinen Zug in einer Zone mit Falle oder bewegt er sich in eine solche
       Zone hinein, wird die Falle ausgelöst.Alle Gegner in dieser Zone sind jetzt von
@@ -1343,72 +1320,72 @@ keyword:
       nicht-verhinderbaren Schaden und BRENNEN 4.<br>GIFTFALLE: Beim Auslösen erleidet
       jeder Gegner in der Zone 2 nicht-verhinderbaren Schaden und GIFT 2."
   - id: trauma-cube-(tc)
-    keyword: TRAUMAWÜRFEL (TW)
-    description: Werden mit den violetten Würfeln dargestellt. Wenn ein Held ohnmächtig
+    keyword: "TRAUMAWÜRFEL (TW)"
+    description: "Werden mit den violetten Würfeln dargestellt. Wenn ein Held ohnmächtig
       wird, erhält er 1 TW und muss ihn sofort einer eigenen Helden- oder Kampfrollenfähigkeit
       zuordnen. Solange der TW dort liegt, ist diese Fähigkeit blockiert und kann nicht
       benutzt werden. TW können nicht auf Ausrüstung, Fokustechniken oder Klassenfertigkeiten
       platziert werden. Erhält ein Held seinen 2. TW, wird der Held getötet und ihr
       habt alle verloren. TW werden bei einer Rastaktion nicht entfernt und können auch
       nicht durch REINIGEN entfernt werden. Es gibt Fähig- und Fertigkeiten, die einem
-      Helden erlauben mehr als 2 TW zu halten, bevor dieser „getötet“ wird.
+      Helden erlauben mehr als 2 TW zu halten, bevor dieser „getötet“ wird."
   - id: trick-or-treat
-    keyword: SÜßES ODER SAURES
+    keyword: "SÜßES ODER SAURES"
     description: "Diese Sonderfähigkeit eines Gefährten löst zu Beginn von seinem Zug
       aus. Der kontrollierende Spieler wählt: A) 1 Held in Reichweite 1 erhält HEILEN
       2; B) 1 Monster in Reichweite 1 erleidet entweder BLUTEN 2 oder BRENNEN 2 oder
       GIFT 2."
   - id: turn
     keyword: "SPIELZUG"
-    description: Der Spielzug eines Charakters beginnt mit seiner Aktivierung. Dies 
+    description: "Der Spielzug eines Charakters beginnt mit seiner Aktivierung. Dies 
       passiert „automatisch“ in dem Moment, in dem die Karte dieses Charakters „an 
       die Reihe kommt“. Handelt es sich dabei jedoch um ein Monster, von dem sich 
       mehrere Miniaturen im Spiel befinden, werden diese in der Reihenfolge ihrer 
       Farbbasen aktiviert. Jedes dieser Monster (= jede Miniatur) hat also seinen 
       eigenen Spielzug.<br><br>
       Zusätzlich kann ein Charakter direkt durch einen Effekt (z. B. BEGLEITTIERE 
-      über den Effekt AKTIVIERE) oder eine Anweisung „aktiviert“ werden.
+      über den Effekt AKTIVIERE) oder eine Anweisung „aktiviert“ werden."
   - id: unavailable
     keyword: "NICHT (MEHR) VERFÜGBAR"
     description: Das Gegenteil von VERFÜGBAR tritt fast ausschließlich bei Interaktionen 
       auf. Wenn eine Interaktion „nicht mehr verfügbar“ ist, kann sie nicht ausgewählt werden. 
       Beachtet die Sonderregeln der neuen Interaktionsplättchen.
   - id: unique
-    keyword: EINZIGARTIG
-    description: Dieses besondere Begleittier spielt eine Rolle in der Geschichte. Es
+    keyword: "EINZIGARTIG"
+    description: "Dieses besondere Begleittier spielt eine Rolle in der Geschichte. Es
       kann nur mit einer speziellen Fähigkeit beschworen werden, aber sobald es sich
-      auf dem Spielplan befindet, gelten die allgemeinen Regeln für Begleittiere.
+      auf dem Spielplan befindet, gelten die allgemeinen Regeln für Begleittiere."
   - id: unlife
     keyword: "NICHT-LEBEND"
-    description: Die Begleittiere Draugr besitzen diese „Eigenschaft“. Sie löst zu Beginn 
+    description: "Die Begleiter Draugr besitzen diese „Eigenschaft“. Sie löst zu Beginn 
       des Spielzugs des kontrollierenden Nekromanten aus. Dieser muss dann für jeden seiner 
       Draugr im Spiel entscheiden, ob er ihn ENTLÄSST (also verschwinden lässt) oder, ob 
       dieser im Spiel bleibt. Der Nekromant darf bis zu 2 seiner Draugr behalten, aber er
-      muss für jeden behaltenen 1 FW nehmen.
+      muss für jeden behaltenen 1 FW nehmen."
   - id: versatile
     keyword: "FLEXIBEL"
-    description: Ausrüstung mit diesem Zusatz ist immer zweiseitig. In dem Moment, in dem du einen solchen 
+    description: "Ausrüstung mit diesem Zusatz ist immer zweiseitig. In dem Moment, in dem du einen solchen 
       Gegenstand erhältst, kannst du frei bestimmen, welche Seite „oben“ liegt. Zusätzlich kannst du einen solchen 
       Gegenstand in deinem Besitz mit einer kleinen Aktion umdrehen, solange kein AW darauf liegt, auch in 
       deiner Tasche. Wenn du eine ausgerüstete Ausrüstung umdrehst und sie danach nicht mit deiner „Erlaubten 
-      Ausrüstung“ übereinstimmt, legst du sie automatisch ab und musst sie in deiner Tasche verstauen.
+      Ausrüstung“ übereinstimmt, legst du sie automatisch ab und musst sie in deiner Tasche verstauen."
   - id: vicious
-    keyword: GRAUSAM
-    description: Die Angriffe dieses Monsters fügen nicht-verhinderbaren Schaden zu.
+    keyword: "GRAUSAM"
+    description: "Die Angriffe dieses Monsters fügen nicht-verhinderbaren Schaden zu."
   - id: voodoo
     keyword: "VOODOO"
-    description: Die Fähigkeit VOODOO ist Teil des Schritts „Zustände abhandeln“. Sie löst also früher als andere 
+    description: "Die Fähigkeit VOODOO ist Teil des Schritts „Zustände abhandeln“. Sie löst also früher als andere 
       PINKE Fähigkeiten aus. Wenn ein solches Monster stapelbare Zustände besitzt (z. B. GIFT), darf es diese 
       „abgeben“. Befindet sich in diesen Moment mindestens 1 Gegner (Held, Anhänger, Begleittier etc.) in Reichweite 1 
       zu diesem Monster? Dann wählt das Monster den stärksten unter ihnen (mit den aktuell meisten LP) als 
       Ziel und gibt dem Ziel alle seine stapelbaren Zustände, soweit möglich und wirft den Rest ab. Es erleidet keine 
       Effekte dieser „abgegebenen Zustände“.<br><br> Befindet sich kein Gegner in Reichweite 1, erleidet es die Effekte der 
-      Zustände wie üblich und redundante Zustände dürfen niemals abgegeben werden.
+      Zustände wie üblich und redundante Zustände dürfen niemals abgegeben werden."
   - id: war-cry
     keyword: "SCHLACHTRUF"
-    description: Die Fähigkeit SCHLACHTRUF löst zu Beginn des Spielzugs des Monsters aus. Jedes andere 
+    description: "Die Fähigkeit SCHLACHTRUF löst zu Beginn des Spielzugs des Monsters aus. Jedes andere 
       Monster in Reichweite 1 zu diesem Monster erhält +1 SCHADEN. Legt diese Vorteilsplättchen auf das 
-      Monstertableau, wie üblich.
+      Monstertableau, wie üblich."
   - id: warden-(trait)
     keyword: "AUFSEHER (MERKMAL)"
     description: "Ein Held mit diesem MERKMAL hat zwei besondere Eigenschaften in Bezug auf 
@@ -1430,11 +1407,11 @@ keyword:
       REINIGEN oder direkte Anweisung entfernt werden, nicht durch eine Rastaktion.<br><br>
       Wenn die entsprechende Fähigkeit mit einem TW oder FW blockiert wird, verliert der Held das Merkmal." 
   - id: weakest-hero
-    keyword: DER SCHWÄCHSTE HELD
-    description: Der Held mit den aktuell wenigsten LP. Bei Gleichstand der beteiligte
-      Held, der zuletzt in der Runde drankommt.
+    keyword: "DER SCHWÄCHSTE HELD"
+    description: "Der Held mit den aktuell wenigsten LP. Bei Gleichstand der beteiligte
+      Held, der zuletzt in der Runde drankommt."
   - id: weapon-attack
-    keyword: Waffenangriff
+    keyword: "Waffenangriff"
     description: "Diese Fähigkeit beinhaltet einen Angriff mit deiner Waffe. Du musst
       einen Angriffswurf („+X TRF“) mit dem W20 machen und dabei – nach allen Modifikatoren
       – mindestens die Genauigkeit deiner Waffe erreichen, um zu treffen. Ansonsten
@@ -1447,11 +1424,11 @@ keyword:
       doppelten Schaden inklusive Bonusschaden; Kollateraleffekte werden nicht verdoppelt."
   - id: wild-copy
     keyword: "KOPIEREN MIT JOKER"
-    description: Dieser Sonderfall von KOPIEREN behandelt die kopierte Fähigkeit so, als 
+    description: "Dieser Sonderfall von KOPIEREN behandelt die kopierte Fähigkeit so, als 
       würde sie mit einem → JOKERWÜRFEL aktiviert werden. Das heißt, dass alle numerischen 
-      Werte aller Effekte dieser Fähigkeit verdoppelt sind. 
+      Werte aller Effekte dieser Fähigkeit verdoppelt sind."
   - id: wild-cube
-    keyword: JOKERWÜRFEL
+    keyword: "JOKERWÜRFEL"
     description: "Wenn 1 AW als Jokerwürfel benutzt wird, hat er in diesem Moment alle
       4 Farben und kann entsprechend platziert werden. Er zählt dabei immer als „passend“.<br><br>
       Außerdem hat er einen besonderen Effekt: Wenn ein Jokerwürfel eine Heldenfähigkeit
@@ -1469,11 +1446,11 @@ keyword:
     maximalen LP oder darunter liegen. Liegen die aktuellen LP bei genau der Hälfte, ist der 
     Charakter gleichzeitig GESUND."
   - id: x
-    keyword: X
-    description: Einige Monster haben – statt einer Zahl – ein „X“ in der Beschreibung
+    keyword: "X"
+    description: "Einige Monster haben – statt einer Zahl – ein „X“ in der Beschreibung
       eines Effekts oder Wertes. Wenn nicht anderes angegeben, steht „X“ für die Anzahl
       an Runen auf der Initiativeleiste, die mit der Farbe der Rune auf der Monsterkarte
       übereinstimmen. Also die Runen, die an „seiner“ Position auf der Initiativeleiste
       liegen. Die Angriffskarten von Bossgegnern, Leutnants und Kommandanten verwenden
       ebenfalls Effekte, deren Stärke mit einem „X“ angegeben ist. Folgt dafür der
-      Anweisung der betreffenden Karte, die das „X“ im Effekt enthält.
+      Anweisung der betreffenden Karte, die das „X“ im Effekt enthält."
