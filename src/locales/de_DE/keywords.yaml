@@ -561,15 +561,14 @@ keyword:
       durch einen Überraschungsangriff."
   - id: inflict
     keyword: "ZUFÜGEN"
-    description: "Dies ist der Begriff, der verwendet wird, um einen Effekt (in der Regel Zustände) zu bezeichnen, der von einem 
+    description: "Eintrag nur in der Englischen Anleitung:<br><br>
+      Dies ist der Begriff, der verwendet wird, um einen Effekt (in der Regel Zustände) zu bezeichnen, der von einem 
       zaubernden Charakter gegen einen Zielcharakter angewendet wird, ohne diesem die Möglichkeit zu geben, sich zu verteidigen, ähnlich
       wie es bei nicht verhinderbaren Schaden der Fall wäre. Ein „Inflicted”-Effekt erzeugt also keinen Angriff oder keine Bedrohung 
       (selbst wenn er beispielsweise von einer Angriffskarte stammt), sodass Charaktere ihre Unterbrechungen und Reaktionen nicht zur 
       Verteidigung einsetzen können.<br><br>
-      Denken Sie daran: Wenn ein Charakter gegen einen Zustand immun ist, wirkt sich dieser Zustand natürlich
+      Wchtig: Wenn ein Charakter gegen einen Zustand immun ist, wirkt sich dieser Zustand natürlich
       nicht auf ihn aus, wenn er ihm zugefügt wird."
-
-Übersetzt mit DeepL.com (kostenlose Version)
   - id: inspire
     keyword: "INSPIRATION"
     description: "Das Ziel erhält 1 INSPIRATIONS-Plättchen. Ein Held darf 1 eigenes INSPIRATIONS-Plättchen nach 
